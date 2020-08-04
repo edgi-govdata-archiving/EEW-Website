@@ -1,1 +1,1 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
+We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.

@@ -23,6 +23,12 @@ export default createGlobalStyle`
     vertical-align: baseline;
   }
 
+  h1 {
+    font-size: 120%;
+    font-weight: bold;
+    color: #1B7F71;
+  }
+
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
@@ -38,7 +44,7 @@ export default createGlobalStyle`
     line-height: 1;
     font-size: 1.6rem;
     color: #000;
-    background-color: #fff;
+    background-color: #DEFAF6;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
