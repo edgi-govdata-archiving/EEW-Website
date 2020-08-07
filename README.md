@@ -9,8 +9,10 @@ A website for the [Environmental Enforcement Watch](//environmentalenforcementwa
 * Not yet hosted
 
 ## Local development
+1. Make sure you have [Node](https://nodejs.org/en/download/) installed
+1. In a local clone of this repo, run `npm install` to install dependencies
 1. You will need the Gatsby CLI tool: `npm install -g gatsby-cli`
-1. Run locally with `gatsby develop`
+1. Run locally with `gatsby develop` (defaults to [http://localhost:8000/](http://localhost:8000/))
 
 [Gatsby quickstart docs](https://www.gatsbyjs.org/docs/quick-start/)
 
