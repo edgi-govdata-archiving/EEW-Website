@@ -34,7 +34,7 @@ const calendarStyle = {
 }
 
 function Index(props) {
-  const [circleData, setData] = useState([10, 25, 50, 30, 120]);
+  const circleData = [10, 25, 50, 30, 120];
   return (
     <Layout>
       <Box>
@@ -43,7 +43,6 @@ function Index(props) {
         </Title>
       </Box>
       <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
-        <p>Congress visualization placeholder</p>
         <Circle data={circleData} />
       </HomeWrapper>
       <HomeWrapper>

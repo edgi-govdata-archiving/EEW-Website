@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { select } from "d3";
+import { select } from 'd3';
 import useResizeObserver from 'helpers/useResizeObserver';
 //import { Container } from './box.css';
 
-function Circle(data) {
+function Circle(props) {
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
@@ -16,12 +16,16 @@ function Circle(data) {
     dimensions || wrapperRef.current.getBoundingClientRect();
 
   svg
-    .append("circle")
-    .attr("cx", 150)
-    .attr("cy", 30)
-    .attr("r", 20);
+    .selectAll("circle")
+    .data(props.data)
+    .join("circle")
+    .attr("class","circle1")
+    .attr("fill","orange")
+    .attr("cx", (value, index) => index * 20)
+    .attr("cy", 10)
+    .attr("r", 10);
 
-  }, [data, dimensions])
+  }, [props.data, dimensions])
 
   return (
     <div ref={wrapperRef} style={{ marginBottom: "2rem" }}>
