@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { select } from 'd3';
 import useResizeObserver from 'helpers/useResizeObserver';
-//import { Container } from './box.css';
+import styles from './circle.module.css';
 
 function Circle(props) {
   const svgRef = useRef();
@@ -19,9 +19,8 @@ function Circle(props) {
     .selectAll("circle")
     .data(props.data)
     .join("circle")
-    .attr("class","circle1")
-    .attr("fill","orange")
-    .attr("cx", (value, index) => index * 20)
+    .attr("class", styles.circle1 )
+    .attr("cx", (value, index) => 10 + index * 40)
     .attr("cy", 10)
     .attr("r", 10);
 
