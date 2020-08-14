@@ -14,5 +14,9 @@ export const Container = styled.header`
     &:hover {
       color: inherit;
     }
+  },
+  
+  gray {
+    color: #
   }
 `;
