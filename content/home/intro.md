@@ -1,4 +1,4 @@
-## Join us for an upcoming public hours workshop!
+## Join us for upcoming public workshops!
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
@@ -8,7 +8,7 @@
 
 **September 10th –** Build on the work of the previous week & discuss ways to move the work forward.
 
-## [Sign up for a workshop here!](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform)
+<big>[Sign up for a workshop here!](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform)</big>
 
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
@@ -16,7 +16,7 @@ We want clean air, clean water, and an end to environmental racism and injustice
 
 In these virtual workshops, we will work with community organizers, concerned residents, and university students and staff to dive into the data and stories in your legislative districts, zip codes, and counties to find out: (1) what companies are emitting; (2) what are the associated environmental health risks; (3) what is and isn’t being tracked; (4) whether local facilities are violating their permits; and (5) what environmental enforcement looks like in your area.
 
-**Together, we can use publicly available data to hold our government and industry accountable.**
+<big>Together, we can use publicly available data to hold our government and industry accountable.</big>
 
 ##Goals
 
