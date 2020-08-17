@@ -16,6 +16,14 @@ A website for the [Environmental Enforcement Watch](//environmentalenforcementwa
 
 [Gatsby quickstart docs](https://www.gatsbyjs.org/docs/quick-start/)
 
+## Where to edit content
+* Content is located in markdown files (`.md`) in the folder `content` > subfolder [name of the page]. *If you are not a coder, this will usually be the place to go to make edits!*
+* Other places content might be:
+  * In that same folder, a `.json` file might have some additional content that will show up on that page
+  * `src/pages` and then the appropriately named `.js` file (this is the file that tells the information from the `.json` file and the `.md` file where and how to show up)
+* Styling in general is in a `.css` file. The main one is in `src/global.css.js`. But it might also be in the `.js` file in `src`
+* If this is all very obscure and overwhelming for you, that's ok! Just make sure to do your work in a [branch](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches) and submit it via a [pull request](https://docs.github.com/en/articles/about-pull-requests) and then we can review it before it goes live.
+
 
 ## License & Copyright
 
