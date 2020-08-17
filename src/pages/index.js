@@ -35,6 +35,7 @@ const calendarStyle = {
 
 function Index(props) {
   const circleData = [10, 25, 50, 30, 120];
+  
   return (
     <Layout>
       <Box>
@@ -43,7 +44,7 @@ function Index(props) {
         </Title>
       </Box>
       <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
-        <Circle data={circleData} />
+        <Circle />
       </HomeWrapper>
       <HomeWrapper>
         <Description>Join one of our upcoming events.</Description>

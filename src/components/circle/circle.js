@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import { select } from 'd3';
 import useResizeObserver from 'helpers/useResizeObserver';
 import styles from './circle.module.css';
+import { useCongressData } from 'hooks/use-congress-data';
 
-function Circle(props) {
+function Circle() {
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
+  const congressData = useCongressData();
 
   useEffect(() => {
   // d3 stuff goes here
@@ -15,16 +17,18 @@ function Circle(props) {
   const { width, height } =
     dimensions || wrapperRef.current.getBoundingClientRect();
 
+  console.log(congressData);
+  
   svg
     .selectAll("circle")
-    .data(props.data)
+    .data(congressData)
     .join("circle")
     .attr("class", styles.circle1 )
     .attr("cx", (value, index) => 10 + index * 40)
     .attr("cy", 10)
     .attr("r", 10);
 
-  }, [props.data, dimensions])
+  }, [congressData, dimensions])
 
   return (
     <div ref={wrapperRef} style={{ marginBottom: "2rem" }}>
@@ -32,9 +36,5 @@ function Circle(props) {
     </div>
   )
 }
-
-Circle.propTypes = {
-  data: PropTypes.node.isRequired,
-};
 
 export default Circle;
