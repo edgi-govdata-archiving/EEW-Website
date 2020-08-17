@@ -18,6 +18,7 @@ A website for the [Environmental Enforcement Watch](//environmentalenforcementwa
 
 ## Where to edit content
 * Content is located in markdown files (`.md`) in the folder `content` > subfolder [name of the page]. *If you are not a coder, this will usually be the place to go to make edits!*
+  * Images that go with a particular page should go into the same folder as the `.md` file
 * Other places content might be:
   * In that same folder, a `.json` file might have some additional content that will show up on that page
   * `src/pages` and then the appropriately named `.js` file (this is the file that tells the information from the `.json` file and the `.md` file where and how to show up)

@@ -1,4 +1,8 @@
+<!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
+
 ## Join us for upcoming public workshops!
+
+
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
