@@ -24,9 +24,24 @@ export default createGlobalStyle`
   }
 
   h1 {
+    font-size: 150%;
+    font-weight: bold;
+    color: #1B7F71;
+    padding-bottom: 0.5rem;
+  }
+  
+  h2 {
     font-size: 120%;
     font-weight: bold;
     color: #1B7F71;
+    padding-bottom: 0.5rem;
+  }
+  
+  h3 {
+    font-size: 110%;
+    font-weight: bold;
+    color: #1B7F71;
+    padding-bottom: 0.5rem;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -96,5 +111,11 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+  }
+    
+  big {
+    font-size: 150%;
+    font-weight: bold;
+    color: #1B7F71;
   }
 `;

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
+import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
@@ -36,9 +37,12 @@ const Index = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h1" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        Practicing our right to know, together.
       </Title>
     </Box>
+    <HomeWrapper>
+      <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
+    </HomeWrapper>
     <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
       <p>Congress visualization placeholder</p>
     </HomeWrapper>
