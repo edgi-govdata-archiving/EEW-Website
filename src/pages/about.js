@@ -9,6 +9,7 @@ const About = ({ data }) => (
   <Layout>
     <Head pageTitle={data.aboutJson.title} />
     <Box>
+      <h1>{data.aboutJson.title}</h1>
       <div
         dangerouslySetInnerHTML={{
           __html: data.aboutJson.content.childMarkdownRemark.html,

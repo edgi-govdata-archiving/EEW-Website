@@ -9,6 +9,7 @@ const Press = ({ data }) => (
   <Layout>
     <Head pageTitle={data.pressJson.title} />
     <Box>
+      <h1>{data.pressJson.title}</h1>
       <div
         dangerouslySetInnerHTML={{
           __html: data.pressJson.content.childMarkdownRemark.html,
