@@ -12,6 +12,13 @@
     "rep":"Jane Doe",
     "affil":"gop",
     "cmt":"House Energy and Commerce Committee"
+    },
+    {
+      "x":50,
+      "state":"NY",
+      "rep":"Some asshole",
+      "affil":"gop",
+      "cmt":"House Energy and Commerce Committee"
     }
   ]
 }

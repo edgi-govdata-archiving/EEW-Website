@@ -26,7 +26,17 @@ function Circle() {
     .attr("class", styles.circle1 )
     .attr("cx", (value, index) => 10 + index * 40)
     .attr("cy", 10)
-    .attr("r", 10);
+    .attr("r", 10)
+    .each(function (d) {
+      var thisCircle = select(this);
+      console.log(thisCircle)
+      console.log(thisCircle.affil)
+      if (d.affil == "gop") {
+        thisCircle.style("fill","red");
+      } else {
+        thisCircle.style("fill","blue");
+      }
+    });
 
   }, [congressData, dimensions])
 
