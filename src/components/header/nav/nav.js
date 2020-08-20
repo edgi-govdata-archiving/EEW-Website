@@ -12,6 +12,9 @@ const Nav = () => (
         <Link to="/events">Events</Link>
       </li>
       <li>
+        <Link to="/reports">Reports</Link>
+      </li>
+      <li>
         <a href="https://www.envirodatagov.org">EDGI</a>
       </li>
       <li>
