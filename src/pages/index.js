@@ -33,9 +33,7 @@ const calendarStyle = {
   order: '2', /* Flex order */
 }
 
-function Index(props) {
-  const circleData = [10, 25, 50, 30, 120];
-  
+function Index(props) {  
   return (
     <Layout>
       <Box>

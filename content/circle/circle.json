@@ -2,23 +2,20 @@
   "circleData": [{
     "x":10,
     "state":"CA",
-    "rep":"John Doe",
+    "name":"John Doe",
     "affil":"dem",
-    "cmt":"Senate Environment and Public Works Committee"
-    },
-    {
-    "x":50,
-    "state":"NY",
-    "rep":"Jane Doe",
-    "affil":"gop",
-    "cmt":"House Energy and Commerce Committee"
-    },
-    {
+    "children": [
+      {
       "x":50,
       "state":"NY",
-      "rep":"Some asshole",
-      "affil":"gop",
-      "cmt":"House Energy and Commerce Committee"
-    }
-  ]
+      "name":"Jane Doe",
+      "affil":"dem"
+      },
+      {
+      "x":50,
+      "state":"NY",
+      "name":"Some asshole",
+      "affil":"dem"
+      }]
+  }]
 }

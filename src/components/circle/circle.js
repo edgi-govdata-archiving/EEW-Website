@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { select } from 'd3';
+import { select, pack } from 'd3';
 import useResizeObserver from 'helpers/useResizeObserver';
 import styles from './circle.module.css';
 import { useCongressData } from 'hooks/use-congress-data';
@@ -17,7 +17,6 @@ function Circle() {
   const { width, height } =
     dimensions || wrapperRef.current.getBoundingClientRect();
 
-  console.log(congressData);
   
   svg
     .selectAll("circle")
@@ -29,15 +28,13 @@ function Circle() {
     .attr("r", 10)
     .each(function (d) {
       var thisCircle = select(this);
-      console.log(thisCircle)
-      console.log(thisCircle.affil)
       if (d.affil == "gop") {
         thisCircle.style("fill","red");
       } else {
         thisCircle.style("fill","blue");
       }
     });
-
+    
   }, [congressData, dimensions])
 
   return (
