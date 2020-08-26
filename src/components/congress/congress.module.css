@@ -1,13 +1,14 @@
-.node circle {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 3px;
+.container {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  width: 400px;
+  height: 400px;
 }
 
-.node text { font: 12px sans-serif; }
-
-.node--internal text {
-  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+.title {
+  font: 20px sans-serif;
+  font-weight: bolder;
 }
 
 .rep {
@@ -18,6 +19,8 @@
   height: 20px;
   margin: 2px;
   color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 .repOnHover {
@@ -32,13 +35,16 @@
   height: 20px;
   margin: 2px;
   color: white;
+  padding: 10px;
+  text-align:center;
 }
-  
+
 .viz {
   display: flex;
   flex-flow: row wrap;
-  align-content: center;
-  width: 200px;
-  height: 150px;
+  align-content: flex-start;
   background: #f7f7f7;
+  position: relative;
+  top:0px;
+  overflow: visible;
 }

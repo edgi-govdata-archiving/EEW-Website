@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { select } from 'd3';
+import { select, timeFormatLocale } from 'd3';
 import styles from './congress.module.css';
 import { useCongressData } from 'hooks/use-congress-data';
 
@@ -49,14 +49,18 @@ function Congress() {
       .style('position', 'absolute')
       .style('z-index', '10')
       .style('visibility', 'hidden')
-      .style('background', 'white')
-      .text('a simple tooltip test');
+      .style('background', 'white');
 
   }, [congressData]);
 
   return (
-    <figure ref={figureRef} className={styles.viz}>  
-    </figure>
+    <React.Fragment>
+      <div className={styles.container}>
+        <div className={styles.title}>Senate Environment and Public Works Committee</div>
+        <figure ref={figureRef} className={styles.viz}>  
+        </figure>
+      </div>
+    </React.Fragment>
   )
 }
 
