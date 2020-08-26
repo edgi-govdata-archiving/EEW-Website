@@ -1,73 +1,73 @@
 { 
   "circleData": [
   {
-    "size":20,
+    "rank":"chair",
     "state":"CA",
     "name":"John Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Some asshole",
     "affil":"gop"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"
   },
   {
-    "size":10,
+    "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem"

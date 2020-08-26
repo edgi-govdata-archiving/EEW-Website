@@ -6,7 +6,7 @@ export const useCongressData = () => {
       query MyQuery {
         circleJson {
           circleData {
-            size
+            rank
             state
             name
             affil

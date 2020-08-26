@@ -10,6 +10,7 @@ function Circle() {
   const congressData = useCongressData();
 
   // Select the svg as declared in the layout section (at bottom)
+  // d3 manipulation of div elements rather than svg/rect elements from: https://pudding.cool/process/flexbox-layout/
   const fig = select('.viz');
 
   fig
@@ -19,13 +20,19 @@ function Circle() {
     .selectAll(".rep")
     .data(congressData)
     .join('div')
-    .attr("class", styles.rep )
     .each(function (d) {
-      var thisCircle = select(this);
+      var thisRep = select(this);
+
       if (d.affil == "gop") {
-        thisCircle.style("background-color","red");
+        thisRep.style("background-color","red");
       } else {
-        thisCircle.style("background-color","blue");
+        thisRep.style("background-color","blue");
+      }
+
+      if (d.rank == "chair") {
+        thisRep.attr("class", styles.chair);
+      } else {
+        thisRep.attr("class", styles.rep);
       }
     });
   
