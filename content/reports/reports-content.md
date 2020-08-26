@@ -9,7 +9,7 @@ The [Senate Environment and Public Works Committee](https://www.epw.senate.gov/p
 * Clean Air Act (CAA)
 * Resource Conservation and Recovery Act (RCRA)
 
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/Congressional-Reportcard-Tracker-677x649.png)
+![Diagram for Congressional Reports](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/Congressional-Reportcard-Tracker-677x649.png)
 
 EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA for the congressional districts of each Representative on the House Energy and Commerce Committee, as well as the State of each Senator on the Environment and Public Works Committee. Our goal is to shed light on the chronic and routine violations of environmental laws and the failure to enforce environmental laws. <b>To participate, sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform?usp=sf_link) or at the bottom of this page!</b>
 
