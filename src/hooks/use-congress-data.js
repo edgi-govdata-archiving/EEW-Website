@@ -1,11 +1,11 @@
 import { useStaticQuery, graphql } from "gatsby"
 
 export const useCongressData = () => {
-  const { circleJson } = useStaticQuery(
+  const { congressJson } = useStaticQuery(
     graphql`
       query MyQuery {
-        circleJson {
-          circleData {
+        congressJson {
+          congressData {
             rank
             state
             name
@@ -15,5 +15,5 @@ export const useCongressData = () => {
       }
     `
   )
-  return circleJson.circleData
+  return congressJson.congressData
 }
