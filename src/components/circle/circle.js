@@ -9,7 +9,7 @@ function Circle() {
   //const svgRef = useRef();
   const congressData = useCongressData();
 
-  // Select the svg as declared in the layout section (at bottom)
+  // Select the figure as declared in the layout section (at bottom)
   // d3 manipulation of div elements rather than svg/rect elements from: https://pudding.cool/process/flexbox-layout/
   const fig = select('.viz');
 
@@ -34,6 +34,8 @@ function Circle() {
       } else {
         thisRep.attr("class", styles.rep);
       }
+
+      thisRep.text(d.state) 
     });
   
   return (

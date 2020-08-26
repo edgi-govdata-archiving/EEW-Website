@@ -17,6 +17,7 @@
   width: 20px;
   height: 20px;
   margin: 2px;
+  color: white;
 }
 
 .chair {
@@ -26,20 +27,14 @@
   width: 40px;
   height: 20px;
   margin: 2px;
+  color: white;
 }
-
-svg {
-  width: 460px;
-  height: 400px;
-  background: #f7f7f7;
-  overflow: visible;
-} 
   
 .viz {
   display: flex;
   flex-flow: row wrap;
   align-content: flex-start;
   width: 200px;
-  height: 300px;
+  height: 150px;
   background: #f7f7f7;
 }
