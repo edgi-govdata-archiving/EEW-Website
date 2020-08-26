@@ -1,21 +1,75 @@
 { 
-  "circleData": [{
-    "x":10,
+  "circleData": [
+  {
+    "size":20,
     "state":"CA",
     "name":"John Doe",
-    "affil":"dem",
-    "children": [
-      {
-      "x":50,
-      "state":"NY",
-      "name":"Jane Doe",
-      "affil":"dem"
-      },
-      {
-      "x":50,
-      "state":"NY",
-      "name":"Some asshole",
-      "affil":"dem"
-      }]
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Some asshole",
+    "affil":"gop"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
+  },
+  {
+    "size":10,
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem"
   }]
 }

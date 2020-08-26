@@ -6,11 +6,10 @@ export const useCongressData = () => {
       query MyQuery {
         circleJson {
           circleData {
-            x
+            size
             state
-            rep
+            name
             affil
-            cmt
           }
         }
       }
