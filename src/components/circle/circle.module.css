@@ -20,6 +20,10 @@
   color: white;
 }
 
+.repOnHover {
+  background-color:"purple"; 
+}
+
 .chair {
   stroke: #ccc;
   stroke-width: 2px;
