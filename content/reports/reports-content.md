@@ -1,7 +1,7 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/cd-reports.js-->
 
 ## About EEW Report Cards
-Help EDGI create Environmental Environment Watch (EWW) report cards for each member of the House and Senate Committees responsible for oversight of the Environmental Protection Agency (EPA).
+Help EDGI create Environmental Enforcement Watch (EEW) report cards for each member of the House and Senate Committees responsible for oversight of the Environmental Protection Agency (EPA).
 
 The [Senate Environment and Public Works Committee](https://www.epw.senate.gov/public/) and the [House Energy and Commerce Committee](https://energycommerce.house.gov/) have jurisdiction over the EPA. The EPA is mandated to enforce environmental laws such as the:
 
