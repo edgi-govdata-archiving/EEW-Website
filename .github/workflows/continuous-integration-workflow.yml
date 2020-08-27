@@ -15,8 +15,9 @@ jobs:
         with:
           node-version: "10.x"
       - run: npm install
-      - name: Deploy
+      - name: Configure git credentials
         uses: OleksiyRudenko/gha-git-credentials@v1
-        run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+      - name: Deploy
+        run: npm run deploy
