@@ -18,6 +18,6 @@ jobs:
       - name: Configure git credentials
         uses: OleksiyRudenko/gha-git-credentials@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy
         run: npm run deploy
