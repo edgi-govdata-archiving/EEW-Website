@@ -11,7 +11,7 @@
     "build:favicons": "node scripts/favicons",
     "build": "npm run build:dir && npm run build:favicons && gatsby build",
     "test": "ava **/*.test.js --verbose",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://lourdesvera:$DEPLOYMENT_TOKEN@github.com/edgi-govdata-archiving/EEW-Website.git"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://edgi-govdata-archiving:$DEPLOYMENT_TOKEN@github.com/edgi-govdata-archiving/EEW-Website.git"
   },
   "greenkeeper": {
     "ignore": [
