@@ -5,21 +5,12 @@ on:
       - main
       
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Node
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          node-version: "10.x"
-      - run: npm install
-      - name: Deploy
-        uses: OleksiyRudenko/gha-git-credentials@v1
-        with:
-          name: 'Lourdes Vera'
-          email: 'lourdes.vera@protonmail.com'
-          actor: 'lourdesvera'
-          token: '${{ secrets.DEPLOYMENT_TOKEN }}'
-      - run: npm run deploy
+          access-token: ${{ secrets.DEPLOYMENT_TOKEN }}
+          deploy-branch: gh-pages
+          gatsby-args: --prefix-paths
