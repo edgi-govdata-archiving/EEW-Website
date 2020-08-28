@@ -15,12 +15,11 @@ jobs:
         with:
           node-version: "10.x"
       - run: npm install
-      - name: Configure git credentials
+      - name: Deploy
         uses: OleksiyRudenko/gha-git-credentials@v1
         with:
           name: 'Lourdes Vera'
           email: 'lourdes.vera@protonmail.com'
           actor: 'lourdesvera'
           token: '${{ secrets.DEPLOYMENT_TOKEN }}'
-      - name: Deploy
-        run: npm run deploy
+      - run: npm run deploy
