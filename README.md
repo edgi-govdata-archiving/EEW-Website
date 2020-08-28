@@ -1,5 +1,5 @@
 [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md)
-![Workflow Status](https://github.com/edgi-govdata-archiving/EEW-Website/workflows/Github%20Pages%20Deploy/badge.svg)
+[![Workflow Status](https://github.com/edgi-govdata-archiving/EEW-Website/workflows/Github%20Pages%20Deploy/badge.svg)](https://github.com/edgi-govdata-archiving/EEW-Website/actions?query=workflow%3A%22Github+Pages+Deploy%22)
 
 # EEW Website
 
