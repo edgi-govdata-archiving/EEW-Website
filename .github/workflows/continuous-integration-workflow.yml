@@ -18,6 +18,9 @@ jobs:
       - name: Configure git credentials
         uses: OleksiyRudenko/gha-git-credentials@v1
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
+          name: 'Lourdes Vera'
+          email: 'lourdes.vera@protonmail.com'
+          actor: 'lourdesvera'
+          token: '${{ secrets.DEPLOYMENT_TOKEN }}'
       - name: Deploy
         run: npm run deploy
