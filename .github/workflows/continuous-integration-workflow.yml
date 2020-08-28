@@ -1,0 +1,26 @@
+name: Github Pages Deploy
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
+      - run: npm install
+      - name: Configure git credentials
+        uses: OleksiyRudenko/gha-git-credentials@v1
+        with:
+          name: 'Lourdes Vera'
+          email: 'lourdes.vera@protonmail.com'
+          actor: 'lourdesvera'
+          token: '${{ secrets.DEPLOYMENT_TOKEN }}'
+      - name: Deploy
+        run: npm run deploy

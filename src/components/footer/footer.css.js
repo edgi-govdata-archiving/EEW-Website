@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Container = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
+  
+  p {
+    font-weight: 900;
+  }
 
   a {
     color: #757575;
