@@ -7,13 +7,13 @@ export const Container = styled.footer`
   padding: 4rem;
   background-color: #E3F9F3;
   flex-flow: row wrap;
-  
+
   #contribute {
     padding: 2rem;
   }
   
   p {
-    font-weight: 900;
+    font-weight: 700;
   }
 
   a {
