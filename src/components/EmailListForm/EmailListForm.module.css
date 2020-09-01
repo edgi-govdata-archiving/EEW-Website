@@ -1,0 +1,27 @@
+input {
+  color: #2a2a2a;
+  border: none;
+}
+
+button,
+input {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+button {
+  display: inline-block;
+  
+  border: none;
+  background-image: none;
+  background-color: #DD0505;
+  color: white;
+
+  letter-spacing: 1px;
+  transition: all 0.1s linear;
+}
+
+button:hover {
+  cursor: pointer;
+  background: darken(#DD0505, 15%);
+}

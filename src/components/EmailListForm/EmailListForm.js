@@ -1,13 +1,25 @@
 import React from 'react';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
+import styled from 'styled-components';
+import styles from './EmailListForm.module.css';
+
+const FormWrapper = styled.div`
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+`
+
+const AddressBox = styled.input`
+  min-width: 200px;
+  display: block;
+  color: #2a2a2a;
+`
 
 export default class EmailListForm extends React.Component {
-  // Since `addToMailchimp` returns a promise, you
-  // can handle the response in two different ways:
-
-  // Note that you need to send an email & optionally, listFields
-  // these values can be pulled from React state, form fields,
-  // or wherever.  (Personally, I recommend storing in state).
+  // Code adapted from: https://github.com/benjaminhoffman/gatsby-plugin-mailchimp/blob/master/examples/src/pages/index.js
   state = {
     email: null
   }
@@ -44,15 +56,15 @@ export default class EmailListForm extends React.Component {
       <form onSubmit={this._handleSubmit}>
         <h2>Together we can hold industry and environmental regulators accountable. Join us.
         </h2>
-        <div>
-          <input
+        <FormWrapper>
+          <AddressBox
             type="email"
             name="email"
             placeholder="Email address"
             onChange={ this._handleChange }
           />
-          <button type="submit">Subscribe</button>
-        </div>
+          <button className={styles.button} type="submit">Subscribe to our mailing list</button>
+        </FormWrapper>
       </form>
     )
   }
