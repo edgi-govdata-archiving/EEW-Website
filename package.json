@@ -4,7 +4,6 @@
   "author": "Fabian Schultz <desk@fabianschultz.com>",
   "scripts": {
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
     "ssr": "npm run build && npm run serve",
     "format": "prettier --config ./.prettierrc --write src/**/*.js",
@@ -12,7 +11,7 @@
     "build:favicons": "node scripts/favicons",
     "build": "npm run build:dir && npm run build:favicons && gatsby build",
     "test": "ava **/*.test.js --verbose",
-    "start": "gatsby develop"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "greenkeeper": {
     "ignore": [

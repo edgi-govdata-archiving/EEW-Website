@@ -1,4 +1,5 @@
 [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md)
+[![Workflow Status](https://github.com/edgi-govdata-archiving/EEW-Website/workflows/Github%20Pages%20Deploy/badge.svg)](https://github.com/edgi-govdata-archiving/EEW-Website/actions?query=workflow%3A%22Github+Pages+Deploy%22)
 
 # EEW Website
 
@@ -18,13 +19,24 @@ Currently staged at https://edgi-govdata-archiving.github.io/EEW-Website/
 
 ## For developers
 ### Toolset
-* Written in [Gatsby](https://www.gatsbyjs.org/)
-* Not yet hosted
+* Written in [Gatsby](https://www.gatsbyjs.org/), a Node React framework
+* Hosted on Github Pages
+* Continuous deployment uses Github Actions
 
 ### Deployment
-This site is hosted on Github Pages and deployed using the npm module [gh-pages](https://github.com/tschaub/gh-pages) as recommended by Gatsby [here](https://www.gatsbyjs.com/docs/how-gatsby-works-with-github-pages/#deploying-to-a-github-pages-subdomain-at-githubio).
+#### Continuous deployment
+The site currently deploys automatically on each merge to the `main` branch using Github Actions.
 
-Ensure you have dev dependencies installed and then run `npm run deploy` from a local clone of the `main` branch to deploy the branch to https://edgi-govdata-archiving.github.io/EEW-Website/
+You can see automatic deployment status in the badge at the top of this readme.
+
+Deployment configuration can be found in `.github/workflows/continuous-integration-workflow.yml`.
+
+To debug, check the Actions tab of this repo.
+
+#### Manual deployment
+The site can be manually deployed using the npm module [gh-pages](https://github.com/tschaub/gh-pages) as recommended by Gatsby [here](https://www.gatsbyjs.com/docs/how-gatsby-works-with-github-pages/#deploying-to-a-github-pages-subdomain-at-githubio).
+
+Ensure you have dev dependencies installed and then run `npm run deploy` from a local clone of the `main` branch.
 
 ### Local development
 1. Make sure you have [Node](https://nodejs.org/en/download/) installed
