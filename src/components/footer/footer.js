@@ -1,14 +1,13 @@
 import React from 'react';
 import GlobalStyle from 'global.css.js';
 import { Container } from './footer.css';
+import EmailListForm from 'components/EmailListForm';
 
 const Footer = () => (
   <Container>
     <div id="get-involved">
       {/* Add mailchimp component here */}
-    </div>
-    <div id="call-to-action">
-      <p>Together we can hold industry and environmental regulators accountable. Join us.</p>
+      <EmailListForm />
     </div>
     <div id="contribute">
       <div data-ab-button
