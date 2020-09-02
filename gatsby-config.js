@@ -4,6 +4,7 @@ module.exports = {
   siteMetadata: {
     ...siteConfig,
   },
+  pathPrefix: "/EEW-Website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,

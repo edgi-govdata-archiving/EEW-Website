@@ -45,7 +45,6 @@ const Head = ({
 
     <meta content="website" property="og:type" />
     <meta content={siteTitle} property="og:site_name" />
-    <meta content={social.fbAppId} property="fb:app_id" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content={`@${social.twitter}`} name="twitter:site" />
     <meta content={`@${social.twitter}`} name="twitter:creator" />
@@ -162,6 +161,9 @@ const Head = ({
         })
       )}
     </script>
+
+    <script src="https://secure.actblue.com/cf/assets/actblue.js" async></script>
+
   </Helmet>
 );
 
@@ -192,7 +194,6 @@ const HeadWithQuery = props => (
             themeColor
             social {
               twitter
-              fbAppId
             }
           }
         }

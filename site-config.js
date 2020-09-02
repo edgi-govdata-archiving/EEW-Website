@@ -10,7 +10,6 @@ module.exports = {
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/eew-logo.png'),
   social: {
-    twitter: `gatsbyjs`,
-    fbAppId: `966242223397117`,
+    twitter: `EEW_Network`,
   },
 };

@@ -66,7 +66,7 @@ Index.propTypes = {
 export default Index;
 
 export const query = graphql`
-  query HomepageQuery {
+  query HomeQuery {
     homeJson {
       title
       content {

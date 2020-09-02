@@ -9,6 +9,7 @@ import { graphql } from 'gatsby';
 const Events = ({ data }) => (
   <Layout>
     <Box>
+      <h1>{data.eventsJson.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: data.eventsJson.content.childMarkdownRemark.html }} />
     </Box>
     <Gallery items={data.eventsJson.gallery} />
