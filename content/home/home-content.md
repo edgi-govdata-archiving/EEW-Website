@@ -2,11 +2,7 @@
 
 ## Join us for upcoming public workshops!
 
-<<<<<<< HEAD:content/home/intro.md
 ![EEW Public Hours Thursdays 2:30-4:30PM Eastern, Zoom](./public-hours.png)
-=======
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/Screen-Shot-2020-08-14-at-1.54.58-PM-649x649.png)
->>>>>>> main:content/home/home-content.md
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
