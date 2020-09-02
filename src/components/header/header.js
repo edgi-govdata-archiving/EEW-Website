@@ -40,9 +40,7 @@ const Header = ({ title, data }) => (
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
-  data: PropTypes.shape({
-    //Typechecking would go here if I knew how to do it properly - AA
-  }).isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default function MyHeader(props) {
