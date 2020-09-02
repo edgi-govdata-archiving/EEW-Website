@@ -31,6 +31,7 @@ const Header = ({ title, data }) => (
           fixed={data.file.childImageSharp.fixed}
           alt='EEW Logo'
         />
+        <p>&nbsp; &nbsp; &nbsp; an EDGI project</p>
       </Link>
 
       <Nav />
