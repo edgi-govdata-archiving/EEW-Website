@@ -16,7 +16,7 @@
 
 `video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
 
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/EEW-Web_Icon_Color-649x649.png)
+![EEW Logo](./eew-logo.png)
 
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
