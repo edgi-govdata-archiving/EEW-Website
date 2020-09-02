@@ -36,16 +36,19 @@ Black, Latinx, Indigenous, and low-income communities – among other historical
 A lot of the work in EEW stems from EDGI’s work around “Environmental Data Justice,” or EDJ. EDJ promotes the production and use of environmental data to challenge structures of oppression like fascism, racism, heteropatriarchy, and classism. We believe that data should serve communities and not just corporate polluters. We also believe that communities should be able to have more resources for collecting and analyzing environmental data while retaining the power to decide what they can do with it. You can read more about EDJ and find some related readings in the [EDJ Syllabus here](https://docs.google.com/document/d/1O7ytnzXWFkluiYE4Pulo_mCHs9jdNpPm8hw83aLU2pg/edit?usp=sharing).
 
 ## The Environmental Data and Governance Initiative
+
+![EDGI logo](./EDGI-logo.png)
+
 EDGI is an international network of over 175 members from more than 80 different academic institutions and non-profits, comprised foremost by grassroots volunteer efforts. Since 2016, EDGI has served as a preeminent watchdog group for federal environmental data, generating international effort to duplicate and monitor repositories of public data that are vital to environmental health research and knowledge.
 
 EDGI’s work has been widely acknowledged, leading to EDGI testifying before Congress on declines in EPA enforcement, and hundreds of mentions in leading national and international media such as The New York Times, The Washington Post, Vice News, and CNN. For more about our work, read our [2019 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2019/) and [2020 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2020/).
 
 ## Collaborators
-[![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/07/geo-768x92.png)](http://www.stonybrook.edu/commcms/gss/)
-[![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/07/tll-300x95.png)](http://apps.tlt.stonybrook.edu/)
-[![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/07/sunrise_boston_logo-300x300.jpg)](http://www.facebook.com/SunriseBoston/)
+[![](./stonybrook-geospatial.png)](http://www.stonybrook.edu/commcms/gss/)
+[![](./tll-logo.png)](http://apps.tlt.stonybrook.edu/)
+[![](./sunrise-boston-logo.jpg)](http://www.facebook.com/SunriseBoston/)
 
 ## Funding
-[![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/06/ddf.jpg)](https://www.packard.org/)
-[![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/07/packard-foundation-logo-300x113.jpg)](https://www.ddcf.org/)
-[![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/06/cropped-nulab_logo1.png)](https://web.northeastern.edu/nulab/)
+[![](./packard-logo.jpg)](https://www.packard.org/)
+[![](./doris-duke-logo.jpg)](https://www.ddcf.org/)
+[![](./northeastern-logo.png)](https://web.northeastern.edu/nulab/)

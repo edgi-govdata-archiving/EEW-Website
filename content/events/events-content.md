@@ -2,7 +2,7 @@
 
 ## Join us for upcoming public workshops!
 
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/Screen-Shot-2020-08-14-at-1.54.58-PM-649x649.png)
+![](../home/public-hours.png)
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
