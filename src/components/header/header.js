@@ -26,12 +26,11 @@ const AnimatedContainer = posed.div({
 const Header = ({ title, data }) => (
   <AnimatedContainer>
     <Container>
-      <Img
-        fixed={data.file.childImageSharp.fixed}
-        alt='EEW Logo'
-      />
       <Link to="/">
-        <Title as="h1">{title} </Title><sub>an EDGI project</sub>
+        <Img
+          fixed={data.file.childImageSharp.fixed}
+          alt='EEW Logo'
+        />
       </Link>
 
       <Nav />
@@ -53,7 +52,7 @@ export default function MyHeader(props) {
         query {
           file(relativePath: { eq: "images/logos/eew-logo.png" }) {
             childImageSharp {
-              fixed(width: 125, height: 125) {
+              fixed(width: 175) {
                 ...GatsbyImageSharpFixed
               }
             }
