@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import Img from 'gatsby-image';
 import posed from 'react-pose';
 import { Container } from './header.css';
 import Title from 'components/title';
@@ -22,9 +23,13 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ title }) => (
+const Header = ({ title, data }) => (
   <AnimatedContainer>
     <Container>
+      <Img
+        fixed={data.file.childImageSharp.fixed}
+        alt='EEW Logo'
+      />
       <Link to="/">
         <Title as="h1">{title} </Title><sub>an EDGI project</sub>
       </Link>
@@ -36,6 +41,26 @@ const Header = ({ title }) => (
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
+  data: PropTypes.shape({
+    //Typechecking would go here if I knew how to do it properly - AA
+  }).isRequired,
 };
 
-export default Header;
+export default function MyHeader(props) {
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          file(relativePath: { eq: "images/logos/eew-logo.png" }) {
+            childImageSharp {
+              fixed(width: 125, height: 125) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }    
+      `}
+    render={data => <Header data={data} {...props} />}
+    />
+  )
+}
