@@ -58,5 +58,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+        endpoint: 'https://envirodatagov.us16.list-manage.com/subscribe/post?u=0cecb14f2c571ba076e646bbb&amp;id=37cabebe36',
+        timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    }
   ],
 };

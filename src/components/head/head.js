@@ -148,6 +148,7 @@ const Head = ({
       sizes="16x16"
       type="image/png"
     />
+    <script src="https://secure.actblue.com/cf/assets/actblue.js" async></script>
 
     <script type="application/ld+json">
       {JSON.stringify(
