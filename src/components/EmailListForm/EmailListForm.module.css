@@ -6,15 +6,17 @@ input {
 button,
 input {
   padding: 1rem 2rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 button {
   display: inline-block;
+  padding: 1rem;
+  margin-left: .5rem;
   
   border: none;
   background-image: none;
-  background-color: #DD0505;
+  background-color: #d43A69;
   color: white;
 
   letter-spacing: 1px;
