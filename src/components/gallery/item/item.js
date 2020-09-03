@@ -4,8 +4,8 @@ import Img from 'gatsby-image';
 import { Title, Copy } from './item.css';
 
 const Item = ({ title, copy, image }) => (
-  <figure>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+  <figure style={{display:'flex',flexFlow:'column nowrap',alignItems:'center'}}>
+    <Img fixed={image ? image.childImageSharp.fixed : {}} alt={title} />
     <figcaption>
       <Title>{title}</Title>
       <Copy>{copy}</Copy>

@@ -17,6 +17,12 @@ Currently staged at https://edgi-govdata-archiving.github.io/EEW-Website/
 * Styling in general is in a `.css` file. The main one is in `src/global.css.js`. But it might also be in the `.js` file in `src`
 * If this is all very obscure and overwhelming for you, that's ok! Just make sure to do your work in a [branch](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches) and submit it via a [pull request](https://docs.github.com/en/articles/about-pull-requests) and then we can review it before it goes live.
 
+### Adding images to .md page content
+* Images should be uploaded to the same folder as the Markdown file they are used in (for example, an image on the homepage should be put in content/home).
+  * If you're not comfortable with coding on your computer, you can use Github's [Upload Files](https://docs.github.com/en/github/managing-files-in-a-repository/adding-a-file-to-a-repository) functionality. Just make sure to put your image in the correct folder!
+* From a Markdown (.md) content file, you can now use [Markdown syntax](https://daringfireball.net/projects/markdown/syntax#img) to link your image based on its location relative to the content file ("relative filepath"). This will look like `![alt text for image](./my-image.png)`. The `./` part means that the image is in the same folder as the file you're referencing it from.
+* Don't forget to fill in the alt text! The image will render without it, but it's important to have a text description of the image for screen readers and in case the image fails to load properly.
+
 ## For developers
 ### Toolset
 * Written in [Gatsby](https://www.gatsbyjs.org/), a Node React framework

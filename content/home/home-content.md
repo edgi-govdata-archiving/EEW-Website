@@ -2,7 +2,7 @@
 
 ## Join us for upcoming public workshops!
 
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/Screen-Shot-2020-08-14-at-1.54.58-PM-649x649.png)
+![EEW Public Hours Thursdays 2:30-4:30PM Eastern, Zoom](./public-hours.png)
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
@@ -16,7 +16,7 @@
 
 `video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
 
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/EEW-Web_Icon_Color-649x649.png)
+![EEW Logo](./eew-logo.png)
 
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
