@@ -14,7 +14,9 @@ export const Container = styled.footer`
     flex-shrink: 1;
   }
   
-  #
+  #socials {
+    margin: 2rem;
+  }
 
   p {
     font-weight: 700;

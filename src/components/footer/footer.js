@@ -1,7 +1,19 @@
 import React from 'react';
-import GlobalStyle from 'global.css.js';
 import { Container } from './footer.css';
 import EmailListForm from 'components/EmailListForm';
+
+//Import social icons and share components
+import { FaTwitter, FaEnvelope, FaFacebook } from 'react-icons/fa';
+import { ShareButtonCircle, ShareBlockStandard } from 'react-custom-share';
+
+const shareBlockProps = {
+  button: ShareButtonCircle,
+  buttons: [
+    { network: 'Email', icon: FaEnvelope, link: 'mailto:info@environmentalenforcementwatch.org'},
+    { network: 'Twitter', icon: FaTwitter, link: 'https://twitter.com/EEW_Network'},
+    { network: 'Facebook', icon: FaFacebook, link: 'https://www.facebook.com/envirodgi/'}
+  ]
+};
 
 const Footer = () => (
   <Container>
@@ -28,7 +40,7 @@ const Footer = () => (
     
     </div>
     <div id="socials">
-    
+      <ShareBlockStandard {...shareBlockProps} />
     </div>
   </Container>
 );

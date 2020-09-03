@@ -24,6 +24,7 @@
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",
     "babel-plugin-styled-components": "^1.10.0",
+    "emotion": "^10.0.27",
     "gatsby": "^2.3.26",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-offline": "^2.0.25",
@@ -41,8 +42,10 @@
     "intersection-observer": "^0.5.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
+    "react-custom-share": "^0.4.8",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.11.0",
     "react-pose": "^4.0.5",
     "styled-components": "^4.1.3"
   },
