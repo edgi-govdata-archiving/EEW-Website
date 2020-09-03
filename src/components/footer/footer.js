@@ -26,7 +26,7 @@ const Footer = () => (
       <div data-ab-button
         data-ab-token="MtYXR6eU4AKeV3oqqj3pdmuK"
         data-ab-amounts="5,10,25,50,100,250,n"
-        data-ab-style="background-color: #d43A69;"
+        data-ab-style="background-color: #4FBBA9;"
       >
       <a href="https://secure.actblue.com/donate/edgi_eew">Donate</a>
     </div>
