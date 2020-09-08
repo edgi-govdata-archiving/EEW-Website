@@ -13,7 +13,7 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
 
-const source = 'src/images/icon.png';
+const source = 'content/images/logos/eew-icon-web.png';
 const configuration = {
   path: '/icons/',
   appName: siteTitleShort,

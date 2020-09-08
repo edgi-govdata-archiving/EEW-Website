@@ -8,7 +8,7 @@ module.exports = {
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
-  logo: path.resolve(__dirname, 'src/images/eew-logo.png'),
+  logo: path.resolve(__dirname, 'content/images/logos/eew-icon-web.png'),
   social: {
     twitter: `EEW_Network`,
   },
