@@ -42,9 +42,7 @@ const Index = ({ data }) => (
     <HomeWrapper>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
     </HomeWrapper>
-    <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
-      <p>Congress visualization placeholder</p>
-    </HomeWrapper>
+
     <HomeWrapper>
       <Description>Join one of our upcoming events.</Description>
 

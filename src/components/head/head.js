@@ -163,8 +163,6 @@ const Head = ({
       )}
     </script>
 
-    <script src="https://secure.actblue.com/cf/assets/actblue.js" async></script>
-
   </Helmet>
 );
 
