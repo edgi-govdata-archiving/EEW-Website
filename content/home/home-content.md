@@ -16,7 +16,7 @@
 
 `video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
 
-![EEW Logo](./eew-logo.png)
+![EEW Logo](../images/logos/eew-icon-web.png)
 
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
@@ -26,7 +26,7 @@ In these virtual workshops, we will work with community organizers, concerned re
 
 <big>Together, we can use publicly available data to hold our government and industry accountable.</big>
 
-##Goals
+## Goals
 
 * Draw large-scale public attention to lack of environmental enforcement.
 * Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships.

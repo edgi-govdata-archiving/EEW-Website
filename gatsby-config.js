@@ -1,4 +1,5 @@
 const siteConfig = require('./site-config');
+const { nominalTypeHack } = require('prop-types');
 
 module.exports = {
   siteMetadata: {
@@ -13,6 +14,10 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        pedantic: false,
+        gfm: true,
+        commonmark: true,
+        footnotes: true,
         plugins: [
           {
             resolve: `gatsby-remark-embed-video`,
@@ -33,7 +38,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 300,
+              backgroundColor: 'none',
             }
           }          
         ]
