@@ -12,7 +12,7 @@ export const Container = styled.header`
     text-decoration: none;
 
     &:hover {
-      color: inherit;
+      color: #e56d13;
     }
   },
   
