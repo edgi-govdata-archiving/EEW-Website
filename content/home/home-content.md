@@ -1,5 +1,7 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
 
+<big>Practicing our right to know, together.</big>
+
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
 **Environmental Enforcement Watch** is series of networked online workshops that bring people together from different backgrounds to analyze the data from Environmental Protection Agency’s  [Enforcement and Compliance History Online](https://echo.epa.gov/) (ECHO) database. ECHO data includes reported violations of environmental laws, facility inspections, and enforcement actions (or lack thereof) issued by the EPA and state agencies.
@@ -8,7 +10,7 @@ In these virtual workshops, we will work with community organizers, concerned re
 
 <big>Together, we can use publicly available data to hold our government and industry accountable.</big>
 
-## Goals
+## Our Goals
 
 * Draw large-scale public attention to lack of environmental enforcement.
 * Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships.

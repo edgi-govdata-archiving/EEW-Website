@@ -36,11 +36,6 @@ const calendarStyle = {
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h1" size="large">
-        Practicing our right to know, together.
-      </Title>
-    </Box>
-    <Box>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
     </Box>
 
@@ -48,12 +43,12 @@ const Index = ({ data }) => (
       <Img fixed={data.file.childImageSharp.fixed} />
     </HomeWrapper>
 
-    <Box>
+    <HomeWrapper>
       <Description>Join one of our upcoming events.</Description>
 
       {/* Embed Google Calendar */}
       <iframe title="eewCalendar" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=2&amp;bgcolor=%234cc0ad&amp;ctz=America%2FNew_York&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showTitle=0&amp;showNav=0&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=AGENDA" style={calendarStyle} width="400" height="300" frameBorder="0" scrolling="no"></iframe>
-    </Box>
+    </HomeWrapper>
 
   </Layout>
 );
