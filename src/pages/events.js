@@ -13,7 +13,6 @@ const Events = ({ data }) => (
       <div dangerouslySetInnerHTML={{ __html: data.eventsJson.content.childMarkdownRemark.html }} />
     </Box>
     <Gallery items={data.eventsJson.gallery} />
-    <div style={{ height: '50vh' }} />
   </Layout>
 );
 

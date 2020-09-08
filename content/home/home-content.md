@@ -1,23 +1,5 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
 
-## Join us for upcoming public workshops!
-
-![EEW Public Hours Thursdays 2:30-4:30PM Eastern, Zoom](./public-hours.png)
-
-**August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
-
-**August 27th –** Analyze environmental data in congressional districts of legislators that oversee the EPA. Begin building a repository of what will be 76 *EEW Congressional Report Cards*.
-
-**September 3rd –** Build on the work of the previous week.
-
-**September 10th –** Build on the work of the previous week & discuss ways to move the work forward.
-
-<big>[Sign up for a workshop here](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform)</big>
-
-`video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
-
-![EEW Logo](../images/logos/eew-icon-web.png)
-
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
 **Environmental Enforcement Watch** is series of networked online workshops that bring people together from different backgrounds to analyze the data from Environmental Protection Agency’s  [Enforcement and Compliance History Online](https://echo.epa.gov/) (ECHO) database. ECHO data includes reported violations of environmental laws, facility inspections, and enforcement actions (or lack thereof) issued by the EPA and state agencies.
