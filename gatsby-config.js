@@ -1,4 +1,5 @@
 const siteConfig = require('./site-config');
+const { nominalTypeHack } = require('prop-types');
 
 module.exports = {
   siteMetadata: {
@@ -13,13 +14,16 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        pedantic: false,
+        gfm: true,
+        commonmark: true,
+        footnotes: true,
         plugins: [
           {
             resolve: `gatsby-remark-embed-video`,
             options: {
-              width: 800,
+              width: 600,
               ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
               urlOverrides: [
@@ -33,7 +37,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 600,
+              backgroundColor: 'none',
+              linkImagesToOriginal: 'false',
             }
           }          
         ]

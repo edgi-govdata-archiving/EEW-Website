@@ -1,22 +1,6 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
 
-## Join us for upcoming public workshops!
-
-![EEW Public Hours Thursdays 2:30-4:30PM Eastern, Zoom](./public-hours.png)
-
-**August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
-
-**August 27th –** Analyze environmental data in congressional districts of legislators that oversee the EPA. Begin building a repository of what will be 76 *EEW Congressional Report Cards*.
-
-**September 3rd –** Build on the work of the previous week.
-
-**September 10th –** Build on the work of the previous week & discuss ways to move the work forward.
-
-<big>[Sign up for a workshop here](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform)</big>
-
-`video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
-
-![EEW Logo](./eew-logo.png)
+<big>Practicing our right to know, together.</big>
 
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
 
@@ -26,7 +10,7 @@ In these virtual workshops, we will work with community organizers, concerned re
 
 <big>Together, we can use publicly available data to hold our government and industry accountable.</big>
 
-##Goals
+## Our Goals
 
 * Draw large-scale public attention to lack of environmental enforcement.
 * Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships.
