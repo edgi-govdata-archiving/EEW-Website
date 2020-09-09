@@ -148,6 +148,8 @@ const Head = ({
       sizes="16x16"
       type="image/png"
     />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
     <script src="https://secure.actblue.com/cf/assets/actblue.js" async></script>
 
     <script type="application/ld+json">
