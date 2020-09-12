@@ -37,18 +37,18 @@ A lot of the work in EEW stems from EDGI’s work around “Environmental Data J
 
 ## The Environmental Data and Governance Initiative
 
-![EDGI logo](./EDGI-logo.png)
+![Environmental Data and Governance Initiative logo](./EDGI-logo.png)
 
 EDGI is an international network of over 175 members from more than 80 different academic institutions and non-profits, comprised foremost by grassroots volunteer efforts. Since 2016, EDGI has served as a preeminent watchdog group for federal environmental data, generating international effort to duplicate and monitor repositories of public data that are vital to environmental health research and knowledge.
 
 EDGI’s work has been widely acknowledged, leading to EDGI testifying before Congress on declines in EPA enforcement, and hundreds of mentions in leading national and international media such as The New York Times, The Washington Post, Vice News, and CNN. For more about our work, read our [2019 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2019/) and [2020 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2020/).
 
 ## Collaborators
-[![](./stonybrook-geospatial.png)](http://www.stonybrook.edu/commcms/gss/)
-[![](./tll-logo.png)](http://apps.tlt.stonybrook.edu/)
-[![](./sunrise-boston-logo.jpg)](http://www.facebook.com/SunriseBoston/)
+[![Stony Brook University Geospatial Center Logo](./stonybrook-geospatial.png)](http://www.stonybrook.edu/commcms/gss/)
+[![Teaching Learning Lab logo](./tll-logo.png)](http://apps.tlt.stonybrook.edu/)
+[![Sunrise Boston logo](./sunrise-boston-logo.jpg)](http://www.facebook.com/SunriseBoston/)
 
 ## Funding
-[![](./packard-logo.jpg)](https://www.packard.org/)
-[![](./doris-duke-logo.jpg)](https://www.ddcf.org/)
-[![](./northeastern-logo.png)](https://web.northeastern.edu/nulab/)
+[![ The David and Lucile Packard Foundation logo](./packard-logo.jpg)](https://www.packard.org/)
+[![Doris Duke Charitable Foundation logo](./doris-duke-logo.jpg)](https://www.ddcf.org/)
+[![Northeastern Unicersity Lab for Texts, Maps, and Networks Logo](./northeastern-logo.png)](https://web.northeastern.edu/nulab/)
