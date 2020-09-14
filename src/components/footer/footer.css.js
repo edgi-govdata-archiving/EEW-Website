@@ -6,12 +6,18 @@ export const Container = styled.footer`
   align-items: center;
   padding: 4rem;
   background-color: #E3F9F3;
-  flex-flow: row wrap;
+  flex-flow: column;
 
   #contribute {
     padding: 2rem;
+    width: 400px;
+    flex-shrink: 1;
   }
   
+  #socials {
+    margin: 2rem;
+  }
+
   p {
     font-weight: 700;
   }

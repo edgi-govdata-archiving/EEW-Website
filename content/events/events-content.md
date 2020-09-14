@@ -2,7 +2,7 @@
 
 ## Join us for upcoming public workshops!
 
-![](https://www.environmentalenforcementwatch.org/wp-content/uploads/2020/08/Screen-Shot-2020-08-14-at-1.54.58-PM-649x649.png)
+![EEW Public Hours: Thursdays from 4:30 to 6:30 PM on Zoom](public-hours.png)
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
@@ -14,4 +14,4 @@
 
 <big>[Sign up for a workshop here](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform)</big>
 
-`video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
+<!-- `video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)` -->
