@@ -21,14 +21,10 @@ At these events, participants will analyze, contextualize, and relate their pers
 
 Participants can sign up for one of the assigned report cards below, or they can make one for their congressional district. Our events are 2 hours long, on Thursdays from 2:30-4:30 EST, and no coding skill or background in environmental law required!
 
-## Senate Environment & Public Works Committee:
+## Senate Environment & Public Works Committee
 
 ![](./senate-env-pw.png)
 
-## House Energy & Commerce Committee:
+## House Energy & Commerce Committee
 
 ![](house-energy-commerce.png)
-
-Key:
-![](./key-outlines.png)
-![](./key-progress.png)
