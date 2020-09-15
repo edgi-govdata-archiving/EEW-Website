@@ -31,9 +31,6 @@ const About = ({ data }) => (
     <Head pageTitle={data.aboutJson.title} />
     <Box>
       <h1>{data.aboutJson.title}</h1>
-      <HomeWrapper>
-        <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
-      </HomeWrapper>
       <div
         dangerouslySetInnerHTML={{
           __html: data.aboutJson.content.childMarkdownRemark.html,
