@@ -6,6 +6,6 @@
 ![EEW public workshop participants](./eew-public-workshop.png)
 
 ## Logos
-![EEW logo](../images/gallery/logos/eew-logo.png)
+![EEW logo](../images/logos/eew-logo.png)
 ![EEW web icon](./eew-web-icon.png)
-![EDGI logo](../images/gallery/logos/EDGI-logo.png)
+![EDGI logo](./EDGI-logo.png)
