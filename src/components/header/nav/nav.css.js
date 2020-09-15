@@ -7,7 +7,7 @@ export const Container = styled.nav`
       flex-flow: column wrap;
 
       li {
-        margin-left: 3rem;
+        margin-left: 5rem;
       }
     }
   }
@@ -17,7 +17,7 @@ export const Container = styled.nav`
       font-size: 1.3rem;
 
       & + li {
-        margin-left: 3rem;
+        margin-left: 5rem;
       }
     }
   }
@@ -30,7 +30,9 @@ export const Container = styled.nav`
     li {
       margin-top: 2px;
       text-transform: uppercase;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+      font-weight: 550;
+      letter-spacing: 1px;
     }
   }
 `;

@@ -12,10 +12,10 @@ const Nav = () => (
         <Link to="/reports">Reports</Link>
       </li>
       <li>
-        <a href="https://www.envirodatagov.org">EDGI</a>
+        <Link to="/press">Press</Link>
       </li>
       <li>
-        <Link to="/press">Press</Link>
+        <a href="https://www.envirodatagov.org">EDGI</a>
       </li>
     </ul>
   </Container>
