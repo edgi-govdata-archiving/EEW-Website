@@ -1,7 +1,5 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
 
-`video: [About Environmental Enforcement Watch](https://youtube.com/embed/k-OjWt5lBRQ)`
-
 <big>Practicing our right to know, together.</big>
 
 We want clean air, clean water, and an end to environmental racism and injustice. Strong environmental regulation is important, but it’s only as good as its enforcement.
