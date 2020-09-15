@@ -44,11 +44,8 @@ EDGI is an international network of over 175 members from more than 80 different
 EDGI’s work has been widely acknowledged, leading to EDGI testifying before Congress on declines in EPA enforcement, and hundreds of mentions in leading national and international media such as The New York Times, The Washington Post, Vice News, and CNN. For more about our work, read our [2019 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2019/) and [2020 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2020/).
 
 ## Collaborators
-[![](./stonybrook-geospatial.png)](http://www.stonybrook.edu/commcms/gss/)
-[![](./tll-logo.png)](http://apps.tlt.stonybrook.edu/)
-[![](./sunrise-boston-logo.jpg)](http://www.facebook.com/SunriseBoston/)
+![EEW's collaborators](./collabs.png)
+
 
 ## Funding
-[![](./packard-logo.jpg)](https://www.packard.org/)
-[![](./doris-duke-logo.jpg)](https://www.ddcf.org/)
-[![](./northeastern-logo.png)](https://web.northeastern.edu/nulab/)
+![EEW's funders](./funders.png)
