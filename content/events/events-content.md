@@ -2,7 +2,7 @@
 
 ## Join us for upcoming public workshops!
 
-![EEW Public Hours: Thursdays from 4:30 to 6:30 PM on Zoom](public-hours.png)
+![EEW Public Hours: Thursdays from 11:30 to 1:30 PST or 2:30 to 4:30 EST on Zoom](public-hours.png)
 
 **August 20th –** Learn about national trends in environmental enforcement & compliance. Work on creative visualizations & share stories to contextualize findings.
 
