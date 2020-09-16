@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import Img from 'gatsby-image';
 import { Container } from './nav.css';
 
-const Nav = () => (
+const Nav = ({title, data}) => (
   <Container>
     <ul>
       <li>
@@ -15,10 +17,38 @@ const Nav = () => (
         <Link to="/press">Press</Link>
       </li>
       <li>
-        <a href="https://www.envirodatagov.org"><img src="https://www.pngkit.com/png/full/905-9053541_edgi-logo-1-hi-res-transp-graphic-design.png" alt="asdf" height="50px"></img></a>
+        <a href="https://www.envirodatagov.org">
+          <Img
+            fixed={data.file.childImageSharp.fixed}
+            alt="EDGI Logo"
+          />
+        </a>
       </li>
     </ul>
   </Container>
 );
 
-export default Nav;
+Nav.propTypes = {
+  title: PropTypes.string.isRequired,
+  data: PropTypes.object.isRequired,
+};
+
+export default function
+MyNav (props) {
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          file(relativePath: { eq: "images/logos/edgi-sq-logo.png" }) {
+            childImageSharp {
+              fixed(height: 50) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }    
+      `}
+    render={data => <Nav data={data} {...props} />}
+    />
+  )
+}
