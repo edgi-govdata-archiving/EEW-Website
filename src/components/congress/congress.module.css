@@ -15,8 +15,8 @@
   stroke: #ccc;
   stroke-width: 2px;
   flex-wrap: wrap;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin: 2px;
   color: white;
   padding: 10px;
@@ -31,8 +31,8 @@
   stroke: #ccc;
   stroke-width: 2px;
   flex-wrap: wrap;
-  width: 40px;
-  height: 20px;
+  width: 85px;
+  height: 30px;
   margin: 2px;
   color: white;
   padding: 10px;
@@ -46,5 +46,24 @@
   background: #f7f7f7;
   position: relative;
   top:0px;
+  padding: 5px;
   overflow: visible;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tip {
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  white-space: pre-line;
+  z-index: 10;
+  background: white;
 }
