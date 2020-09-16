@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-{/* Try turning nav into a column on narrow screens */}
+{/* Turn nav into a column on narrow screens */}
 export const Container = styled.nav`
   @media only screen and (max-width: 600px) {
     ul {
@@ -9,6 +9,9 @@ export const Container = styled.nav`
       li {
         margin-left: 5rem;
       }
+    }
+    img {
+      display:none;
     }
   }
 
@@ -34,5 +37,9 @@ export const Container = styled.nav`
       font-weight: 550;
       letter-spacing: 1px;
     }
+  }
+  
+  text {
+    display:none;
   }
 `;

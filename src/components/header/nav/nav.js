@@ -18,6 +18,9 @@ const Nav = ({title, data}) => (
       </li>
       <li>
         <a href="https://www.envirodatagov.org">
+          <div class="text">
+            EDGI
+          </div>
           <Img
             fixed={data.file.childImageSharp.fixed}
             alt="EDGI Logo"
