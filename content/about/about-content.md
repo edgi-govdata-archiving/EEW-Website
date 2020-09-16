@@ -49,6 +49,6 @@ EDGI’s work has been widely acknowledged, leading to EDGI testifying before Co
 [![Sunrise Boston logo](./sunrise-boston-logo.jpg)](http://www.facebook.com/SunriseBoston/)
 
 ## Funding
-[![ The David and Lucile Packard Foundation logo](./packard-logo.jpg)](https://www.packard.org/)
+[![The David and Lucile Packard Foundation logo](./packard-logo.jpg)](https://www.packard.org/)
 [![Doris Duke Charitable Foundation logo](./doris-duke-logo.jpg)](https://www.ddcf.org/)
 [![Northeastern Unicersity Lab for Texts, Maps, and Networks Logo](./northeastern-logo.png)](https://web.northeastern.edu/nulab/)
