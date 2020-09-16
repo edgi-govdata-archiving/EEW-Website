@@ -15,7 +15,7 @@ const Nav = () => (
         <Link to="/press">Press</Link>
       </li>
       <li>
-        <a href="https://www.envirodatagov.org">EDGI</a>
+        <a href="https://www.envirodatagov.org"><img src="https://www.pngkit.com/png/full/905-9053541_edgi-logo-1-hi-res-transp-graphic-design.png" alt="asdf" height="50px"></img></a>
       </li>
     </ul>
   </Container>
