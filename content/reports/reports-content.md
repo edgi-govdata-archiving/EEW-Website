@@ -26,7 +26,7 @@ Participants can sign up for one of the assigned report cards below, or they can
 ![A graphic demonstrating the Senate Environment & Public Works Committee: eleven republican members and ten democrat members of the Senate Environment & Public Works Committee. John Barraso is a republican and the chair, Thomas R carper is a democrat and a ranking member](./senate-env-pw.png)
 
 Key
-![A key to the colors used in the graphic: republicans are in red circles and democrats in blue circles, lighter shaded circles indicate the report card is yet to be made, darker shaded circles indicate the reportcard is in progress and circles with a green check indicate the report card is completed] (./key-outlines.png)
+![A key to the colors used in the graphic: republicans are in red circles and democrats in blue circles, lighter shaded circles indicate the report card is yet to be made, darker shaded circles indicate the report card is in progress, and circles with a green check indicate the report card is completed] (./key-outlines.png)
 ![A key to the markings used in the graphic: Committee chairs are circled in black, vice chairs are circled in a dotted black circle and ranking members have four black lines around them.](./key-progress.png)
 
 
