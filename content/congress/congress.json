@@ -4,72 +4,84 @@
     "rank":"chair",
     "state":"CA",
     "name":"John Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"inProgress"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Some asshole",
-    "affil":"gop"
+    "affil":"gop",
+    "reportStatus":"inProgress"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem"
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   }]
 }

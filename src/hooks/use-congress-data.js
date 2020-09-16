@@ -10,6 +10,7 @@ export const useCongressData = () => {
             state
             name
             affil
+            reportStatus
           }
         }
       }

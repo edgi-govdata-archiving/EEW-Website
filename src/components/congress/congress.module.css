@@ -23,10 +23,6 @@
   text-align: center;
 }
 
-.repOnHover {
-  background-color:"purple"; 
-}
-
 .chair {
   stroke: #ccc;
   stroke-width: 2px;
@@ -37,6 +33,10 @@
   color: white;
   padding: 10px;
   text-align:center;
+}
+
+.repOnHover {
+  outline: 2px solid #e56d13; 
 }
 
 .viz {

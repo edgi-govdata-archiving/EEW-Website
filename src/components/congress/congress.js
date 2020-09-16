@@ -3,12 +3,20 @@ import { select, event } from 'd3';
 import styles from './congress.module.css';
 import { useCongressData } from 'hooks/use-congress-data';
 
+// Usage: 
+// ADD NEW DATA TO: content\congress\congress.json
+// MAKE SURE EVERYTHING IS QUERIED IN: src\hooks\use-congress-data.js (no need to change this file if you are not adding any new variables to the json!)
+
+// Credits:
+// d3 manipulation of div elements rather than svg/rect elements from: https://pudding.cool/process/flexbox-layout/
+// React (Hooks) with d3 from: https://github.com/muratkemaldar/using-react-hooks-with-d3
+
+// Notes:
+// If report cards will be links, then could do something like this: http://www.d3noob.org/2014/05/including-html-link-in-d3js-tool-tip.html
+
 function Congress() {
   const figureRef = useRef();
   const congressData = useCongressData();
-
-  // d3 manipulation of div elements rather than svg/rect elements from: https://pudding.cool/process/flexbox-layout/
-  // React (Hooks) with d3 from: https://github.com/muratkemaldar/using-react-hooks-with-d3
 
   useEffect(() => {
     // Select the figure as declared in the layout section (at bottom)
@@ -29,18 +37,31 @@ function Congress() {
           thisRep.style("background-color","blue"); 
         }
 
-        //Apply a different class if the rep is a chair (in thise case, make it larger than the others)
+        if (d.reportStatus == "notCompleted") {
+          thisRep.style("opacity", 0.6);
+        } else if (d.reportStatus == "inProgress") {
+          thisRep.style("opacity", 1);
+        }
+
+        //Apply a different class if the rep is a chair (in thise case, to make it larger than the regular reps)
         if (d.rank == "chair") {
           thisRep.classed(styles.chair, true);
         } else {
           thisRep.classed(styles.rep, true);
         }
 
+        //This is where you can add additional classes, specified in the files congress.module.css, e.g.:
+        //thisRep.classed(styles.<class>, true)
+
+        //Make the text in the box unselectable to improve usability
         thisRep.classed(styles.unselectable, true);
 
+        //Set the text in the box to be the representative's state
         thisRep.text(d.state)
       })
       .on('mouseover', function(d) {
+        select(this).classed(styles.repOnHover,true);
+
         //Set the text of the tooltip
         tooltip.text(d.name + '\n' + d.rank + '\n' + d.affil); 
         
@@ -54,6 +75,7 @@ function Congress() {
         return tooltip.style('visibility', 'visible');
       })
       .on('mouseout', function(d) {
+        select(this).classed(styles.repOnHover,false);
         //Hide the tooltip
         return tooltip.style('visibility', 'hidden');
       })
