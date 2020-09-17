@@ -23,20 +23,20 @@ Participants can sign up for one of the assigned report cards below, or they can
 
 ## Senate Environment & Public Works Committee:
 
-![A graphic demonstrating the Senate Environment & Public Works Committee: eleven republican members and ten democrat members of the Senate Environment & Public Works Committee. John Barraso is a republican and the chair, Thomas R carper is a democrat and a ranking member](./senate-env-pw.png)
+![A graphic demonstrating the Senate Environment & Public Works Committee: eleven Republican members and ten Democrat members of the Senate Environment & Public Works Committee. John Barraso is a Republican and the chair, Thomas R Carper is a Democrat and a ranking member](./senate-env-pw.png)
 
-Key
-![A key to the colors used in the graphic: republicans are in red circles and democrats in blue circles, lighter shaded circles indicate the report card is yet to be made, darker shaded circles indicate the report card is in progress, and circles with a green check indicate the report card is completed] (./key-outlines.png)
-![A key to the markings used in the graphic: Committee chairs are circled in black, vice chairs are circled in a dotted black circle and ranking members have four black lines around them.](./key-progress.png)
+Key:
+![A key to the colors used in the graphic: Republicans are in red circles and Democrats in blue circles, lighter shaded circles indicate the report card is yet to be made, darker shaded circles indicate the report card is in progress, and circles with a green check indicate the report card is completed](./key-outlines.png)
+![A key to the markings used in the graphic: Committee chairs are circled in black, vice chairs are circled in a dotted black circle, and ranking members have four black lines around them.](./key-progress.png)
 
 
 ## House Energy & Commerce Committee:
 
-![A graphic demonstrating the House Energy & Commerce Committee: twenty four republican members and thirty one democrat members of the Senate Environment & Public Works Committee. Frank Palone is a democrat and the chair, Yvette D. Clarke is a democrat and the vice chair, Greg Walden is a republican and a ranking member](house-energy-commerce.png)
+![A graphic demonstrating the House Energy & Commerce Committee: twenty-four Republican members and thirty-one Democrat members of the Senate Environment & Public Works Committee. Frank Palone is a Democrat and the chair, Yvette D. Clarke is a Democrat and the vice chair, Greg Walden is a Republican and a ranking member](house-energy-commerce.png)
 
 Key:
-![ to updt](./key-outlines.png)
-![](./key-progress.png)
+![A key to the colors used in the graphic: Republicans are in red circles and Democrats in blue circles, lighter shaded circles indicate the report card is yet to be made, darker shaded circles indicate the report card is in progress, and circles with a green check indicate the report card is completed](./key-outlines.png)
+![A key to the markings used in the graphic: Committee chairs are circled in black, vice chairs are circled in a dotted black circle, and ranking members have four black lines around them.](./key-progress.png)
 
 <big>Want to participate? Sign up here:</big>
 
