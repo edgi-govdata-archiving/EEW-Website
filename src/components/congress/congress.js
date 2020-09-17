@@ -6,6 +6,8 @@ import { useCongressData } from 'hooks/use-congress-data';
 // Usage: 
 // ADD NEW DATA TO: content\congress\congress.json
 // MAKE SURE EVERYTHING IS QUERIED IN: src\hooks\use-congress-data.js (no need to change this file if you are not adding any new variables to the json!)
+// ADD OR EDIT STYLES ON THIS CSS SHEET: src\components\congress\congress.module.css
+// REFERENCE A CLASS USING THIS SYNTAX: styles.example
 
 // Credits:
 // d3 manipulation of div elements rather than svg/rect elements from: https://pudding.cool/process/flexbox-layout/
@@ -37,6 +39,7 @@ function Congress() {
           thisRep.style("background-color","blue"); 
         }
 
+        //Apply different opacity depending on whether the report was completed or not
         if (d.reportStatus == "notCompleted") {
           thisRep.style("opacity", 0.6);
         } else if (d.reportStatus == "inProgress") {
@@ -84,6 +87,11 @@ function Congress() {
             y = event.y;        
         tooltip.style('top', y + 'px');
         tooltip.style('left', x + 10 + 'px');
+      })
+      .on('click', function(d) {
+        //Open a link on click
+        //When the correct URL has been found, add it as a variable (e.g., "url" in congress.json, query it in the hook, and reference it here as d.url
+        window.open("https://www.google.com");
       });
 
       var tooltip = fig.append('div')

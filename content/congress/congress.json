@@ -83,5 +83,12 @@
     "name":"Jane Doe",
     "affil":"dem",
     "reportStatus":"notCompleted"
+  },
+  {
+    "rank":"member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"dem",
+    "reportStatus":"notCompleted"
   }]
 }
