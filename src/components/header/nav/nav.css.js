@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.nav`
   @media only screen and (max-width: 600px) {
     ul {
+      align-items: start;
       flex-flow: column wrap;
 
       li {
@@ -16,6 +17,9 @@ export const Container = styled.nav`
   }
 
   @media only screen and (min-width: 600px) {
+    ul {
+      align-items: center;
+    }
     li {
       font-size: 1.3rem;
 
@@ -32,7 +36,6 @@ export const Container = styled.nav`
     display: flex;
     list-style: none;
     padding: 0;
-    align-items: center;
 
     li {
       margin-top: 2px;
@@ -42,5 +45,5 @@ export const Container = styled.nav`
       letter-spacing: 1px;
     }
   }
-  
+
 `;
