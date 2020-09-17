@@ -11,7 +11,7 @@ export const Container = styled.nav`
       }
     }
     img {
-      display:none;
+      display: none;
     }
   }
 
@@ -22,6 +22,9 @@ export const Container = styled.nav`
       & + li {
         margin-left: 5rem;
       }
+    }
+    .text {
+      display:none;
     }
   }
 
@@ -39,7 +42,4 @@ export const Container = styled.nav`
     }
   }
   
-  text {
-    display:none;
-  }
 `;

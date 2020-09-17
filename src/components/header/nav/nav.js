@@ -18,7 +18,7 @@ const Nav = ({title, data}) => (
       </li>
       <li>
         <a href="https://www.envirodatagov.org">
-          <div class="text">
+          <div className="text">
             EDGI
           </div>
           <Img
