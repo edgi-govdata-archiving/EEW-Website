@@ -32,6 +32,7 @@ export const Container = styled.nav`
     display: flex;
     list-style: none;
     padding: 0;
+    align-items: center;
 
     li {
       margin-top: 2px;
