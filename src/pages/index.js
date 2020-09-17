@@ -5,7 +5,7 @@ import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Congress from 'components/congress';
+import Congress, Senate from 'components/congress';
 
 {/* Styling for a two-column flex layout for this homepage */}
 const HomeWrapper = styled.div`
@@ -43,6 +43,7 @@ function Index(props) {
       </Box>
       <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
         <Congress />
+        <Senate />
       </HomeWrapper>
       <HomeWrapper>
         <Description>Join one of our upcoming events.</Description>
