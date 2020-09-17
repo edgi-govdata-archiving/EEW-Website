@@ -42,7 +42,7 @@ function Congress() {
         //Apply different opacity depending on whether the report was completed or not
         if (d.reportStatus == "notCompleted") {
           thisRep.style("opacity", 0.6);
-        } else if (d.reportStatus == "inProgress") {
+        } else if (d.reportStatus == "completed") {
           thisRep.style("opacity", 1);
         }
 
@@ -90,8 +90,10 @@ function Congress() {
       })
       .on('click', function(d) {
         //Open a link on click
-        //When the correct URL has been found, add it as a variable (e.g., "url" in congress.json, query it in the hook, and reference it here as d.url
-        window.open("https://www.google.com");
+        //When the correct URL has been determined, replace the "url" property for each representative in congress.json
+        if (d.reportStatus == "completed") {
+          window.open(d.url);
+        }
       });
 
       var tooltip = fig.append('div')

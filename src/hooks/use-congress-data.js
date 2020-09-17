@@ -11,6 +11,7 @@ export const useCongressData = () => {
             name
             affil
             reportStatus
+            url
           }
         }
       }

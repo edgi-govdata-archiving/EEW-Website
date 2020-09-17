@@ -5,90 +5,103 @@
     "state":"CA",
     "name":"John Doe",
     "affil":"dem",
-    "reportStatus":"inProgress"
+    "reportStatus":"completed",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Some asshole",
     "affil":"gop",
-    "reportStatus":"inProgress"
+    "reportStatus":"completed",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   },
   {
     "rank":"member",
     "state":"NY",
     "name":"Jane Doe",
     "affil":"dem",
-    "reportStatus":"notCompleted"
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
   }]
 }
