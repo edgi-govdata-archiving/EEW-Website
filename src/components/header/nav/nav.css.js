@@ -6,9 +6,12 @@ export const Container = styled.nav`
     ul {
       align-items: start;
       flex-flow: column wrap;
+      position: relative;
+      top: 2.5rem;
 
       li {
         margin-left: 5rem;
+        margin-bottom: 1rem;
       }
     }
     img {
