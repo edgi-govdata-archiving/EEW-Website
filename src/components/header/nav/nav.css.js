@@ -4,11 +4,10 @@ import styled from 'styled-components';
 export const Container = styled.nav`
   @media only screen and (max-width: 600px) {
     ul {
-      align-items: start;
+      align-items: flex-end;
       flex-flow: column wrap;
 
       li {
-        margin-left: 5rem;
         margin-bottom: 1rem;
       }
     }
