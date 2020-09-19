@@ -31,11 +31,20 @@ const Container = styled.div`
       transform: translateY(-50%);
   }
 
+  .react-tabs__tab--selected {
+    background-color: #DEFAF6;
+  }
+
   .react-tabs__tab-panel {
-    padding: 2rem;
+    background-color: #DEFAF6;
     border-left: 1px solid #aaa;
     border-right: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
+    padding: 1.5rem 2rem;
+
+    p {
+      margin-bottom: 0;
+    }
   }
 `;
 
