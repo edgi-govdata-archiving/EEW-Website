@@ -7,6 +7,7 @@ import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
+import TabTracks from 'components/tabtracks'
 
 {/* Styling for a two-column flex layout for this homepage */}
 const HomeWrapper = styled.div`
@@ -41,18 +42,22 @@ const VideoFrame = styled.iframe`
 
 const Index = ({ data }) => (
   <Layout>
-      <HomeWrapper>
-        <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
-      </HomeWrapper>
+    <HomeWrapper>
+      <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
+    </HomeWrapper>
+
     <Box>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
       <Gallery items={data.homeJson.gallery} />
     </Box>
 
     <HomeWrapper>
+      <TabTracks items={data.homeJson.gallery}></TabTracks>
+    </HomeWrapper>
+
+    <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
     </HomeWrapper>
-    
   </Layout>
 );
 
