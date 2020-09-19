@@ -2,14 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
-import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
-import TabTracks from 'components/tabtracks'
+import TabTracks from 'components/tabtracks';
 
-{/* Styling for a two-column flex layout for this homepage */}
+/* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`
   margin: 3rem auto;
   max-width: 600px;

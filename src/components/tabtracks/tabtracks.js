@@ -14,8 +14,8 @@ const Container = styled.div`
 
   @media only screen and (min-width: 600px) {
     .react-tabs__tab {
-      max-width: 100px;
       flex: 1 1 auto;
+      max-width: 100px;
     }
   }
 
@@ -26,20 +26,19 @@ const Container = styled.div`
   }
 
   li figure {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .react-tabs__tab--selected {
-    background-color: #DEFAF6;
+    background-color: #defaf6;
   }
 
   .react-tabs__tab-panel {
-    background-color: #DEFAF6;
-    border-left: 1px solid #aaa;
-    border-right: 1px solid #aaa;
-    border-bottom: 1px solid #aaa;
+    background-color: #defaf6;
+    border: 1px solid #aaa;
+    border-top: none;
     padding: 1.5rem 2rem;
 
     p {
