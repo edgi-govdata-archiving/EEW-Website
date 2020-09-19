@@ -48,12 +48,9 @@ const Index = ({ data }) => (
 
     <Box>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
-      <Gallery items={data.homeJson.gallery} />
-    </Box>
-
-    <HomeWrapper>
+      <br />
       <TabTracks items={data.homeJson.gallery}></TabTracks>
-    </HomeWrapper>
+    </Box>
 
     <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
@@ -82,8 +79,8 @@ export const query = graphql`
         copy
         image {
           childImageSharp {
-            fixed(width: 200) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 150) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
