@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   @media only screen and (max-width: 600px) {
     .react-tabs__tab {
-      width: 50px;
+      width: 60px;
     }
   }
 
@@ -22,7 +22,20 @@ const Container = styled.div`
   .react-tabs__tab-list {
     display: flex;
     justify-content: space-between;
-    word-wrap: break-word;
+    margin: 0;
+  }
+
+  li figure {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .react-tabs__tab-panel {
+    padding: 2rem;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
   }
 `;
 
