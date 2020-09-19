@@ -8,13 +8,13 @@ import styled from 'styled-components';
 const Container = styled.div`
   @media only screen and (max-width: 600px) {
     .react-tabs__tab {
-      width: 60px;
+      width: 50px;
     }
   }
 
   @media only screen and (min-width: 600px) {
     .react-tabs__tab {
-      width: 100px;
+      max-width: 100px;
       flex: 1 1 auto;
     }
   }
