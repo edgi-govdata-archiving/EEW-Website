@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
@@ -6,6 +6,7 @@ import Title from 'components/title';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import Congress from 'components/congress';
 import Img from 'gatsby-image';
 
 {/* Styling for a two-column flex layout for this homepage */}
@@ -48,6 +49,10 @@ const Index = ({ data }) => (
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
       <Gallery items={data.homeJson.gallery} />
     </Box>
+    
+    <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
+      <Congress />
+    </HomeWrapper>
 
     <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
