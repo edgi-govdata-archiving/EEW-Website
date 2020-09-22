@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
+import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Congress from 'components/congress';
+import Img from 'gatsby-image';
 
 {/* Styling for a two-column flex layout for this homepage */}
 const HomeWrapper = styled.div`
@@ -29,34 +31,35 @@ const Description = styled.h1`
   padding: 12px;
 `
 const calendarStyle = {
-  border: 'solid 10px #4cc0ad',
+  border: 'solid 4px #4cc0ad',
   order: '2', /* Flex order */
 }
 
-function Index(props) {
-  return (
-    <Layout>
-      <Box>
-        <Title as="h1" size="large">
-          {props.data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-        </Title>
-      </Box>
-      <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
-        <Congress />
-      </HomeWrapper>
-      <HomeWrapper>
-        <Description>Join one of our upcoming events.</Description>
+const VideoFrame = styled.iframe`
+  flex-basis: 1 1 auto;
+  padding: 10px;
+`
 
-        {/* Embed Google Calendar */}
-        <iframe title="eewCalendar" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=2&amp;bgcolor=%234cc0ad&amp;ctz=America%2FNew_York&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showTitle=0&amp;showNav=0&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=AGENDA" style={calendarStyle} width="400" height="300" frameBorder="0" scrolling="no"></iframe>
-      </HomeWrapper>
+const Index = ({ data }) => (
+  <Layout>
       <HomeWrapper>
-        <Description>Who we are.</Description>
+        <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
       </HomeWrapper>
-      <div style={{ height: '50vh' }} />
-    </Layout>
-  )
-}
+    <Box>
+      <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
+      <Gallery items={data.homeJson.gallery} />
+    </Box>
+    
+    <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
+      <Congress />
+    </HomeWrapper>
+
+    <HomeWrapper>
+      <Img fixed={data.file.childImageSharp.fixed} />
+    </HomeWrapper>
+    
+  </Layout>
+);
 
 Index.propTypes = {
   data: PropTypes.object.isRequired,
@@ -65,13 +68,31 @@ Index.propTypes = {
 export default Index;
 
 export const query = graphql`
-  query HomepageQuery {
+  query HomeQuery {
     homeJson {
       title
       content {
         childMarkdownRemark {
           html
           rawMarkdownBody
+        }
+      }
+      gallery {
+        title
+        copy
+        image {
+          childImageSharp {
+            fixed(width: 200) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+    file(relativePath: { eq: "images/logos/eew-icon-web.png" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

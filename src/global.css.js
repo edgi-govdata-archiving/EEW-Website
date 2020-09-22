@@ -16,17 +16,30 @@ export default createGlobalStyle`
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
     margin: 0;
-    padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
   }
 
   h1 {
+    font-size: 150%;
+    font-weight: bold;
+    color: #1B7F71;
+    padding-bottom: 0.5rem;
+  }
+  
+  h2 {
     font-size: 120%;
     font-weight: bold;
     color: #1B7F71;
+    padding-bottom: 0.5rem;
+  }
+  
+  h3 {
+    font-size: 110%;
+    font-weight: bold;
+    color: #1B7F71;
+    padding-bottom: 0.5rem;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -41,10 +54,9 @@ export default createGlobalStyle`
 
   body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    line-height: 1;
     font-size: 1.6rem;
     color: #000;
-    background-color: #DEFAF6;
+    background-color: #FFFFFF;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -52,10 +64,6 @@ export default createGlobalStyle`
     -webkit-font-feature-settings: "pnum";
     font-feature-settings: "pnum";
     font-variant-numeric: proportional-nums;
-  }
-
-  ol, ul {
-    list-style: none;
   }
 
   blockquote, q {
@@ -96,5 +104,11 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+  }
+    
+  big {
+    font-size: 150%;
+    font-weight: bold;
+    color: #1B7F71;
   }
 `;

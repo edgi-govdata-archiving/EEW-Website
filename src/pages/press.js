@@ -5,29 +5,29 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
 
-const Fourohfour = ({ data }) => (
+const Press = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.fourohfourJson.title} />
+    <Head pageTitle={data.pressJson.title} />
     <Box>
-      <h1>{data.fourohfourJson.title}</h1>
+      <h1>{data.pressJson.title}</h1>
       <div
         dangerouslySetInnerHTML={{
-          __html: data.fourohfourJson.content.childMarkdownRemark.html,
+          __html: data.pressJson.content.childMarkdownRemark.html,
         }}
       />
     </Box>
   </Layout>
 );
 
-Fourohfour.propTypes = {
+Press.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default Fourohfour;
+export default Press;
 
 export const query = graphql`
-  query FourohfourQuery {
-    fourohfourJson {
+  query PressQuery {
+    pressJson {
       title
       content {
         childMarkdownRemark {

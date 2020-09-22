@@ -4,15 +4,20 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem;
+  background-color: #DEFAF6;
 
   a {
-    color: #757575;
+    color: #000000;
     transition: color 0.2s ease;
     text-decoration: none;
 
     &:hover {
-      color: inherit;
+      color: #e56d13;
     }
+  },
+  
+  gray {
+    color: #
   }
 `;

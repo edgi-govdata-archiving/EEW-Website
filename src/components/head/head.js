@@ -45,7 +45,6 @@ const Head = ({
 
     <meta content="website" property="og:type" />
     <meta content={siteTitle} property="og:site_name" />
-    <meta content={social.fbAppId} property="fb:app_id" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta content={`@${social.twitter}`} name="twitter:site" />
     <meta content={`@${social.twitter}`} name="twitter:creator" />
@@ -149,6 +148,9 @@ const Head = ({
       sizes="16x16"
       type="image/png"
     />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <script src="https://secure.actblue.com/cf/assets/actblue.js" async></script>
 
     <script type="application/ld+json">
       {JSON.stringify(
@@ -162,6 +164,7 @@ const Head = ({
         })
       )}
     </script>
+
   </Helmet>
 );
 
@@ -192,7 +195,6 @@ const HeadWithQuery = props => (
             themeColor
             social {
               twitter
-              fbAppId
             }
           }
         }

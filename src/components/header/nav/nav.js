@@ -9,13 +9,13 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/events">Events</Link>
-      </li>
-      <li>
-        <a href="https://www.envirodatagov.org">EDGI</a>
+        <Link to="/reports">Reports</Link>
       </li>
       <li>
         <Link to="/press">Press</Link>
+      </li>
+      <li>
+        <a href="https://www.envirodatagov.org">EDGI</a>
       </li>
     </ul>
   </Container>
