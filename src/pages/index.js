@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import Congress from 'components/congress';
 import Img from 'gatsby-image';
 import TabTracks from 'components/tabtracks';
 
@@ -49,6 +50,11 @@ const Index = ({ data }) => (
       <br />
       <TabTracks items={data.homeJson.gallery}></TabTracks>
     </Box>
+    
+    <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
+      <Congress chamber={"senate"}/>
+      <Congress chamber={"house"}/>
+    </HomeWrapper>
 
     <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
