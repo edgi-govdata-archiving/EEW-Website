@@ -26,8 +26,8 @@ function Congress({chamber}) {
     congressData = allCongressData.senateData;
     committee = "Senate Environment and Public Works Committee";
   } else {
-    congressData = allCongressData.congressData;
-    committee = "House Environment and Public Works Committee";
+    congressData = allCongressData.houseData;
+    committee = "House Energy and Commerce Committee";
   }
 
   useEffect(() => {
