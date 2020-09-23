@@ -51,7 +51,8 @@ const Index = ({ data }) => (
     </Box>
     
     <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
-      <Congress />
+      <Congress chamber={"senate"}/>
+      <Congress chamber={"house"}/>
     </HomeWrapper>
 
     <HomeWrapper>

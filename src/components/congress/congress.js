@@ -16,9 +16,19 @@ import { useCongressData } from 'hooks/use-congress-data';
 // Notes:
 // If report cards will be links, then could do something like this: http://www.d3noob.org/2014/05/including-html-link-in-d3js-tool-tip.html
 
-function Congress() {
+function Congress({chamber}) {
   const figureRef = useRef();
-  const congressData = useCongressData();
+  const allCongressData = useCongressData();
+  let congressData = "";
+  let committee = "";
+  
+  if(chamber=="senate"){
+    congressData = allCongressData.senateData;
+    committee = "Senate Environment and Public Works Committee";
+  } else {
+    congressData = allCongressData.houseData;
+    committee = "House Energy and Commerce Committee";
+  }
 
   useEffect(() => {
     // Select the figure as declared in the layout section (at bottom)
@@ -33,7 +43,7 @@ function Congress() {
         var thisRep = select(this);
 
         //Apply standard party colors
-        if (d.affil == "gop") {
+        if (d.affil == "Republican") {
           thisRep.style("background-color","red");
         } else {
           thisRep.style("background-color","blue"); 
@@ -47,7 +57,7 @@ function Congress() {
         }
 
         //Apply a different class if the rep is a chair (in thise case, to make it larger than the regular reps)
-        if (d.rank == "chair") {
+        if (d.rank == "Chair") {
           thisRep.classed(styles.chair, true);
         } else {
           thisRep.classed(styles.rep, true);
@@ -107,9 +117,10 @@ function Congress() {
   return (
     <React.Fragment>
       <div className={styles.container}>
-        <div className={styles.title}>Senate Environment and Public Works Committee</div>
-        <figure ref={figureRef} className={styles.viz}>  
-        </figure>
+        <div className={styles.title}>
+          {committee}
+        </div>
+        <figure ref={figureRef} className={styles.viz} ></figure>
       </div>
     </React.Fragment>
   )

@@ -5,7 +5,15 @@ export const useCongressData = () => {
     graphql`
       query MyQuery {
         congressJson {
-          congressData {
+          houseData {
+            rank
+            state
+            name
+            affil
+            reportStatus
+            url
+          }
+          senateData {
             rank
             state
             name
@@ -17,5 +25,5 @@ export const useCongressData = () => {
       }
     `
   )
-  return congressJson.congressData
+  return congressJson
 }

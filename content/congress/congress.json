@@ -1,106 +1,211 @@
 { 
-  "congressData": [
+  "houseData": [
   {
-    "rank":"chair",
+    "rank":"Chair",
     "state":"CA",
     "name":"John Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"completed",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"A person",
-    "affil":"gop",
+    "affil":"Republican",
     "reportStatus":"completed",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
   {
-    "rank":"member",
+    "rank":"Member",
     "state":"NY",
     "name":"Jane Doe",
-    "affil":"dem",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  }],
+  "senateData": [
+  {
+    "rank":"Chair",
+    "state":"CA",
+    "name":"Jimmy Dean",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"A person",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
+    "reportStatus":"notCompleted",
+    "url":"https://www.google.com"
+  },
+  {
+    "rank":"Member",
+    "state":"NY",
+    "name":"Jane Doe",
+    "affil":"Democrat",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   }]
