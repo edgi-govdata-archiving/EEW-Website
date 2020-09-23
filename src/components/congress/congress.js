@@ -26,7 +26,7 @@ function Congress() {
 
     fig
       .selectAll('div')
-      .data(congressData) //Attach data
+      .data(congressData.senateData) //Attach data
       .join('div') //Create divs
       .each(function (d) {
         //Apply stylings to each representative
