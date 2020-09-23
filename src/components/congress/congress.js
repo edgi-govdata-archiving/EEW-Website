@@ -43,7 +43,7 @@ function Congress({chamber}) {
         var thisRep = select(this);
 
         //Apply standard party colors
-        if (d.affil == "gop") {
+        if (d.affil == "Republican") {
           thisRep.style("background-color","red");
         } else {
           thisRep.style("background-color","blue"); 
@@ -57,7 +57,7 @@ function Congress({chamber}) {
         }
 
         //Apply a different class if the rep is a chair (in thise case, to make it larger than the regular reps)
-        if (d.rank == "chair") {
+        if (d.rank == "Chair") {
           thisRep.classed(styles.chair, true);
         } else {
           thisRep.classed(styles.rep, true);
