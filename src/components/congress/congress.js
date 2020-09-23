@@ -16,9 +16,19 @@ import { useCongressData } from 'hooks/use-congress-data';
 // Notes:
 // If report cards will be links, then could do something like this: http://www.d3noob.org/2014/05/including-html-link-in-d3js-tool-tip.html
 
-function Congress() {
+function Congress({chamber}) {
   const figureRef = useRef();
-  const congressData = useCongressData();
+  const allCongressData = useCongressData();
+  let congressData = "";
+  let committee = "";
+  
+  if(chamber=="senate"){
+    congressData = allCongressData.senateData;
+    committee = "Senate Environment and Public Works Committee";
+  } else {
+    congressData = allCongressData.congressData;
+    committee = "House Environment and Public Works Committee";
+  }
 
   useEffect(() => {
     // Select the figure as declared in the layout section (at bottom)
@@ -26,7 +36,7 @@ function Congress() {
 
     fig
       .selectAll('div')
-      .data(congressData.senateData) //Attach data
+      .data(congressData) //Attach data
       .join('div') //Create divs
       .each(function (d) {
         //Apply stylings to each representative
@@ -107,9 +117,10 @@ function Congress() {
   return (
     <React.Fragment>
       <div className={styles.container}>
-        <div className={styles.title}>Senate Environment and Public Works Committee</div>
-        <figure ref={figureRef} className={styles.viz}>  
-        </figure>
+        <div className={styles.title}>
+          {committee}
+        </div>
+        <figure ref={figureRef} className={styles.viz} ></figure>
       </div>
     </React.Fragment>
   )
