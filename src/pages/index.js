@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
-import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Congress from 'components/congress';
 import Img from 'gatsby-image';
+import TabTracks from 'components/tabtracks';
 
-{/* Styling for a two-column flex layout for this homepage */}
+/* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`
   margin: 3rem auto;
   max-width: 600px;
@@ -42,12 +41,14 @@ const VideoFrame = styled.iframe`
 
 const Index = ({ data }) => (
   <Layout>
-      <HomeWrapper>
-        <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
-      </HomeWrapper>
+    <HomeWrapper>
+      <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
+    </HomeWrapper>
+
     <Box>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
-      <Gallery items={data.homeJson.gallery} />
+      <br />
+      <TabTracks items={data.homeJson.gallery}></TabTracks>
     </Box>
     
     <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
@@ -58,7 +59,6 @@ const Index = ({ data }) => (
     <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
     </HomeWrapper>
-    
   </Layout>
 );
 
@@ -83,8 +83,8 @@ export const query = graphql`
         copy
         image {
           childImageSharp {
-            fixed(width: 200) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 150) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
