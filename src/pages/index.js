@@ -39,6 +39,11 @@ const VideoFrame = styled.iframe`
   padding: 10px;
 `
 
+const DataViz = styled.div`
+  flex-direction: column;
+  justify-content: center;
+`
+
 const Index = ({ data }) => (
   <Layout>
     <HomeWrapper>
@@ -52,8 +57,10 @@ const Index = ({ data }) => (
     </Box>
     
     <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
-      <Congress chamber={"senate"}/>
-      <Congress chamber={"house"}/>
+      <DataViz>
+        <Congress chamber={"senate"}/>
+        <Congress chamber={"house"}/>
+      </DataViz>
     </HomeWrapper>
 
     <HomeWrapper>
