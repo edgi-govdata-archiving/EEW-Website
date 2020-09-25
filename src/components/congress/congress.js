@@ -76,7 +76,7 @@ function Congress({chamber}) {
         select(this).classed(styles.repOnHover,true);
 
         //Set the text of the tooltip
-        tooltip.text(d.name + '\n' + d.rank + '\n' + d.affil); 
+        tooltip.text(d.name + '\n' + 'Committee ' + d.rank + '\n' + d.affil + '\n' + d.state);
         
         //Position tooltips at mouse location
         var x = event.x,
