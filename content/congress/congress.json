@@ -3,6 +3,7 @@
   {
     "rank":"Chair",
     "state":"CA",
+    "district": "13",
     "name":"John Doe",
     "affil":"Democrat",
     "reportStatus":"completed",
@@ -11,6 +12,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -19,6 +21,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"A person",
     "affil":"Republican",
     "reportStatus":"completed",
@@ -27,6 +30,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -35,6 +39,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -43,6 +48,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -51,6 +57,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -59,6 +66,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -67,6 +75,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -75,6 +84,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -83,6 +93,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -91,6 +102,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -99,6 +111,7 @@
   {
     "rank":"Member",
     "state":"NY",
+    "district": "13",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
