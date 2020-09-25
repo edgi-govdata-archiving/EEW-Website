@@ -8,6 +8,7 @@ export const useCongressData = () => {
           houseData {
             rank
             state
+            district
             name
             affil
             reportStatus
