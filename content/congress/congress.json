@@ -20,8 +20,8 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
-    "district": "13",
+    "state":"WY",
+    "district": "00",
     "name":"A person",
     "affil":"Republican",
     "reportStatus":"completed",
@@ -29,8 +29,8 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
-    "district": "13",
+    "state":"OR",
+    "district": "02",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -38,8 +38,8 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
-    "district": "13",
+    "state":"IL",
+    "district": "09",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -47,8 +47,8 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
-    "district": "13",
+    "state":"CA",
+    "district": "56",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -176,7 +176,7 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
+    "state":"OK",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -184,7 +184,7 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
+    "state":"OR",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -192,7 +192,7 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
+    "state":"IL",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
@@ -200,7 +200,7 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
+    "state":"IN",
     "name":"Jane Doe",
     "affil":"Democrat",
     "reportStatus":"notCompleted",
