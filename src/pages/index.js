@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
-import Title from 'components/title';
-import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import Congress from 'components/congress';
 import Img from 'gatsby-image';
+import TabTracks from 'components/tabtracks';
+import { primary } from 'constants/theme';
 
-{/* Styling for a two-column flex layout for this homepage */}
+/* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`
   margin: 3rem auto;
   max-width: 600px;
@@ -30,7 +31,7 @@ const Description = styled.h1`
   padding: 12px;
 `
 const calendarStyle = {
-  border: 'solid 4px #4cc0ad',
+  border: 'solid 4px ${primary}',
   order: '2', /* Flex order */
 }
 
@@ -39,20 +40,33 @@ const VideoFrame = styled.iframe`
   padding: 10px;
 `
 
+const DataViz = styled.div`
+  flex-direction: column;
+  justify-content: center;
+`
+
 const Index = ({ data }) => (
   <Layout>
-      <HomeWrapper>
-        <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
-      </HomeWrapper>
+    <HomeWrapper>
+      <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
+    </HomeWrapper>
+
     <Box>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
-      <Gallery items={data.homeJson.gallery} />
+      <br />
+      <TabTracks items={data.homeJson.gallery}></TabTracks>
     </Box>
+    
+    <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
+      <DataViz>
+        <Congress chamber={"senate"}/>
+        <Congress chamber={"house"}/>
+      </DataViz>
+    </HomeWrapper>
 
     <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
     </HomeWrapper>
-    
   </Layout>
 );
 
@@ -77,8 +91,8 @@ export const query = graphql`
         copy
         image {
           childImageSharp {
-            fixed(width: 200) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 150) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

@@ -1,0 +1,72 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  width: 400px;
+  margin: 20px;
+  background-color: white;
+}
+
+.title {
+  font: 20px sans-serif;
+  font-weight: bolder;
+  margin: 7px;
+  background-color: white;
+}
+
+.rep {
+  stroke: #ccc;
+  stroke-width: 2px;
+  flex-wrap: wrap;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.chair {
+  stroke: #ccc;
+  stroke-width: 2px;
+  flex-wrap: wrap;
+  width: 85px;
+  height: 30px;
+  margin: 2px;
+  color: white;
+  padding: 10px;
+  text-align:center;
+}
+
+.repOnHover {
+  outline: 2px solid #55c0ad;
+}
+
+.viz {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  position: relative;
+  top:0px;
+  padding: 5px;
+  overflow: visible;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tip {
+  width: 150px;
+  height: 4.5em;
+  padding: 7px;
+  border: 2px solid #55c0ad;
+  white-space: pre-line;
+  z-index: 10;
+  background: white;
+}
