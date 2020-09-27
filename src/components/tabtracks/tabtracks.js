@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
+import { lightprimary } from 'constants/theme';
 
 const Container = styled.div`
   @media only screen and (max-width: 600px) {
@@ -32,11 +33,11 @@ const Container = styled.div`
   }
 
   .react-tabs__tab--selected {
-    background-color: #defaf6;
+    background-color: ${lightprimary};
   }
 
   .react-tabs__tab-panel {
-    background-color: #defaf6;
+    background-color: ${lightprimary};
     border: 1px solid #aaa;
     border-top: none;
     padding: 1.5rem 2rem;

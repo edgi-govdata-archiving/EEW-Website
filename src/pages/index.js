@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import Congress from 'components/congress';
 import Img from 'gatsby-image';
 import TabTracks from 'components/tabtracks';
+import { primary } from 'constants/theme';
 
 /* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`
@@ -30,7 +31,7 @@ const Description = styled.h1`
   padding: 12px;
 `
 const calendarStyle = {
-  border: 'solid 4px #4cc0ad',
+  border: 'solid 4px ${primary}',
   order: '2', /* Flex order */
 }
 

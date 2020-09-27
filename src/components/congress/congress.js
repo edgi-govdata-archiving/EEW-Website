@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { select, event } from 'd3';
 import styles from './congress.module.css';
 import { useCongressData } from 'hooks/use-congress-data';
+import { blue, red }
 
 // Usage: 
 // ADD NEW DATA TO: content\congress\congress.json
@@ -44,9 +45,9 @@ function Congress({chamber}) {
 
         //Apply standard party colors
         if (d.affil == "Republican") {
-          thisRep.style("background-color","red");
+          thisRep.style("background-color",${red});
         } else {
-          thisRep.style("background-color","blue"); 
+          thisRep.style("background-color",${blue}); 
         }
 
         //Apply different opacity depending on whether the report was completed or not
