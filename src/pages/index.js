@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import Congress from 'components/congress';
 import Img from 'gatsby-image';
 import TabTracks from 'components/tabtracks';
-import { primary, accent, blue, red, background } from 'constants/theme';
+import { primary } from 'constants/theme';
 
 /* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`

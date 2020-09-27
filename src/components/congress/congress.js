@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { select, event } from 'd3';
 import styles from './congress.module.css';
 import { useCongressData } from 'hooks/use-congress-data';
-import { primary, lightprimary, accent, blue, red, background }
+import { blue, red }
 
 // Usage: 
 // ADD NEW DATA TO: content\congress\congress.json

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { primary, lightprimary, accent, blue, red, background } from 'constants/theme';
+import { lightprimary, accent } from 'constants/theme';
 
 export const Container = styled.footer`
   display: flex;

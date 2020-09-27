@@ -4,7 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-import { primary, lightprimary, accent, blue, red, background } from 'constants/theme';
+import { lightprimary } from 'constants/theme';
 
 const Container = styled.div`
   @media only screen and (max-width: 600px) {
