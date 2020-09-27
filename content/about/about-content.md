@@ -9,6 +9,8 @@ These reports can include information about EPA inspections of these sites, whet
 
 We are developing Notebooks to generate several different types of reports: analyzing inspections, violations, enforcement actions, and greenhouse gas emissions by zip-code, congressional district, and county; or investigating a facility of concern across regulatory statutes. We are developing other specialized Notebooks, including one about declining enforcement during the COVID-19 crisis, and we will work with partner organizations to make notebooks for questions they want answered. We want to make environmental compliance data more accessible and useful through our Jupyter Notebooks and supplementing the numbers with community stories, compelling data visualizations, and contextual research.
 
+![A screen shot of participants in one of the EEW events](./eew-public-workshop.png)
+
 ## You Can EEW Too
 Importantly, these workshops are not meant to center EDGI or the EEW team. Rather, we hope that every workshop will be co-hosted by one or more partner organizations: community groups, national environmental watchdogs, research hubs, and everything in between. We are here to help you answer pressing questions and create materials and networks that support your advocacy and organizing efforts.
 
