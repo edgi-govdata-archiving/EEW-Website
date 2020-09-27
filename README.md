@@ -45,10 +45,12 @@ The site can be manually deployed using the npm module [gh-pages](https://github
 Ensure you have dev dependencies installed and then run `npm run deploy` from a local clone of the `main` branch.
 
 ### Local development
-1. Make sure you have [Node](https://nodejs.org/en/download/) installed
-1. In a local clone of this repo, run `npm install` to install dependencies
+0. (If you're just learning, it would be a good idea to get familiar with the command line. Here's a [1-page tutorial](https://tessel.github.io/t2-start/cmd.html), and here's a [video demo](https://www.loom.com/share/7b8008ac9cd649f6beae77bf389cee0d))
+1. Make sure you have [Node](https://nodejs.org/en/download/) installed ([Video demo](https://www.loom.com/share/f626ad35facb4ead92b2ccb476932ac0))
+1. Create a local clone of this repo ([Video demo](https://www.loom.com/share/cfbd2d4bbc394d30995510f474ee121b))
+1. In a local clone of this repo, run `npm install` to install dependencies ([Video demo](https://www.loom.com/share/7a2fd8adeb59429392b5d989ebf8f91a))
 1. You will need the Gatsby CLI tool: `npm install -g gatsby-cli`
-1. Run locally with `gatsby develop` (defaults to [http://localhost:8000/](http://localhost:8000/))
+1. Run locally with `gatsby develop` (defaults to [http://localhost:8000/](http://localhost:8000/)) ([Video demo](https://www.loom.com/share/54a372833f134220b852ca34e84e5d58))
 
 [Gatsby quickstart docs](https://www.gatsbyjs.org/docs/quick-start/)
 

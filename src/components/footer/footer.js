@@ -32,9 +32,7 @@ const Footer = () => (
     </div>
     </div>
     <div id="hashtags">
-      <h2>#EEWatch</h2>
-      <h2>#EnvironmentalDataJustice</h2>
-      <h2>#YouCanEEWToo</h2>
+      <h2>#EEWatch • #EnvironmentalDataJustice • #YouCanEEWToo</h2>
     </div>
     <div id="EDGI-logo">
     

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { accent } from 'constants/theme';
+import { primary, background, accent } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -24,21 +24,21 @@ export default createGlobalStyle`
   h1 {
     font-size: 150%;
     font-weight: bold;
-    color: #1B7F71;
+    color: ${primary};
     padding-bottom: 0.5rem;
   }
   
   h2 {
     font-size: 120%;
     font-weight: bold;
-    color: #1B7F71;
+    color: ${primary};
     padding-bottom: 0.5rem;
   }
   
   h3 {
     font-size: 110%;
     font-weight: bold;
-    color: #1B7F71;
+    color: ${primary};
     padding-bottom: 0.5rem;
   }
 
@@ -56,7 +56,7 @@ export default createGlobalStyle`
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     font-size: 1.6rem;
     color: #000;
-    background-color: #DEFAF6;
+    background-color: ${background};
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -44,11 +44,8 @@ EDGI is an international network of over 175 members from more than 80 different
 EDGI’s work has been widely acknowledged, leading to EDGI testifying before Congress on declines in EPA enforcement, and hundreds of mentions in leading national and international media such as The New York Times, The Washington Post, Vice News, and CNN. For more about our work, read our [2019 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2019/) and [2020 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2020/).
 
 ## Collaborators
-[![Stony Brook University Geospatial Center Logo](./stonybrook-geospatial.png)](http://www.stonybrook.edu/commcms/gss/)
-[![Teaching Learning Lab logo](./tll-logo.png)](http://apps.tlt.stonybrook.edu/)
-[![Sunrise Boston logo](./sunrise-boston-logo.jpg)](http://www.facebook.com/SunriseBoston/)
+![EEW's collaborators: Stony Brook University Geospatial Center, Teaching Learning Lab, Sunrise Boston](./collabs.png)
+
 
 ## Funding
-[![The David and Lucile Packard Foundation logo](./packard-logo.jpg)](https://www.packard.org/)
-[![Doris Duke Charitable Foundation logo](./doris-duke-logo.jpg)](https://www.ddcf.org/)
-[![Northeastern Unicersity Lab for Texts, Maps, and Networks Logo](./northeastern-logo.png)](https://web.northeastern.edu/nulab/)
+![EEW's funders: The David and Lucile Packard Foundation, Doris Duke Charitable Foundation, Northeastern Unicersity Lab for Texts, Maps, and Networks](./funders.png)

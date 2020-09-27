@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import { lightprimary, accent } from 'constants/theme';
 
 export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem;
+  background-color: ${lightprimary};
 
   a {
     color: #000000;
@@ -12,7 +14,7 @@ export const Container = styled.header`
     text-decoration: none;
 
     &:hover {
-      color: #e56d13;
+      color: ${accent};
     }
   },
   

@@ -1,24 +1,34 @@
 import styled from 'styled-components';
 
-{/* Try turning nav into a column on narrow screens */}
+{/* Turn nav into a column on narrow screens */}
 export const Container = styled.nav`
   @media only screen and (max-width: 600px) {
     ul {
+      align-items: flex-end;
       flex-flow: column wrap;
 
       li {
-        margin-left: 3rem;
+        margin-bottom: 1rem;
       }
+    }
+    .gatsby-image-wrapper {
+      display: none !important;
     }
   }
 
   @media only screen and (min-width: 600px) {
+    ul {
+      align-items: center;
+    }
     li {
       font-size: 1.3rem;
 
       & + li {
-        margin-left: 3rem;
+        margin-left: 5rem;
       }
+    }
+    .text {
+      display:none;
     }
   }
 
@@ -30,7 +40,10 @@ export const Container = styled.nav`
     li {
       margin-top: 2px;
       text-transform: uppercase;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+      font-weight: 550;
+      letter-spacing: 1px;
     }
   }
+
 `;

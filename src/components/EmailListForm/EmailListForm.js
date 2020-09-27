@@ -54,7 +54,7 @@ export default class EmailListForm extends React.Component {
   render () {
     return (
       <form onSubmit={this._handleSubmit}>
-        <h2>Together we can hold industry and environmental regulators accountable. Join us.
+        <h2>Together we can hold industry and environmental regulators accountable.<br/>Join us.
         </h2>
         <FormWrapper>
           <AddressBox
