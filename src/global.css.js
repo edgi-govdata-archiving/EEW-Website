@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { primary, background } from 'constants/theme';
+import { primary, background, accent } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
