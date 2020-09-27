@@ -26,6 +26,7 @@ export default createGlobalStyle`
     font-weight: bold;
     color: ${primary};
     padding-bottom: 0.5rem;
+    padding-top: 1em;
   }
   
   h2 {
@@ -33,6 +34,7 @@ export default createGlobalStyle`
     font-weight: bold;
     color: ${primary};
     padding-bottom: 0.5rem;
+    padding-top: 1em;
   }
   
   h3 {
@@ -40,6 +42,7 @@ export default createGlobalStyle`
     font-weight: bold;
     color: ${primary};
     padding-bottom: 0.5rem;
+    padding-top: 1em;
   }
 
   /* HTML5 display-role reset for older browsers */
