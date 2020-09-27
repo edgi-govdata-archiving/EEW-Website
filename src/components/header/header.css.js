@@ -1,11 +1,12 @@
 import styled from 'styled-components';
+import { primary, lightprimary, accent, blue, red, background } from 'constants/theme';
 
 export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  background-color: #DEFAF6;
+  background-color: ${lightprimary};
 
   a {
     color: #000000;
@@ -13,7 +14,7 @@ export const Container = styled.header`
     text-decoration: none;
 
     &:hover {
-      color: #e56d13;
+      color: ${accent};
     }
   },
   
