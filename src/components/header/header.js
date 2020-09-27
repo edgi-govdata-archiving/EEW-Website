@@ -33,7 +33,7 @@ const Header = ({ title, data }) => (
         />
       </Link>
 
-      <Nav />
+      <Nav title={"main navigation bar"}/>
     </Container>
   </AnimatedContainer>
 );

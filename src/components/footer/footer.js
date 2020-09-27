@@ -12,7 +12,8 @@ const shareBlockProps = {
     { network: 'Email', icon: FaEnvelope, link: 'mailto:info@environmentalenforcementwatch.org'},
     { network: 'Twitter', icon: FaTwitter, link: 'https://twitter.com/EEW_Network'},
     { network: 'Facebook', icon: FaFacebook, link: 'https://www.facebook.com/envirodgi/'}
-  ]
+  ],
+  url: 'https://envirodgi.org'
 };
 
 const Footer = () => (

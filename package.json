@@ -1,7 +1,7 @@
 {
   "name": "gatsby-universal",
-  "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "license": "CC-by-NC-SA",
+  "author": "Environmental Data and Governance Initiative <EnviroDGI@protonmail.com>",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",
