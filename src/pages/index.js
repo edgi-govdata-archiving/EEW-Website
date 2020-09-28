@@ -35,11 +35,6 @@ const calendarStyle = {
   order: '2', /* Flex order */
 }
 
-const VideoFrame = styled.iframe`
-  flex-basis: 1 1 auto;
-  padding: 10px;
-`
-
 const DataViz = styled.div`
   flex-direction: column;
   justify-content: center;
@@ -47,10 +42,6 @@ const DataViz = styled.div`
 
 const Index = ({ data }) => (
   <Layout>
-    <HomeWrapper>
-      <VideoFrame title="About Environmental Enforcement Watch" width="600" height="340" src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></VideoFrame>
-    </HomeWrapper>
-
     <Box>
       <div dangerouslySetInnerHTML={{__html: data.homeJson.content.childMarkdownRemark.html}}/>
       <br />
