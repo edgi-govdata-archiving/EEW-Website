@@ -57,7 +57,7 @@ const Index = ({ data }) => (
       <TabTracks items={data.homeJson.gallery}></TabTracks>
     </Box>
     
-    <HomeWrapper style={{height:'500px',backgroundColor:'#4cc0ad'}}>
+    <HomeWrapper style={{height:'fit-content', padding:'20px', backgroundColor:'#4cc0ad'}}>
       <DataViz>
         <Congress chamber={"senate"}/>
         <Congress chamber={"house"}/>
