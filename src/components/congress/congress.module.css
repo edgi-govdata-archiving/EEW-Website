@@ -62,7 +62,7 @@
 }
 
 .tip {
-  width: 150px;
+  width: fit-content;
   height: 4.5em;
   padding: 7px;
   border: 2px solid #55c0ad;
