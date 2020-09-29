@@ -77,7 +77,7 @@ function Congress({chamber}) {
 
         //Set the text of the tooltip
         var tooltipText = d.name + '\nCommittee ' + d.rank + '\n' + d.affil + '\nRepresenting ' + d.state
-        if (d.district) {
+        if (d.district != '00') {
           tooltip.text(tooltipText + ' ' + d.district)
         } else {
           tooltip.text(tooltipText);
