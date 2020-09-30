@@ -5,7 +5,6 @@ import Box from 'components/box';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
-import TabTracks from 'components/tabtracks';
 
 /* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`
@@ -30,8 +29,6 @@ const Index = ({ data }) => (
           __html: data.homeJson.content.childMarkdownRemark.html,
         }}
       />
-      <br />
-      <TabTracks items={data.homeJson.gallery}></TabTracks>
     </Box>
 
     <HomeWrapper>
@@ -54,17 +51,6 @@ export const query = graphql`
         childMarkdownRemark {
           html
           rawMarkdownBody
-        }
-      }
-      gallery {
-        title
-        copy
-        image {
-          childImageSharp {
-            fluid(maxWidth: 150) {
-              ...GatsbyImageSharpFluid
-            }
-          }
         }
       }
     }
