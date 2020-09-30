@@ -4,7 +4,6 @@ import { Link, graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import posed from 'react-pose';
 import { Container } from './header.css';
-import Title from 'components/title';
 import Nav from 'components/header/nav';
 
 // Example of a component-specific page transition
@@ -23,23 +22,19 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ title, data }) => (
+const Header = ({ data }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
-        <Img
-          fixed={data.file.childImageSharp.fixed}
-          alt='EEW Logo'
-        />
+        <Img fixed={data.file.childImageSharp.fixed} alt="EEW Logo" />
       </Link>
 
-      <Nav title={"main navigation bar"}/>
+      <Nav />
     </Container>
   </AnimatedContainer>
 );
 
 Header.propTypes = {
-  title: PropTypes.string.isRequired,
   data: PropTypes.object.isRequired,
 };
 
@@ -55,9 +50,9 @@ export default function MyHeader(props) {
               }
             }
           }
-        }    
+        }
       `}
-    render={data => <Header data={data} {...props} />}
+      render={data => <Header data={data} {...props} />}
     />
-  )
+  );
 }

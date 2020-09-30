@@ -8,7 +8,7 @@ export const Container = styled.footer`
   padding: 4rem;
   background-color: ${lightprimary};
   flex-flow: column;
-  text-align:center;
+  text-align: center;
 
   #contribute {
     padding: 2rem;
@@ -16,7 +16,7 @@ export const Container = styled.footer`
     width: 400px;
     flex-shrink: 1;
   }
-  
+
   #socials {
     margin: 2rem;
   }
@@ -33,9 +33,10 @@ export const Container = styled.footer`
     &:hover {
       color: inherit;
     }
-  },
-  
+  }
+
+  ,
   gray {
-    color: #
+    color: #;
   }
 `;

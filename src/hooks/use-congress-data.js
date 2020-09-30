@@ -1,4 +1,4 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from 'gatsby';
 
 export const useCongressData = () => {
   const { congressJson } = useStaticQuery(
@@ -25,6 +25,6 @@ export const useCongressData = () => {
         }
       }
     `
-  )
-  return congressJson
-}
+  );
+  return congressJson;
+};

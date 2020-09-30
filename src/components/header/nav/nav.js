@@ -4,7 +4,7 @@ import { Link, graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import { Container } from './nav.css';
 
-const Nav = ({title, data}) => (
+const Nav = ({ data }) => (
   <Container>
     <ul>
       <li>
@@ -21,13 +21,8 @@ const Nav = ({title, data}) => (
       </li>
       <li>
         <a href="https://www.envirodatagov.org">
-          <div className="text">
-            EDGI
-          </div>
-          <Img
-            fixed={data.file.childImageSharp.fixed}
-            alt="EDGI Logo"
-          />
+          <div className="text">EDGI</div>
+          <Img fixed={data.file.childImageSharp.fixed} alt="EDGI Logo" />
         </a>
       </li>
     </ul>
@@ -35,12 +30,10 @@ const Nav = ({title, data}) => (
 );
 
 Nav.propTypes = {
-  title: PropTypes.string.isRequired,
   data: PropTypes.object.isRequired,
 };
 
-export default function
-MyNav (props) {
+export default function MyNav(props) {
   return (
     <StaticQuery
       query={graphql`
@@ -52,9 +45,9 @@ MyNav (props) {
               }
             }
           }
-        }    
+        }
       `}
-    render={data => <Nav data={data} {...props} />}
+      render={data => <Nav data={data} {...props} />}
     />
-  )
+  );
 }
