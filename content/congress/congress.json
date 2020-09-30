@@ -348,6 +348,7 @@
     "state":"WY",
     "name":"John Barrasso",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"completed",
     "url":"https://www.google.com"
   },
@@ -356,6 +357,7 @@
     "state":"OK",
     "name":"James Inhofe",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -364,6 +366,7 @@
     "state":"WV",
     "name":"Shelley Capito",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"completed",
     "url":"https://www.google.com"
   },
@@ -372,6 +375,7 @@
     "state":"ND",
     "name":"Kevin Cramer",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -380,6 +384,7 @@
     "state":"IN",
     "name":"Mike Braun",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -388,6 +393,7 @@
     "state":"SD",
     "name":"Mike Rounds",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -396,6 +402,7 @@
     "state":"AK",
     "name":"Dan Sullivan",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -404,6 +411,7 @@
     "state":"AR",
     "name":"John Boozman",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -412,6 +420,7 @@
     "state":"MS",
     "name":"Roger Wicker",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -420,6 +429,7 @@
     "state":"AL",
     "name":"Richard Shelby",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -428,6 +438,7 @@
     "state":"IA",
     "name":"Joni Ernst",
     "affil":"Republican",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -436,6 +447,7 @@
     "state":"DE",
     "name":"Thomas Carper",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -444,6 +456,7 @@
     "state":"MD",
     "name":"Benjamin Cardin",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -452,6 +465,7 @@
     "state":"VT",
     "name":"Bernie Sanders",
     "affil":"Independent",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -460,6 +474,7 @@
     "state":"RI",
     "name":"Sheldon Whitehouse",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -468,6 +483,7 @@
     "state":"OR",
     "name":"Jeff Merkley",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -476,6 +492,7 @@
     "state":"NJ",
     "name":"Cory Booker",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -484,6 +501,7 @@
     "state":"MA",
     "name":"Edward Markey",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -492,6 +510,7 @@
     "state":"IL",
     "name":"Tammy Duckworth",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -500,6 +519,7 @@
     "state":"MD",
     "name":"Chris Van Hollen",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"
   },
@@ -508,6 +528,7 @@
     "state":"NY",
     "name":"Kirsten Gillibrand",
     "affil":"Democrat",
+    "district": "00",
     "reportStatus":"notCompleted",
     "url":"https://www.google.com"    
   }]

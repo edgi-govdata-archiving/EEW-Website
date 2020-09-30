@@ -45,8 +45,10 @@ function Congress({chamber}) {
         //Apply standard party colors
         if (d.affil == "Republican") {
           thisRep.style("background-color", '#FF101F');
-        } else {
+        } else if (d.affil == "Democrat") {
           thisRep.style("background-color",'#3f6bc1'); 
+        } else {
+          thisRep.style("background-color",'#1B7F71')
         }
 
         //Apply different opacity depending on whether the report was completed or not
@@ -77,7 +79,7 @@ function Congress({chamber}) {
 
         //Set the text of the tooltip
         var tooltipText = d.name + '\nCommittee ' + d.rank + '\n' + d.affil + '\nRepresenting ' + d.state
-        if (d.district) {
+        if (d.district) { // d.district undefined for senate because not called in graphQL query
           tooltip.text(tooltipText + ' ' + d.district)
         } else {
           tooltip.text(tooltipText);
