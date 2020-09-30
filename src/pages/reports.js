@@ -32,6 +32,7 @@ const Reports = ({ data }) => (
     <Head pageTitle={data.reportsJson.title} />
     <Box>
       <h1>{data.reportsJson.title}</h1>
+      <p>Click on a committee member to see their report:</p>
     </Box>
     <HomeWrapper style={{height:'fit-content', padding:'20px', backgroundColor:'white'}}>
       <DataViz>
