@@ -4,7 +4,6 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Congress from 'components/congress';
 import Img from 'gatsby-image';
 import TabTracks from 'components/tabtracks';
 import { primary } from 'constants/theme';
@@ -35,11 +34,6 @@ const calendarStyle = {
   order: '2', /* Flex order */
 }
 
-const DataViz = styled.div`
-  flex-direction: column;
-  justify-content: center;
-`
-
 const Index = ({ data }) => (
   <Layout>
     <Box>
@@ -47,13 +41,6 @@ const Index = ({ data }) => (
       <br />
       <TabTracks items={data.homeJson.gallery}></TabTracks>
     </Box>
-    
-    <HomeWrapper style={{height:'fit-content', padding:'20px', backgroundColor:'#4cc0ad'}}>
-      <DataViz>
-        <Congress chamber={"senate"}/>
-        <Congress chamber={"house"}/>
-      </DataViz>
-    </HomeWrapper>
 
     <HomeWrapper>
       <Img fixed={data.file.childImageSharp.fixed} />
