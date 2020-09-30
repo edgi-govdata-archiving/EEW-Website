@@ -20,12 +20,12 @@ const HomeWrapper = styled.div`
   @media only screen and (min-width: 600px) {
     flex-flow: nowrap;
   }
-`
+`;
 
 const DataViz = styled.div`
   flex-direction: column;
   justify-content: center;
-`
+`;
 
 const Reports = ({ data }) => (
   <Layout>
@@ -34,10 +34,16 @@ const Reports = ({ data }) => (
       <h1>{data.reportsJson.title}</h1>
       <p>Click on a committee member to see their report:</p>
     </Box>
-    <HomeWrapper style={{height:'fit-content', padding:'20px', backgroundColor:'white'}}>
+    <HomeWrapper
+      style={{
+        height: 'fit-content',
+        padding: '20px',
+        backgroundColor: 'white',
+      }}
+    >
       <DataViz>
-        <Congress chamber={"senate"}/>
-        <Congress chamber={"house"}/>
+        <Congress chamber={'senate'} />
+        <Congress chamber={'house'} />
       </DataViz>
     </HomeWrapper>
     <Box>
