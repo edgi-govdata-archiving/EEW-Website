@@ -1,5 +1,7 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/events.js. The page title comes from the .json in this same folder.-->
 
+WEBICON SMALL CENTERED
+
 ## EEW Data Tools & Workshop Structure
 ECHO includes compliance data on air, water, and hazardous waste laws for all facilities permitted to emit, store, and use hazardous materials along with data on inspections and enforcement actions taken by EPA and state agencies. It is the first database to publicly share federal environmental enforcement data. However, the website itself can be hard for non-specialists to use and understand. To increase ECHO’s public accessibility, the EEW team is developing a series of [Jupyter Notebooks](https://docs.google.com/document/d/1fAWoUbsISSV-tFZvASbTDE6KRl6Hkeu4p-N2jpQFmt0/edit?usp=sharing) – collaborative, open-source data analysis tools – so people can use this information from ECHO to make customizable reports on pollution from facilities in areas of interest. 
 
