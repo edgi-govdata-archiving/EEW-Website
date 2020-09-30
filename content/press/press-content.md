@@ -1,6 +1,13 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/press.js-->
 
-# EEW in the News - Recent Press Coverage of Our Work
+## Press: Contact environmentalenforcementwatch@gmail.com
+
+<!--Remove '<!--' and similar-looking closing tag below to uncomment when we have some coverage -->
+<!--# Press Coverage of Congressional Committee Reports-->
+
+## Press Coverage of COVID EPA Enforcement Report
+
+IMAGE = REPORT COVER
 
 **EEW project covered: [More Permission to Pollute: The Decline of EPA Enforcement and Industry Compliance during COVID](https://envirodatagov.org/more-permission-to-pollute-the-decline-of-epa-enforcement-and-industry-compliance-during-covid/)**
 
@@ -8,7 +15,8 @@
 * [Ed Markey uses climate change to flip insurgent script on Koe Kennedy in Mass. race](https://www.washingtonpost.com/politics/2020/08/25/energy-202-ed-markey-uses-climate-change-flip-insurgent-script-joe-kennedy-mass-race/), Washington Post, Aug 25, 2020
 * [Thousands allowed to bypass environmental rules in pandemic](https://apnews.com/3bf753f9036e7d88f4746b1a36c1ddc4), Associated Press, Aug 24, 2020
 
-### Reprints of Associated Press article
+  *Reprints:*
+
   * [New York Times](https://www.nytimes.com/aponline/2020/08/24/business/ap-us-virus-outbreak.html?searchResultPosition=1)
   * [Washington Post](https://www.washingtonpost.com/climate-environment/thousands-allowed-to-bypass-environmental-rules-in-pandemic/2020/08/24/187c8772-e5c2-11ea-bf44-0d31c85838a5_story.html)
   * [US News](https://www.usnews.com/news/politics/articles/2020-08-24/thousands-allowed-to-bypass-environmental-rules-in-pandemic)
@@ -22,7 +30,3 @@
   * [The Press of Atlantic City](https://pressofatlanticcity.com/news/national/thousands-allowed-to-bypass-environmental-rules-in-pandemic/article_63c4c3d8-fdb3-58c7-a929-192e1332fdd9.html)
   * [WIBW (Topeka, Kansas)](https://www.wibw.com/2020/08/24/thousands-of-facilities-allowed-to-bypass-environmental-rules-in-pandemic/)
   * [Winston-Salem Journal](https://journalnow.com/news/national/govt-and-politics/thousands-allowed-to-bypass-environmental-rules-in-pandemic/article_cc5d1d5a-01d5-5d61-bb84-588293ddf6e8.html)
-
-# Resources for press/media personnel
-
-**For inquiries and information:** [Contact](info@environmentalenforcementwatch.org) a member of EDGI's EEW project team.
