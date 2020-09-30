@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-{/* Turn nav into a column on narrow screens */}
+{
+  /* Turn nav into a column on narrow screens */
+}
+
 export const Container = styled.nav`
   @media only screen and (max-width: 600px) {
     ul {
@@ -28,7 +31,7 @@ export const Container = styled.nav`
       }
     }
     .text {
-      display:none;
+      display: none;
     }
   }
 
@@ -45,5 +48,4 @@ export const Container = styled.nav`
       letter-spacing: 1px;
     }
   }
-
 `;

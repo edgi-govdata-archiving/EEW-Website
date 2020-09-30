@@ -55,7 +55,10 @@ const TabTracks = ({ items }) => (
         {items.map((item, i) => (
           <Tab key={i}>
             <figure>
-              <Img fluid={item.image ? item.image.childImageSharp.fluid : {}} alt={item.title} />
+              <Img
+                fluid={item.image ? item.image.childImageSharp.fluid : {}}
+                alt={item.title}
+              />
             </figure>
           </Tab>
         ))}

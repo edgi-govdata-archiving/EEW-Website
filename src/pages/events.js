@@ -24,8 +24,7 @@ const Events = ({ data }) => (
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        >
-      </VideoFrame>
+      ></VideoFrame>
       <h3>
         EDGI&apos;s EEW events engage members of the public in the process of
         report-making, from delving into the data science to sharing stories
