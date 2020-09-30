@@ -16,9 +16,10 @@ export const Container = styled.header`
     &:hover {
       color: ${accent};
     }
-  },
-  
+  }
+
+  ,
   gray {
-    color: #
+    color: #;
   }
 `;
