@@ -1,8 +1,17 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/cd-reports.js-->
 
-## About EEW Report Cards
-Help EDGI create Environmental Enforcement Watch (EEW) report cards for each member of the House and Senate Committees responsible for oversight of the Environmental Protection Agency (EPA).
+<big>Concerned about this data?
 
+[Write to your representatives](https://democracy.io)</big>
+
+## Why Enforcement Matters
+The EPA is mandated by Congress to enforce environmental laws. With the EEW workshops, we aim to draw attention to the large gaps in effective enforcement of environmental laws. By mobilizing community expertise, public engagement and education, compelling material evidence, and an ethic of care, we can pressure our elected officials and local industries to put health and justice before power and profit.
+
+According to Cynthia Giles, former Assistant Administrator of EPA’s Office of Enforcement and Compliance Assurance, over 25% of all registered facilities are regularly in significant violation of their environmental permits across all programs with available compliance data. And, for programs with the most significant health impacts, “significant violation rates of 50-70% are not unusual” ([Harvard Law School](http://eelp.law.harvard.edu/wp-content/uploads/Cynthia-Giles-Part-2-FINAL.pdf)). Significant non-compliance happens when industries emit hazardous pollutants or fail to report emissions over their permit limits for 6+ months consecutively. Non-compliance has always been an issue and has ramped up even further due to the erosion of EPA funding and enforcement under the Trump Administration ([EDGI](https://envirodatagov.org/publication/a-sheep-in-the-closet-the-erosion-of-enforcement-at-the-epa/)). Between 2006 and 2018, enforcement funding and staff dropped by 18% and 21% respectively ([EPA]((https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf))). Between 2007 and 2018, both initiated and concluded enforcement actions dropped by more than 50% ([EPA](https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf)). Now more than ever, local regulators and affected communities are unable to hold polluters accountable to longstanding laws. 
+
+Black, Latinx, Indigenous, and low-income communities – among other historically marginalized groups – face disproportionate exposure to hazardous waste sites and polluting industries ([Bullard & Wright](https://www.indiebound.org/book/9780896084469)). These industries have undue influence in the writing and development of regulations, leading to emissions standards that are not health-protective ([The Intercept](https://theintercept.com/2019/06/18/pfoa-pfas-teflon-epa-limit/)). Even still, many industrial facilities fail to comply with these insufficient regulations. The financial penalties for doing so represent just a small fraction of their profits in the unlikely case that these penalties are enforced at all. This crisis of non-compliance, coupled with already-inadequate regulations, represents a systematic and deliberate choice to ignore environmental and human health. We aim for EEW workshops to call attention to these systematic gaps in enforcement using available public data from the ECHO website.
+
+## About EEW Report Cards
 The [Senate Environment and Public Works Committee](https://www.epw.senate.gov/public/) and the [House Energy and Commerce Committee](https://energycommerce.house.gov/) have jurisdiction over the EPA. The EPA is mandated to enforce environmental laws such as the:
 
 * Clean Water Act (CWA)
@@ -11,20 +20,4 @@ The [Senate Environment and Public Works Committee](https://www.epw.senate.gov/p
 
 ![A cycle diagram demonstrating how Congress mandates EPA, the EPA issues and enforces permits to facilities that pollute, the ECHO database stores compliance data about these facilities, EEW makes ECHO data easier to understand and EEW works with communities to make environmental compliance report cards which pushes on congress to enforce environmental enforcement through the EPA](./report-card-tracker.png)
 
-EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA for the congressional districts of each Representative on the House Energy and Commerce Committee, as well as the State of each Senator on the Environment and Public Works Committee. Our goal is to shed light on the chronic and routine violations of environmental laws and the failure to enforce environmental laws. <b>To participate, sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecS_MMcDyMlF_BMECQeOvCGPBtAa5lGIM5chDL_7iXfPH-NA/viewform?usp=sf_link) or at the bottom of this page!</b>
-
-## How are we making the EEW Report Cards?
-
-These report cards will be compiled through public online workshops where we gather and analyze data from the EPA’s [Enforcement and Compliance History Online (ECHO)](https://echo.epa.gov/) for each State or Congressional District.
-
-At these events, participants will analyze, contextualize, and relate their personal stories to ECHO data, hopefully building connections along the way. EEW will format the data for each district and state into a public report card for release in October of 2020, and compile an online repository of these report cards for each of the 76 Congresspeople who sit on the House Energy & Commerce Committee and the Senate Environment and Public Works Committee. 
-
-Participants can sign up for one of the assigned report cards below, or they can make one for their congressional district. Our events are 2 hours long, on Thursdays from 2:30-4:30 EST, and no coding skill or background in environmental law required!
-
-## Senate Environment & Public Works Committee
-
-![A graphic demonstrating the Senate Environment & Public Works Committee: eleven Republican members and ten Democrat members of the Senate Environment & Public Works Committee. John Barraso is a Republican and the chair, Thomas R. Carper is a Democrat and a ranking member](./senate-env-pw.png)
-
-## House Energy & Commerce Committee
-
-![A graphic demonstrating the House Energy & Commerce Committee: twenty-four Republican members and thirty-one Democrat members of the Senate Environment & Public Works Committee. Frank Pallone is a Democrat and the chair, Yvette D. Clarke is a Democrat and the vice chair, Greg Walden is a Republican and a ranking member](house-energy-commerce.png)
+EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA for the congressional districts of each Representative on the House Energy and Commerce Committee, as well as the State of each Senator on the Environment and Public Works Committee. Our goal is to shed light on the chronic and routine violations of environmental laws and the failure to enforce environmental laws.

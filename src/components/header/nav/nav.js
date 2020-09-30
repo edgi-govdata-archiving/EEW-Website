@@ -8,10 +8,13 @@ const Nav = ({title, data}) => (
   <Container>
     <ul>
       <li>
+        <Link to="/reports">Reports</Link>
+      </li>
+      <li>
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/reports">Reports</Link>
+        <Link to="/events">Events</Link>
       </li>
       <li>
         <Link to="/press">Press</Link>
