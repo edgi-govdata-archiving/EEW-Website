@@ -20,7 +20,3 @@ We want clean air, clean water, and an end to environmental racism and injustice
 **Environmental Enforcement Watch** is series of networked online workshops that bring people together from different backgrounds to analyze the data from Environmental Protection Agency’s <a href="https://echo.epa.gov/" target=_blank >Enforcement and Compliance History Online</a> (ECHO) database. ECHO data includes reported violations of environmental laws, facility inspections, and enforcement actions (or lack thereof) issued by the EPA and state agencies.
 
 In these virtual workshops, we will work with community organizers, concerned residents, and university students and staff to dive into the data and stories in your legislative districts, zip codes, and counties to find out: (1) what companies are emitting; (2) what are the associated environmental health risks; (3) what is and isn’t being tracked; (4) whether local facilities are violating their permits; and (5) what environmental enforcement looks like in your area.
-
-
-
-INFO ABOUT RELEASE EVENT?
