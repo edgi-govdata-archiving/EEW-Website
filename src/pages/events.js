@@ -6,6 +6,7 @@ import Box from 'components/box';
 import Head from 'components/head';
 import styled from 'styled-components';
 import TabTracks from 'components/tabtracks';
+import Img from 'gatsby-image';
 
 const VideoFrame = styled.iframe`
   flex-basis: 1 1 auto;
@@ -27,14 +28,17 @@ const Events = ({ data }) => (
         allowFullScreen
       ></VideoFrame>
       <br />
-      <p>
-        EDGI&apos;s EEW events engage members of the public in the process of
-        report-making, from delving into the data science to sharing stories
-        about their home areas.
-      </p>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.eventsJson.eventsSnippet.childMarkdownRemark.html,
+        }}
+      />
       <h2>EEW Event Tracks:</h2>
       <br />
       <TabTracks items={data.eventsJson.gallery}></TabTracks>
+      <center>
+        <Img fixed={data.file.childImageSharp.fixed} />
+      </center>
       <div
         dangerouslySetInnerHTML={{
           __html: data.eventsJson.content.childMarkdownRemark.html,
@@ -59,6 +63,11 @@ export const query = graphql`
           html
         }
       }
+      eventsSnippet {
+        childMarkdownRemark {
+          html
+        }
+      }
       gallery {
         title
         copy
@@ -68,6 +77,13 @@ export const query = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+      }
+    }
+    file(relativePath: { eq: "images/logos/eew-icon-web.png" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
