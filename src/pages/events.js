@@ -28,11 +28,11 @@ const Events = ({ data }) => (
         allowFullScreen
       ></VideoFrame>
       <br />
-      <p>
-        EDGI&apos;s EEW events engage members of the public in the process of
-        report-making, from delving into the data science to sharing stories
-        about their home areas.
-      </p>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.eventsJson.eventsSnippet.childMarkdownRemark.html,
+        }}
+      />
       <h2>EEW Event Tracks:</h2>
       <br />
       <TabTracks items={data.eventsJson.gallery}></TabTracks>
@@ -59,6 +59,11 @@ export const query = graphql`
     eventsJson {
       title
       content {
+        childMarkdownRemark {
+          html
+        }
+      }
+      eventsSnippet {
         childMarkdownRemark {
           html
         }
