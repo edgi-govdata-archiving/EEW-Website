@@ -1,8 +1,8 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/cd-reports.js-->
 
-<big>Concerned about this data?
+<center><big>Concerned about this data?
 
-[Write to your representatives](https://democracy.io)</big>
+<a href="https://democracy.io" target=_blank >Write to your representatives</a></big></center>
 
 ## Why Enforcement Matters
 The EPA is mandated by Congress to enforce environmental laws. With the EEW workshops, we aim to draw attention to the large gaps in effective enforcement of environmental laws. By mobilizing community expertise, public engagement and education, compelling material evidence, and an ethic of care, we can pressure our elected officials and local industries to put health and justice before power and profit.
