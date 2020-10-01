@@ -6,6 +6,7 @@ import Box from 'components/box';
 import Head from 'components/head';
 import styled from 'styled-components';
 import TabTracks from 'components/tabtracks';
+import Img from 'gatsby-image';
 
 const VideoFrame = styled.iframe`
   flex-basis: 1 1 auto;
@@ -35,6 +36,7 @@ const Events = ({ data }) => (
       <h2>EEW Event Tracks:</h2>
       <br />
       <TabTracks items={data.eventsJson.gallery}></TabTracks>
+      <center><Img fixed={data.file.childImageSharp.fixed} /></center>
       <div
         dangerouslySetInnerHTML={{
           __html: data.eventsJson.content.childMarkdownRemark.html,
@@ -68,6 +70,13 @@ export const query = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+      }
+    }
+    file(relativePath: { eq: "images/logos/eew-icon-web.png" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
