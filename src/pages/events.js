@@ -36,7 +36,9 @@ const Events = ({ data }) => (
       <h2>EEW Event Tracks:</h2>
       <br />
       <TabTracks items={data.eventsJson.gallery}></TabTracks>
-      <center><Img fixed={data.file.childImageSharp.fixed} /></center>
+      <center>
+        <Img fixed={data.file.childImageSharp.fixed} />
+      </center>
       <div
         dangerouslySetInnerHTML={{
           __html: data.eventsJson.content.childMarkdownRemark.html,
