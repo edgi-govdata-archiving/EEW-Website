@@ -28,8 +28,12 @@ A lot of the work in EEW stems from EDGI’s work around “Environmental Data J
 NAMES ETC
 
 ## Collaborators
-![EEW's collaborators: Stony Brook University Geospatial Center, Teaching Learning Lab, Sunrise Boston](./collabs.png)
+- <a href="https://www.stonybrook.edu/commcms/gss/" target=_blank >Geospatial Center at Stony Brook University</a>
+- <a href="http://apps.tlt.stonybrook.edu/" target=_blank >Teaching Learning Lab at Stony Brook University</a>
+- <a href="http://www.facebook.com/SunriseBoston/" target=_blank >Sunrise Movement – Boston Hub</a>
 
 
 ## Funding
-![EEW's funders: The David and Lucile Packard Foundation, Doris Duke Charitable Foundation, Northeastern Unicersity Lab for Texts, Maps, and Networks](./funders.png)
+- <a href="https://www.packard.org/" target=_blank >The David and Lucile Packard Foundation</a>
+- <a href="https://www.ddcf.org/" target=_blank >The Doris Duke Charitable Foundation</a>
+- <a href="https://web.northeastern.edu/nulab/" target=_blank >Northeastern University Lab for Texts, Maps, and Networks</a>
