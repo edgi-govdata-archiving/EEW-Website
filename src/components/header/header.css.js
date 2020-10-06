@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import { lightprimary, accent } from 'constants/theme';
+import { accent } from 'constants/theme';
 
 export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  background-color: ${lightprimary};
+  background-color: #aaa;
 
   a {
     color: #000000;
