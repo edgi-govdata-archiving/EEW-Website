@@ -28,12 +28,12 @@ A lot of the work in EEW stems from EDGI’s work around “Environmental Data J
 NAMES ETC
 
 ## Collaborators
-<a href="https://www.stonybrook.edu/commcms/gss/" target=_blank >Geospatial Center at Stony Brook University</a>
-<a href="http://apps.tlt.stonybrook.edu/" target=_blank >Teaching Learning Lab at Stony Brook University</a>
-<a href="http://www.facebook.com/SunriseBoston/" target=_blank >Sunrise Movement – Boston Hub</a>
+- <a href="https://www.stonybrook.edu/commcms/gss/" target=_blank >Geospatial Center at Stony Brook University</a>
+- <a href="http://apps.tlt.stonybrook.edu/" target=_blank >Teaching Learning Lab at Stony Brook University</a>
+- <a href="http://www.facebook.com/SunriseBoston/" target=_blank >Sunrise Movement – Boston Hub</a>
 
 
 ## Funding
-<a href="https://www.packard.org/" target=_blank >The David and Lucile Packard Foundation</a>
-<a href="https://www.ddcf.org/" target=_blank >Doris Duke Charitable Foundation</a>
-<a href="https://web.northeastern.edu/nulab/" target=_blank >Northeastern University Lab for Texts, Maps, and Networks</a>
+- <a href="https://www.packard.org/" target=_blank >The David and Lucile Packard Foundation</a>
+- <a href="https://www.ddcf.org/" target=_blank >The Doris Duke Charitable Foundation</a>
+- <a href="https://web.northeastern.edu/nulab/" target=_blank >Northeastern University Lab for Texts, Maps, and Networks</a>
