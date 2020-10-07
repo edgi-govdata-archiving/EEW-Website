@@ -73,7 +73,15 @@ function Congress({ chamber }) {
         thisRep.classed(styles.unselectable, true);
 
         // Set the text in the box to be the representative's state
-        thisRep.text(d.state);
+        if (d.district) {
+          thisRep.text(
+            d.state +
+            '\n' +
+            d.district
+          )
+        } else {
+          thisRep.text(d.state);
+        }
       })
       .on('mouseover', function(d) {
         select(this).classed(styles.repOnHover, true);
