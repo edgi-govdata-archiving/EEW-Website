@@ -45,7 +45,7 @@ function Congress({ chamber }) {
 
         // Apply standard party colors
         if (d.affil == 'Republican') {
-          thisRep.style('background-color', '#FF101F');
+          thisRep.style('background-color', '#bc4749');
         } else if (d.affil == 'Democrat') {
           thisRep.style('background-color', '#3f6bc1');
         } else {
@@ -73,26 +73,40 @@ function Congress({ chamber }) {
         thisRep.classed(styles.unselectable, true);
 
         // Set the text in the box to be the representative's state
-        thisRep.text(d.state);
+        if (d.district) {
+          thisRep.text(
+            d.state +
+            '\n' +
+            d.district
+          )
+        } else {
+          thisRep.text(d.state);
+        }
       })
       .on('mouseover', function(d) {
         select(this).classed(styles.repOnHover, true);
 
-        //Set the text of the tooltip
-        var tooltipText =
-          d.name +
-          '\nCommittee ' +
-          d.rank +
+        // This section sets up contents of tooltip
+        
+        // Include district if applicable
+        var infoText =
           '\n' +
           d.affil +
           '\nRepresenting ' +
           d.state;
         if (d.district) {
           // d.district undefined for senate because not called in graphQL query
-          tooltip.text(tooltipText + ' ' + d.district);
-        } else {
-          tooltip.text(tooltipText);
+          infoText = infoText + ' ' + d.district;
         }
+        
+        // Set the text of the tooltip
+        tooltip.text(d.name)
+          .append("tspan")
+          .style("font-weight",700)
+          .text('\n' + d.rank)
+          .append("tspan")
+          .style("font-weight",300)
+          .text(infoText)
 
         // Position tooltips at mouse location
         var x = event.x,
