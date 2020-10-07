@@ -4,7 +4,7 @@
 
 EPA is overseen by two congressional committees, the House Energy and Commerce Committee (E&C) and the Senate Environmental and Public Works Committee (EPW). EDGI took a look at environmental enforcement in committee members' home districts. Here's where those reps come from:
 
-![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](./eew-map.png)
+[![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)](https://edgi-govdata-archiving.github.io/EEW-Website/reports "Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project")
 
 <big><center><a href="/reports">Show me the reports</a></center></big>
 
