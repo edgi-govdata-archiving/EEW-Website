@@ -10,7 +10,7 @@ import Img from 'gatsby-image';
 
 const VideoFrame = styled.iframe`
   flex-basis: 1 1 auto;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 15px 0px;
 `;
 
 const Events = ({ data }) => (
