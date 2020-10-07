@@ -9,7 +9,6 @@ EDGI's EEW events engage members of the public in the process of report-making, 
 - <a href="https://www.youtube.com/watch?v=rCs35rmDo9c&list=PLtsP3g9LafVv78TIa42xr591-4CfKMYQO&index=46&t=1678s" target=_blank >Sunrise Boston workshop 06/18/2020</a>
 - <a href="https://www.youtube.com/watch?v=Gp1aDeXMays&list=PLtsP3g9LafVv78TIa42xr591-4CfKMYQO&index=28" target=_blank >EEW Public Hours workshop 1 (8/20/2020)</a>
 - <a href="https://www.youtube.com/watch?v=rZrxGRBdJVA&list=PLtsP3g9LafVv78TIa42xr591-4CfKMYQO&index=22&t=4s" target=_blank >EEW Public Hours workshop 2 (8/27/2020)</a>
-- <a href="" target=_blank >EEW Public Hours workshop 3 (9/3/2020)</a>
 - <a href="https://www.youtube.com/watch?v=dUV3NweSWTs&list=PLtsP3g9LafVv78TIa42xr591-4CfKMYQO&index=18" target=_blank >EEW Public Hours workshop 4 (9/10/2020)</a>
 
 ## You Can EEW Too
