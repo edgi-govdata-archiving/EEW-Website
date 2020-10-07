@@ -45,7 +45,7 @@ function Congress({ chamber }) {
 
         // Apply standard party colors
         if (d.affil == 'Republican') {
-          thisRep.style('background-color', '#FF101F');
+          thisRep.style('background-color', '#bc4749');
         } else if (d.affil == 'Democrat') {
           thisRep.style('background-color', '#3f6bc1');
         } else {
