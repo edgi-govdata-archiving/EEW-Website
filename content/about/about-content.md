@@ -23,9 +23,8 @@ EDGI’s work has been widely acknowledged, leading to EDGI testifying before Co
 ## Environmental Data Justice
 A lot of the work in EEW stems from EDGI’s work around “Environmental Data Justice,” or EDJ. EDJ promotes the production and use of environmental data to challenge structures of oppression like fascism, racism, heteropatriarchy, and classism. We believe that data should serve communities and not just corporate polluters. We also believe that communities should be able to have more resources for collecting and analyzing environmental data while retaining the power to decide what they can do with it. You can read more about EDJ and find some related readings in the <a href="https://docs.google.com/document/d/1O7ytnzXWFkluiYE4Pulo_mCHs9jdNpPm8hw83aLU2pg/edit?usp=sharing" target=_blank >EDJ Syllabus here</a>.
 
-## Participants
-
-NAMES ETC
+## Core Contributors
+![Diagram listing the names of core contributors on the EEW project, arranged by fields of care (data care, external care, event care, internal care, and research care)](./EEW_Authorship.png)
 
 ## Collaborators
 - <a href="https://www.stonybrook.edu/commcms/gss/" target=_blank >Geospatial Center at Stony Brook University</a>
