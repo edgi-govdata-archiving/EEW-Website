@@ -1,5 +1,7 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/cd-reports.js-->
 
+<!--Content for the top of the page (above this) is in reports-top.md in this folder-->
+
 <center><big>Concerned about this data?
 
 <a href="https://democracy.io" target=_blank >Write to your representatives</a></big></center>

@@ -32,7 +32,11 @@ const Reports = ({ data }) => (
     <Head pageTitle={data.reportsJson.title} />
     <Box>
       <h1>{data.reportsJson.title}</h1>
-      <p>Click on a committee member to see their report:</p>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.reportsJson.reportsTop.childMarkdownRemark.html,
+        }}
+      />
     </Box>
     <HomeWrapper
       style={{
@@ -67,6 +71,11 @@ export const query = graphql`
     reportsJson {
       title
       content {
+        childMarkdownRemark {
+          html
+        }
+      }
+      reportsTop {
         childMarkdownRemark {
           html
         }
