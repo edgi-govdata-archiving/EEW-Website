@@ -16,16 +16,18 @@ The map below shows the states and districts with completed report cards:
 
 <br />
 
-
 <big>Practicing our right to know, together.</big>
 
 We want clean air, clean water, and an end to environmental racism and injustice. 
 
 We believe in the public’s right to know, and that we can collaboratively design public open-source systems to analyze, discuss, and act on environmental data collectively. EPA data is available to the public through the <a href="https://echo.epa.gov/" target=_blank >Enforcement and Compliance History Online</a> (ECHO) database. ECHO data includes reported violations of environmental laws such as the Clean Air Act (CAA), Clean Water Act (CWA), and the Resource Conservation and Recovery Act (RCRA), which manages hazardous waste, as well as data on emissions, facility inspections, and enforcement actions issued by the EPA and state agencies. However, the database can be challenging to use and error-prone. EEW works to make this data more accessible, user-friendly, and collectively actionable through <a href="/events">public workshops</a>, <a href="https://github.com/edgi-govdata-archiving" target=_blank >open-source data tools</a>, and projects like the <a href="/reports">Congressional District Report Cards</a> and <a href="https://envirodatagov.org/more-permission-to-pollute-the-decline-of-epa-enforcement-and-industry-compliance-during-covid/" target=_blank >COVID-19 enforcement report</a>.
 
-
 <big>Upcoming Events:</big>
 
-Insert panel discussion release event graphic here
+<a href="https://us02web.zoom.us/webinar/register/WN_dAn8xJF9Tqm1aiC1A8Ysig" target=_blank >
 
-<a href="https://us02web.zoom.us/webinar/register/WN_dAn8xJF9Tqm1aiC1A8Ysig" target=_blank >Register now!</a>
+  ![Panel Discussion & Report Release October 22 6-7:30pm EST Featuring Union of Concerned Scientists, Hanah Vogel (Policy Advisor to MA Senator Ed Markey), and more](release-event.png)
+
+  Register now!
+  
+</a>
