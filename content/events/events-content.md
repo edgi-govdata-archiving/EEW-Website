@@ -8,7 +8,7 @@
 
 EDGI's EEW events engage members of the public in the process of report-making, from delving into the data science and running Jupyter Notebooks to sharing stories about their home areas. Over the summer, we co-hosted workshops with the [Sunrise Movement Boston Hub](http://www.facebook.com/SunriseBoston/), as well as a four-part public workshop series dedicated to the completion of [EEW Congressional Report Cards](https://edgi-govdata-archiving.github.io/EEW-Website/reports) for two key committees. In commitment to the principles of EDJ, all of our code and data are available on EDGI’s GitHub [https://github.com/edgi-govdata-archiving] site, an open-source coding platform. 
 
-[screenshot of event participants with description]
+![A screenshot of participants from one of our events.](./eew-public-workshop.png)
 
 ## Recordings of past events:
 * [Sunrise workshop date (7/18/2020)](https://www.youtube.com/watch?v=rCs35rmDo9c&list=PLtsP3g9LafVv78TIa42xr591-4CfKMYQO&index=49&t=1678s)
