@@ -30,6 +30,6 @@ Join us on Thursday, October 22nd from 6:00-7:30pm EST for our Congressional Rep
 
   ![Panel Discussion & Report Release October 22 6-7:30pm EST Featuring Union of Concerned Scientists, Hanah Vogel (Policy Advisor to MA Senator Ed Markey), and more](release-event.png)
 
-<big><center>Register now!</center></big>
+  <big><center>Register now!</center></big>
   
 </a>
