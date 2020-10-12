@@ -62,6 +62,8 @@ function Congress({ chamber }) {
         // Apply a different class if the rep is a chair (in thise case, to make it larger than the regular reps)
         if (d.rank == 'Chair' || d.rank == 'Ranking Member' || d.rank == 'Vice Chair') {
           thisRep.classed(styles.chair, true);
+        } else if (d.rank == 'Ranking Member' || d.rank == 'Vice Chair') {
+          thisRep.classed(styles.ranking, true);
         } else {
           thisRep.classed(styles.rep, true);
         }
