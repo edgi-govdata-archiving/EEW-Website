@@ -15,5 +15,3 @@
 * [Practicing Our Right to Know, Together — Review of EEW Congressional Report Card Workshops (9/2/2020)](https://envirodatagov.org/practicing-our-right-to-know-together-review-of-eew-congressional-report-card-workshops-to-date/)
 
 ## EEW Full Press Coverage
-
-EMBED AIRTABLE SPREADSHEET
