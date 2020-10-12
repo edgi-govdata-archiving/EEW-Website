@@ -1,15 +1,33 @@
 { 
   "houseData": [
   {
-    "rank":"Ranking Member",
-    "state":"OR",
-    "district": "02",
-    "name":"Greg Walden",
-    "affil":"Republican",
+    "rank":"Chair",
+    "state":"NJ",
+    "district": "06",
+    "name":"Frank Pallone",
+    "affil":"Democrat",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/OR2_2020"
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NJ6_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"AZ",
+    "district": "01",
+    "name":"Tom O'Halleran",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/AZ1_2020"
   },
   {
+    "rank":"Member",
+    "state":"FL",
+    "district": "09",
+    "name":"Darren Soto",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/FL9_2020"
+  },
+  {    
     "rank":"Member",
     "state":"CA",
     "district": "09",
@@ -29,69 +47,6 @@
   },
   {
     "rank":"Member",
-    "state":"OH",
-    "district": "05",
-    "name":"Robert E. Latta",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/OH5_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"AZ",
-    "district": "01",
-    "name":"Tom O'Halleran",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/AZ1_2020"
-  },
-  {
-    "rank":"Chair",
-    "state":"NJ",
-    "district": "06",
-    "name":"Frank Pallone",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/NJ6_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"FL",
-    "district": "09",
-    "name":"Darren Soto",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/FL9_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"TX",
-    "district": "17",
-    "name":"Bill Flores",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX17_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"OH",
-    "district": "06",
-    "name":"Bill Johnson",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/OH6_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"WA",
-    "district": "05",
-    "name":"Cathy McMorris Rodgers",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/WA5_2020"
-  },
-  {
-    "rank":"Member",
     "state":"VA",
     "district": "04",
     "name":"A. Donald McEachin",
@@ -99,25 +54,7 @@
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/VA4_2020"
   },
-  {
-    "rank":"Member",
-    "state":"IL",
-    "district": "15",
-    "name":"John Shimkus",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL15_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"GA",
-    "district": "01",
-    "name":"Buddy Carter",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/GA1_2020"
-  },
-  {
+  {    
     "rank":"Member",
     "state":"CA",
     "district": "44",
@@ -144,16 +81,7 @@
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/CA6_2020"    
   },
-  {
-    "rank":"Member",
-    "state":"MT",
-    "district": "00",
-    "name":"Greg Gianforte",
-    "affil":"Republican",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/MT00_2020"  
-  },
-  {
+  {    
     "rank":"Member",
     "state":"CA",
     "district": "29",
@@ -207,6 +135,150 @@
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/IL1_2020"
   },
+  {    
+    "rank":"Member",
+    "state":"DE",
+    "district": "00",
+    "name":"Lisa Blunt Rochester",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/DE00_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"IL",
+    "district": "02",
+    "name":"Robin Kelly",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL2_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"NY",
+    "district": "09",
+    "name":"Yvette Clarke",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY9_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"IL",
+    "district": "09",
+    "name":"Janice Schakowsky",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL9_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"CO",
+    "district": "01",
+    "name":"Diana DeGette",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/CO1_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"NY",
+    "district": "20",
+    "name":"Paul Tonko",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY20_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"CA",
+    "district": "52",
+    "name":"Scott Peters",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA52_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"CA",
+    "district": "36",
+    "name":"Raul Ruiz",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA36_2020"
+  },
+  {    
+    "rank":"Ranking Member",
+    "state":"OR",
+    "district": "02",
+    "name":"Greg Walden",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/OR2_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"OH",
+    "district": "05",
+    "name":"Robert E. Latta",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/OH5_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"TX",
+    "district": "17",
+    "name":"Bill Flores",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX17_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"OH",
+    "district": "06",
+    "name":"Bill Johnson",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/OH6_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"WA",
+    "district": "05",
+    "name":"Cathy McMorris Rodgers",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/WA5_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"IL",
+    "district": "15",
+    "name":"John Shimkus",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL15_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"GA",
+    "district": "01",
+    "name":"Buddy Carter",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/GA1_2020"
+  },
+  {
+    "rank":"Member",
+    "state":"MT",
+    "district": "00",
+    "name":"Greg Gianforte",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/MT00_2020"  
+  },
   {
     "rank":"Member",
     "state":"MI",
@@ -227,30 +299,12 @@
   },
   {
     "rank":"Member",
-    "state":"DE",
-    "district": "00",
-    "name":"Lisa Blunt Rochester",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/DE00_2020"
-  },
-  {
-    "rank":"Member",
     "state":"NC",
     "district": "08",
     "name":"Richard Hudson",
     "affil":"Republican",
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/NC8_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"IL",
-    "district": "02",
-    "name":"Robin Kelly",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL2_2020"
   },
   {
     "rank":"Member",
@@ -263,33 +317,6 @@
   },
   {
     "rank":"Member",
-    "state":"CO",
-    "district": "01",
-    "name":"Diana DeGette",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/CO1_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"NY",
-    "district": "09",
-    "name":"Yvette Clarke",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY9_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"IL",
-    "district": "09",
-    "name":"Janice Schakowsky",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL9_2020"
-  },
-  {
-    "rank":"Member",
     "state":"WV",
     "district": "01",
     "name":"David B. McKinley",
@@ -299,39 +326,12 @@
   },
   {
     "rank":"Member",
-    "state":"NY",
-    "district": "20",
-    "name":"Paul Tonko",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY20_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"CA",
-    "district": "52",
-    "name":"Scott Peters",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA52_2020"
-  },
-  {
-    "rank":"Member",
     "state":"OK",
     "district": "02",
     "name":"Markwayne Mullin",
     "affil":"Republican",
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/OK2_2020"
-  },
-  {
-    "rank":"Member",
-    "state":"CA",
-    "district": "36",
-    "name":"Raul Ruiz",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA36_2020"
   },
   {
     "rank":"Member",
@@ -462,15 +462,6 @@
   },
   {
     "rank":"Member",
-    "state":"VT",
-    "name":"Bernie Sanders",
-    "affil":"Independent",
-    "district": "00",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/VT_2020"
-  },
-  {
-    "rank":"Member",
     "state":"RI",
     "name":"Sheldon Whitehouse",
     "affil":"Democrat",
@@ -530,6 +521,15 @@
     "affil":"Democrat",
     "district": "00",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY_2020"    
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY_2020"
+  },
+  {      
+    "rank":"Member",
+    "state":"VT",
+    "name":"Bernie Sanders",
+    "affil":"Independent",
+    "district": "00",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/VT_2020"  
   }]
 }
