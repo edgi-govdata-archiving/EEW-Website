@@ -76,11 +76,7 @@ function Congress({ chamber }) {
 
         // Set the text in the box to be the representative's state
         if (d.district) {
-          thisRep.text(
-            d.state +
-            '\n' +
-            d.district
-          )
+          thisRep.text(d.state + '\n' + d.district);
         } else {
           thisRep.text(d.state);
         }
@@ -89,26 +85,23 @@ function Congress({ chamber }) {
         select(this).classed(styles.repOnHover, true);
 
         // This section sets up contents of tooltip
-        
+
         // Include district if applicable
-        var infoText =
-          '\n' +
-          d.affil +
-          '\nRepresenting ' +
-          d.state;
+        var infoText = '\n' + d.affil + '\nRepresenting ' + d.state;
         if (d.district) {
           // d.district undefined for senate because not called in graphQL query
           infoText = infoText + ' ' + d.district;
         }
-        
+
         // Set the text of the tooltip
-        tooltip.text(d.name)
-          .append("tspan")
-          .style("font-weight",700)
+        tooltip
+          .text(d.name)
+          .append('tspan')
+          .style('font-weight', 700)
           .text('\n' + d.rank)
-          .append("tspan")
-          .style("font-weight",300)
-          .text(infoText)
+          .append('tspan')
+          .style('font-weight', 300)
+          .text(infoText);
 
         // Position tooltips at mouse location
         var x = event.x,
@@ -157,7 +150,7 @@ function Congress({ chamber }) {
 }
 
 Congress.propTypes = {
-  chamber: PropTypes.object.isRequired,
+  chamber: PropTypes.string.isRequired,
 };
 
 export default Congress;
