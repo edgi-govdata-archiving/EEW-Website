@@ -24,10 +24,12 @@ We believe in the public’s right to know, and that we can collaboratively desi
 
 ## Upcoming Events
 
+Join us on Thursday, October 22nd from 6:00-7:30pm EST for our Congressional Report Card release event and panel discussion featuring the Union of Concerned Scientists, Hanna Vogel (Policy Advisor to MA Senator Ed Markey), and more!
+
 <a href="https://us02web.zoom.us/webinar/register/WN_dAn8xJF9Tqm1aiC1A8Ysig" target=_blank >
 
   ![Panel Discussion & Report Release October 22 6-7:30pm EST Featuring Union of Concerned Scientists, Hanah Vogel (Policy Advisor to MA Senator Ed Markey), and more](release-event.png)
 
-  Register now!
+<big><center>Register now!</center></big>
   
 </a>
