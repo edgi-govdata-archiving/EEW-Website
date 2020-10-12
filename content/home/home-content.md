@@ -2,7 +2,7 @@
 
 <big>Strong environmental regulation is important, but it’s only as good as its enforcement.</big>
 
-The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target=_blank >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target=_blank >Senate Environment and Public Works Committee</a>. Based on an analysis of EPA data, EEW Congressional Report Cards give the members of these Congressional committees—and their constituents—the chance to evaluate whether the EPA is fulfilling its mandate in their state/district. Eventually, we hope to compile reports for every district in the US.
+The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target=_blank >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target=_blank >Senate Environment and Public Works Committee</a>. Based on an analysis of EPA data, EEW Congressional Report Cards give the members of these Congressional committees—and their constituents—the chance to evaluate whether the EPA is fulfilling its mandate in their state/district. Eventually, we hope to compile reports for every district in the U.S.
 
 The map below shows the states and districts with completed report cards:
 
