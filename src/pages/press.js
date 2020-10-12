@@ -18,14 +18,16 @@ const Press = ({ data }) => (
       <iframe
         title="pressCoverage"
         className="airtable-embed"
-        src="https://airtable.com/embed/shrj6wbxeCrvg2yhu?backgroundColor=teal&viewControls=on" frameBorder="0"
+        src="https://airtable.com/embed/shrj6wbxeCrvg2yhu?backgroundColor=teal&viewControls=on"
+        frameBorder="0"
         onmousewheel=""
         width="100%"
         height="533"
         style={{
-          background: "transparent",
-          border: "1px solid #ccc"
-        }}></iframe>
+          background: 'transparent',
+          border: '1px solid #ccc',
+        }}
+      ></iframe>
     </Box>
   </Layout>
 );
