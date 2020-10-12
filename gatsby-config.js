@@ -41,6 +41,9 @@ module.exports = {
               backgroundColor: 'none',
               linkImagesToOriginal: 'false',
             }
+          },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
           }          
         ]
       }
