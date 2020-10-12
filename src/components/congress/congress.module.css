@@ -68,7 +68,7 @@
 
 .tip {
   width: fit-content;
-  height: 4.5em;
+  height: fit-content;
   padding: 7px;
   border: 2px solid #55c0ad;
   white-space: pre-line;
