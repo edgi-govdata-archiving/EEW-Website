@@ -1,4 +1,4 @@
-F<!--This is the main content file to edit for this page. It is embedded in src/pages/about.js. The page title comes from the .json in this same folder.-->
+<!--This is the main content file to edit for this page. It is embedded in src/pages/about.js. The page title comes from the .json in this same folder.-->
 
 <!--The text at the top of this page is pulled from `eew-desc.md` in this folder-->
 
