@@ -8,25 +8,11 @@ import styled from 'styled-components';
 import TabTracks from 'components/tabtracks';
 import Img from 'gatsby-image';
 
-const VideoFrame = styled.iframe`
-  flex-basis: 1 1 auto;
-  padding: 10px 0px 15px 0px;
-`;
-
 const Events = ({ data }) => (
   <Layout>
     <Head pageTitle={data.eventsJson.title} />
     <Box>
       <h1>{data.eventsJson.title}</h1>
-      <VideoFrame
-        title="About Environmental Enforcement Watch"
-        width="100%"
-        height="394"
-        src="https://www.youtube-nocookie.com/embed/k-OjWt5lBRQ"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></VideoFrame>
       <br />
       <div
         dangerouslySetInnerHTML={{
