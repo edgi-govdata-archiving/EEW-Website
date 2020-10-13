@@ -6,6 +6,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
 import Congress from 'components/congress';
+import Img from 'gatsby-image';
 
 /* Styling for a two-column flex layout for this homepage */
 const HomeWrapper = styled.div`
@@ -32,7 +33,11 @@ const Reports = ({ data }) => (
     <Head pageTitle={data.reportsJson.title} />
     <Box>
       <h1>{data.reportsJson.title}</h1>
-      <p>Click on a committee member to see their report:</p>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.reportsJson.reportsTop.childMarkdownRemark.html,
+        }}
+      />
     </Box>
     <HomeWrapper
       style={{
@@ -47,6 +52,14 @@ const Reports = ({ data }) => (
       </DataViz>
     </HomeWrapper>
     <Box>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.reportsJson.reportsCTA.childMarkdownRemark.html,
+        }}
+      />
+      <center>
+        <Img fixed={data.file.childImageSharp.fixed} />
+      </center>
       <div
         dangerouslySetInnerHTML={{
           __html: data.reportsJson.content.childMarkdownRemark.html,
@@ -69,6 +82,23 @@ export const query = graphql`
       content {
         childMarkdownRemark {
           html
+        }
+      }
+      reportsTop {
+        childMarkdownRemark {
+          html
+        }
+      }
+      reportsCTA {
+        childMarkdownRemark {
+          html
+        }
+      }
+    }
+    file(relativePath: { eq: "images/logos/eew-icon-web.png" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
         }
       }
     }

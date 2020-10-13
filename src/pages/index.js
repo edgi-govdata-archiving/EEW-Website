@@ -4,22 +4,6 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Img from 'gatsby-image';
-
-/* Styling for a two-column flex layout for this homepage */
-const HomeWrapper = styled.div`
-  margin: 3rem auto;
-  max-width: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  @media only screen and (max-width: 600px) {
-    flex-flow: wrap;
-  }
-  @media only screen and (min-width: 600px) {
-    flex-flow: nowrap;
-  }
-`;
 
 const Index = ({ data }) => (
   <Layout>
@@ -30,10 +14,6 @@ const Index = ({ data }) => (
         }}
       />
     </Box>
-
-    <HomeWrapper>
-      <Img fixed={data.file.childImageSharp.fixed} />
-    </HomeWrapper>
   </Layout>
 );
 
@@ -51,13 +31,6 @@ export const query = graphql`
         childMarkdownRemark {
           html
           rawMarkdownBody
-        }
-      }
-    }
-    file(relativePath: { eq: "images/logos/eew-icon-web.png" }) {
-      childImageSharp {
-        fixed(width: 125, height: 125) {
-          ...GatsbyImageSharpFixed
         }
       }
     }

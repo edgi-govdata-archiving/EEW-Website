@@ -15,6 +15,19 @@ const Press = ({ data }) => (
           __html: data.pressJson.content.childMarkdownRemark.html,
         }}
       />
+      <iframe
+        title="pressCoverage"
+        className="airtable-embed"
+        src="https://airtable.com/embed/shrj6wbxeCrvg2yhu?backgroundColor=teal&viewControls=on"
+        frameBorder="0"
+        onmousewheel=""
+        width="100%"
+        height="533"
+        style={{
+          background: 'transparent',
+          border: '1px solid #ccc',
+        }}
+      ></iframe>
     </Box>
   </Layout>
 );

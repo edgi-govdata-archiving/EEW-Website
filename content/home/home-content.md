@@ -2,23 +2,34 @@
 
 <big>Strong environmental regulation is important, but it’s only as good as its enforcement.</big>
 
-EPA is overseen by two congressional committees, the House Energy and Commerce Committee (E&C) and the Senate Environmental and Public Works Committee (EPW). EDGI took a look at environmental enforcement in committee members' home districts. Here's where those reps come from:
+The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target=_blank >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target=_blank >Senate Environment and Public Works Committee</a>. Based on an analysis of EPA data, EEW Congressional Report Cards give the members of these Congressional committees—and their constituents—the chance to evaluate whether the EPA is fulfilling its mandate in their state/district. Eventually, we hope to compile reports for every district in the U.S.
 
-MAP IMAGE
+The map below shows the states and districts with completed report cards:
 
-<big>[Show me the reports](/reports)</big>
+
+[![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)](/reports "EEW's Reports Page")
+
+<big><center><a href="/reports">Show me the reports</a></center></big>
 
 <!--handy encoder if you want to change the tweet text: https://meyerweb.com/eric/tools/dencoder/ -->
-[Share this page](https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch)
+<center><a href="https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch" target=_blank >Share this page</a></center>
+
+<br />
 
 <big>Practicing our right to know, together.</big>
 
 We want clean air, clean water, and an end to environmental racism and injustice. 
 
-**Environmental Enforcement Watch** is series of networked online workshops that bring people together from different backgrounds to analyze the data from Environmental Protection Agency’s  [Enforcement and Compliance History Online](https://echo.epa.gov/) (ECHO) database. ECHO data includes reported violations of environmental laws, facility inspections, and enforcement actions (or lack thereof) issued by the EPA and state agencies.
+We believe in the public’s right to know, and that we can collaboratively design public open-source systems to analyze, discuss, and act on environmental data collectively. EPA data is available to the public through the <a href="https://echo.epa.gov/" target=_blank >Enforcement and Compliance History Online</a> (ECHO) database. ECHO data includes reported violations of environmental laws such as the Clean Air Act (CAA), Clean Water Act (CWA), and the Resource Conservation and Recovery Act (RCRA), which manages hazardous waste, as well as data on emissions, facility inspections, and enforcement actions issued by the EPA and state agencies. However, the database can be challenging to use and error-prone. EEW works to make this data more accessible, user-friendly, and collectively actionable through <a href="/events">public workshops</a>, <a href="https://github.com/edgi-govdata-archiving" target=_blank >open-source data tools</a>, and projects like the <a href="/reports">Congressional District Report Cards</a> and <a href="https://envirodatagov.org/more-permission-to-pollute-the-decline-of-epa-enforcement-and-industry-compliance-during-covid/" target=_blank >COVID-19 enforcement report</a>.
 
-In these virtual workshops, we will work with community organizers, concerned residents, and university students and staff to dive into the data and stories in your legislative districts, zip codes, and counties to find out: (1) what companies are emitting; (2) what are the associated environmental health risks; (3) what is and isn’t being tracked; (4) whether local facilities are violating their permits; and (5) what environmental enforcement looks like in your area.
+## Upcoming Events
 
+Join us on Thursday, October 22nd from 6:00-7:30pm EST for our Congressional Report Card release event and panel discussion featuring the Union of Concerned Scientists, Hanna Vogel (Policy Advisor to MA Senator Ed Markey), and more!
 
+<a href="https://us02web.zoom.us/webinar/register/WN_dAn8xJF9Tqm1aiC1A8Ysig" target=_blank >
 
-INFO ABOUT RELEASE EVENT?
+  ![Panel Discussion & Report Release October 22 6-7:30pm EST Featuring Union of Concerned Scientists, Hanah Vogel (Policy Advisor to MA Senator Ed Markey), and more](release-event.png)
+
+  <big><center>Register now!</center></big>
+  
+</a>

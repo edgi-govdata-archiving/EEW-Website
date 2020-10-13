@@ -19,23 +19,42 @@
   stroke-width: 2px;
   flex-wrap: wrap;
   width: 30px;
-  height: 30px;
+  height: 50px;
   margin: 2px;
+  padding: 0px 10px 0px 10px;
   color: white;
-  padding: 10px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .chair {
   stroke: #ccc;
   stroke-width: 2px;
   flex-wrap: wrap;
-  width: 85px;
-  height: 30px;
+  width: 158px;
+  height: 50px;
   margin: 2px;
   color: white;
-  padding: 10px;
   text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ranking {
+  stroke: #ccc;
+  stroke-width: 2px;
+  flex-wrap: wrap;
+  width: 105px;
+  height: 50px;
+  margin: 2px;
+  color: white;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
 
 .repOnHover {
@@ -63,7 +82,7 @@
 
 .tip {
   width: fit-content;
-  height: 4.5em;
+  height: fit-content;
   padding: 7px;
   border: 2px solid #55c0ad;
   white-space: pre-line;
