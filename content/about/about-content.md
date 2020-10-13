@@ -2,9 +2,6 @@ F<!--This is the main content file to edit for this page. It is embedded in src/
 
 <!--The text at the top of this page is pulled from `eew-desc.md` in this folder-->
 
-Environmental Enforcement Watch (EEW) is a collaborative project across Environmental Data & Governance Initiative (EDGI)’s working groups seeking to bring people together from different backgrounds to analyze and engage with the data from the Environmental Protection Agency’s [Enforcement and Compliance History Online](https://echo.epa.gov/) (ECHO) database.
-The EEW project builds on EDGI’s 2019 Sheep in the Closet report that documents large declines in EPA enforcement of environmental laws. It is also inspired by the Open Water Data project, which visualizes Clean Water Act violations with floating lanterns in a community art event developed by EDGI co-founder Sara Wylie, Laura Perovich, and the environmental justice organization GreenRoots. Both projects use data from the EPA’s Enforcement and Compliance History Online (ECHO) database, demonstrating how useful ECHO can be for communities to track pollution and EPA responses in their areas. However, the projects also reveal ECHO's inaccessibility for non-specialists, along with many omissions, errors, and confusions present in the data itself. EEW aims to make ECHO data more readily accessible and meaningful for impacted communities while highlighting how ECHO data can be improved.
-
 ## Our Goals
 * Draw large-scale public attention to the lack of environmental enforcement.
 * Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships
