@@ -11,9 +11,9 @@ The EEW project builds on EDGI’s 2019 Sheep in the Closet report that document
 
 ## Our Goals
 * Draw large-scale public attention to the lack of environmental enforcement.
-* Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships.
+* Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships
 * Inform EPA visions of alternative forms of public engagement
-* Prototype community-oriented structures for environmental data, i.e. by congressional district, watershed, and health risks for a community.
+* Prototype community-oriented structures for environmental data, i.e. by congressional district, watershed, and health risks for a community
 * Bring attention to the relationship between environmental enforcement, environmental racism, and other interlocking forms of oppression (particularly white supremacy, capitalism, settler-colonialism, heteropatriarchy, etc.)
 
 ![Environmental Data and Governance Initiative logo](./EDGI-logo.png)
@@ -21,7 +21,7 @@ The EEW project builds on EDGI’s 2019 Sheep in the Closet report that document
 ## The Environmental Data and Governance Initiative
 EDGI is an international network of over 175 members from more than 80 different academic institutions and non-profits, comprised primarily of grassroots volunteer efforts. Since 2016, EDGI has served as a preeminent watchdog group for federal environmental data, generating international efforts to duplicate and monitor repositories of public data vital to environmental health research and knowledge.
 
-EDGI’s work has been widely acknowledged, leading to EDGI members testifying before Congress on declines in EPA enforcement, and hundreds of mentions in leading national and international media such as *The New York Times*, *The Washington Post*, Vice News, and CNN. For more about our work, read our [2019 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2019/) and [2018 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2018/). 
+EDGI’s work has been widely acknowledged, leading to EDGI members testifying before Congress on declines in EPA enforcement, and hundreds of mentions in leading national and international media such as *The New York Times*, *The Washington Post*, Vice News, and CNN. For more about our work, read our [2020 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2020/) and [2019 Annual Report](https://envirodatagov.org/publication/edgi-annual-report-2019/). 
 
 ## Environmental Data Justice
 A lot of the work in EEW stems from EDGI’s work around “Environmental Data Justice,” or EDJ. EDJ promotes the production and use of environmental data in ways that challenge structures of oppression like fascism, racism, heteropatriarchy, and classism. We believe that data should serve communities and not just corporate polluters. We also believe that communities should have more resources for collecting and analyzing environmental data while retaining the power to decide what they do with it. You can read more about EDJ and find some related readings in the [EDJ Syllabus here](https://drive.google.com/drive/folders/1F0N3NOxcZBmlDW57IyAnSTQ8XZtESEn1).
@@ -48,7 +48,7 @@ Rather than presenting a hierarchical representation of contributions, below we 
 - <a href="https://www.stonybrook.edu/commcms/gss/" target=_blank >Geospatial Center at Stony Brook University</a>
 - <a href="http://apps.tlt.stonybrook.edu/" target=_blank >Teaching Learning Lab at Stony Brook University</a>
 - <a href="http://www.facebook.com/SunriseBoston/" target=_blank >Sunrise Movement – Boston Hub</a>
-- <a href="https://www.ucsusa.org//" target=_blank >SUnion of Concerned Scientists</a>
+- <a href="https://www.ucsusa.org//" target=_blank >Union of Concerned Scientists</a>
 
 ## Funders
 - <a href="https://www.ddcf.org/" target=_blank >The Doris Duke Charitable Foundation</a>
