@@ -4,7 +4,7 @@
 
 ![Democratizing Environmental Data Panel Discussion and Report Card Release Event Poster](./report_release_event.png)
 
-**Want to attend? Register up [here](https://us02web.zoom.us/webinar/register/WN_dAn8xJF9Tqm1aiC1A8Ysig)**
+<center>**Want to attend? Register [here](https://us02web.zoom.us/webinar/register/WN_dAn8xJF9Tqm1aiC1A8Ysig)**</center>
 
 EDGI's EEW events engage members of the public in the process of report-making, from delving into the data science and running Jupyter Notebooks to sharing stories about their home areas. Over the summer, we co-hosted workshops with the [Sunrise Movement Boston Hub](http://www.facebook.com/SunriseBoston/), as well as a four-part public workshop series dedicated to the completion of [EEW Congressional Report Cards](https://edgi-govdata-archiving.github.io/EEW-Website/reports) for two key committees. In commitment to the principles of EDJ, all of our code and data are available on EDGI’s GitHub [https://github.com/edgi-govdata-archiving] site, an open-source coding platform. 
 
