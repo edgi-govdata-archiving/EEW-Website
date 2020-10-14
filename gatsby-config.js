@@ -80,6 +80,8 @@ module.exports = {
     {
       resolve: '@mkitio/gatsby-theme-password-protect',
       options: {
+        pagePaths: ['/reports'],
+        partialMatching: true,
         password: 'We envision a future in which justice and equity are at the center of environmental, climate, and data governance.' // delete or `undefined` to disable password protection
       }
     }
