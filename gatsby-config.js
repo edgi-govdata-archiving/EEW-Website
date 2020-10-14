@@ -77,11 +77,5 @@ module.exports = {
         timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
     },
-    {
-      resolve: '@mkitio/gatsby-theme-password-protect',
-      options: {
-        password: 'We envision a future in which justice and equity are at the center of environmental, climate, and data governance.' // delete or `undefined` to disable password protection
-      }
-    }
   ],
 };
