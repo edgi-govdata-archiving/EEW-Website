@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import { graphql } from 'gatsby';
-import styled from 'styled-components';
 
 const Index = ({ data }) => (
   <Layout>
