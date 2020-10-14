@@ -4,4 +4,4 @@
 
 <a href="https://democracy.io" target=_blank >Write to your representatives</a></big></center>
 
-<center>LINK TO EEW PRESS KIT</center>
+<!-- <center><a href="LINK TO EEW SOCIAL MEDIA KIT" target=_blank >EEW Social Media Kit</a></center> -->
