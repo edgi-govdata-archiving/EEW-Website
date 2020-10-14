@@ -76,6 +76,14 @@ module.exports = {
         endpoint: 'https://envirodatagov.us16.list-manage.com/subscribe/post?u=0cecb14f2c571ba076e646bbb&amp;id=37cabebe36',
         timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
+    },
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        pagePaths: ['/reports'],
+        partialMatching: true,
+        password: 'We envision a future in which justice and equity are at the center of environmental, climate, and data governance.' // delete or `undefined` to disable password protection
+      }
     }
   ],
 };
