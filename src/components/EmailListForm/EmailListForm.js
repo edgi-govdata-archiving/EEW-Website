@@ -56,13 +56,12 @@ export default class EmailListForm extends React.Component {
         </h2>
         <FormWrapper>
           <AddressBox
-            id="emailSignup"
+            aria-label="Email address"
             type="email"
             name="email"
             placeholder="Email address"
             onChange={this._handleChange}
           />
-          <label htmlFor="emailSignup">Email address</label>
           <button className={styles.button} type="submit">
             Subscribe to our mailing list
           </button>
