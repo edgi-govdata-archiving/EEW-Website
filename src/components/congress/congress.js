@@ -48,7 +48,10 @@ function Congress({ chamber }) {
           thisRep.style('background-color', '#bc4749');
         } else if (d.affil == 'Democrat') {
           thisRep.style('background-color', '#3f6bc1');
+        } else if (d.affil == 'Independent') {
+          thisRep.style('background-color', '#9A77BB');
         } else {
+          // All cases should be well covered but here's EDGI's green for futureproofing
           thisRep.style('background-color', '#1B7F71');
         }
 
