@@ -1,6 +1,6 @@
 <!--This is the main content file to edit for this page. It is embedded in src/pages/index.js, which adds additional content-->
 
-<big>Strong environmental regulation is important, but it’s only as good as its enforcement.</big>
+# Strong environmental regulation is important, but it’s only as good as its enforcement.
 
 The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target=_blank >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target=_blank >Senate Environment and Public Works Committee</a>. Based on an analysis of EPA data, EEW Congressional Report Cards give the members of these Congressional committees—and their constituents—the chance to evaluate whether the EPA is fulfilling its mandate in their state/district. Eventually, we hope to compile reports for every district in the U.S.
 
@@ -9,14 +9,16 @@ The map below shows the states and districts with completed report cards:
 
 [![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)](/reports "EEW's Reports Page")
 
-<big><center><a href="/reports">Show me the reports</a></center></big>
+<center><a href="/reports"><big>Show me the reports</big></a></center>
+
+<br />
 
 <!--handy encoder if you want to change the tweet text: https://meyerweb.com/eric/tools/dencoder/ -->
 <center><a href="https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch" target=_blank >Share this page</a></center>
 
 <br />
 
-<big>Practicing our right to know, together.</big>
+# Practicing our right to know, together.
 
 We want clean air, clean water, and an end to environmental racism and injustice. 
 

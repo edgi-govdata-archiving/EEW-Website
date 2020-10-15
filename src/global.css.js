@@ -85,7 +85,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
+    color: ${primary};
   }
 
   pre {
@@ -112,6 +112,6 @@ export default createGlobalStyle`
   big {
     font-size: 150%;
     font-weight: bold;
-    color: #1B7F71;
+    color: ${accent};
   }
 `;
