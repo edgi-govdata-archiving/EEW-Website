@@ -208,6 +208,78 @@
     "url":"https://edgi-govdata-archiving.github.io/CD-report/CA36_2020"
   },
   {    
+    "rank":"Member",
+    "state":"CA",
+    "district": "18",
+    "name":"Anna Eshoo",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA18_2020"
+  },
+  {      
+    "rank":"Member",
+    "state":"NY",
+    "district": "16",
+    "name":"Eliot Engel",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY16_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"PA",
+    "district": "18",
+    "name":"Michael F. Doyle",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/PA18_2020"
+  },
+  {   
+    "rank":"Member",
+    "state":"FL",
+    "district": "14",
+    "name":"Kathy Castor",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/FL14_2020"
+  },
+  {      
+    "rank":"Member",
+    "state":"MD",
+    "district": "03",
+    "name":"John Sarbanes",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/MD3_2020"
+  },
+  {   
+    "rank":"Member",
+    "state":"IA",
+    "district": "02",
+    "name":"David Loebsack",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/IA2_2020"
+  },
+  {   
+    "rank":"Member",
+    "state":"MA",
+    "district": "04",
+    "name":"Joseph P. Kennedy",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/MA4_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"NH",
+    "district": "02",
+    "name":"Ann Kuster",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NH2_2020"
+  },
+  {        
     "rank":"Ranking Member",
     "state":"OR",
     "district": "02",
@@ -334,6 +406,87 @@
     "url":"https://edgi-govdata-archiving.github.io/CD-report/OK2_2020"
   },
   {
+    "rank":"Member",
+    "state":"SC",
+    "district": "03",
+    "name":"Jeff Duncan",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/SC3_2020"
+  },
+  {   
+    "rank":"Member",
+    "state":"MI",
+    "district": "07",
+    "name":"Tim Walberg",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/MI7_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"VA",
+    "district": "09",
+    "name":"H. Morgan Griffith",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/VA9_2020"
+  },
+  {   
+    "rank":"Member",
+    "state":"FL",
+    "district": "12",
+    "name":"Gus Bilirakis",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/FL12_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"IL",
+    "district": "16",
+    "name":"Adam Kinzinger",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/IL16_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"KY",
+    "district": "02",
+    "name":"Brett Guthrie",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/KY2_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"TX",
+    "district": "22",
+    "name":"Pete Olson",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX22_2020"
+  },
+  {   
+    "rank":"Member",
+    "state":"TX",
+    "district": "26",
+    "name":"Michael C. Burgess",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX26_2020"
+  },
+  {    
+    "rank":"Member",
+    "state":"LA",
+    "district": "01",
+    "name":"Steve Scalise",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/LA1_2020"
+  },
+  {         
     "rank":"Member",
     "state":"IN",
     "district": "05",
