@@ -35,7 +35,7 @@ EEW is organized around domains of care, with each collaborator on the project s
 Rather than presenting a hierarchical representation of contributions, below we diagram our collective authorship in accordance with <a href="https://docs.google.com/document/d/1SZeIVuJ4kjosq9GXTx8AauEF4RJYOftYyuPsj68kVck/edit#heading=h.k0ozbm3wj762" target=_blank rel=noopener >EDGI’s authorship protocol</a>: 
 
 ## Core Contributors
-![Diagram listing the names of core contributors on the EEW project, arranged by fields of care (data care, external care, event care, internal care, and research care)](./EEW_Authorship.png)
+![Diagram listing the names of core contributors on the EEW project, arranged by fields of care (data care, external care, event care, internal care, and research care)](./EEW-Authorship.png)
 
 ## Collaborators
 - <a href="https://www.stonybrook.edu/commcms/gss/" target=_blank rel=noopener >Geospatial Center at Stony Brook University</a>
