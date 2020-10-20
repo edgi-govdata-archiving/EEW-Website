@@ -38,20 +38,19 @@ const Reports = ({ data }) => (
           __html: data.reportsJson.reportsTop.childMarkdownRemark.html,
         }}
       />
-    </Box>
-    <HomeWrapper
-      style={{
-        height: 'fit-content',
-        padding: '20px',
-        backgroundColor: 'white',
-      }}
-    >
-      <DataViz>
-        <Congress chamber={'senate'} />
-        <Congress chamber={'house'} />
-      </DataViz>
-    </HomeWrapper>
-    <Box>
+      <HomeWrapper
+        style={{
+          height: 'fit-content',
+          padding: '0px',
+          backgroundColor: 'white',
+          outline: 'solid #defaf6'
+        }}
+      >
+        <DataViz>
+          <Congress chamber={'senate'} />
+          <Congress chamber={'house'} />
+        </DataViz>
+      </HomeWrapper>
       <div
         dangerouslySetInnerHTML={{
           __html: data.reportsJson.reportsCTA.childMarkdownRemark.html,
