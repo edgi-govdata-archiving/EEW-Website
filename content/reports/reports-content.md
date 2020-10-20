@@ -3,6 +3,7 @@
 <!--Content for the top of the page (above the data visualization) is in reports-top.md in this folder-->
 
 <!--The call-to-action text between the data visualization and the EEW icon is in reports-cta.md-->
+EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA. So far, we’ve generated reports for the congressional districts of each Representative on the House Energy and Commerce Committee (E&C), and for the state of each Senator on the Environment and Public Works Committee (EPW). These two committees are responsible for oversight of the EPA, an agency with a congressional mandate to enforce environmental laws. Our goal is to shed light on the chronic and routine violations of environmental laws and the failure of EPA to enforce them.
 
 ## Why Enforcement Matters
 The EPA is mandated by Congress to enforce environmental laws. With the EEW workshops, we aim to draw attention to the large gaps in effective enforcement of environmental laws. By mobilizing community expertise, public engagement and education, compelling material evidence, and an ethic of care, we can pressure our elected officials and local industries to put health and justice before power and profit.
