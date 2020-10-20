@@ -59,6 +59,7 @@
 
 .repOnHover {
   outline: 2px solid #55c0ad;
+  cursor: pointer;
 }
 
 .viz {
