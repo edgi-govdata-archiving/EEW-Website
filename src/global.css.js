@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import { primary, background, accent } from 'constants/theme';
 
+// Will this blow up the CNAME record?
+
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -28,7 +30,7 @@ export default createGlobalStyle`
     padding-bottom: 0.5rem;
     padding-top: 1em;
   }
-  
+
   h2 {
     font-size: 120%;
     font-weight: bold;
@@ -36,7 +38,7 @@ export default createGlobalStyle`
     padding-bottom: 0.5rem;
     padding-top: 1em;
   }
-  
+
   h3 {
     font-size: 110%;
     font-weight: bold;
@@ -108,7 +110,7 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
-    
+
   big {
     font-size: 150%;
     font-weight: bold;
