@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `Environmental Enforcement Watch`,
   siteTitleShort: `EEW`,
   siteDescription: `Practicing our right to know, together.`,
-  siteUrl: `https://edgi-govdata-archiving.github.io/EEW-Website`,
+  siteUrl: `https://environmentalenforcementwatch.org`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
