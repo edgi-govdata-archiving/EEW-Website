@@ -21,8 +21,3 @@ The <a href="https://www.epw.senate.gov/public/" target=_blank rel=noopener >Sen
 * Resource Conservation and Recovery Act (RCRA)
 
 ![A cycle diagram demonstrating how Congress mandates EPA, the EPA issues and enforces permits to facilities that pollute, the ECHO database stores compliance data about these facilities, EEW makes ECHO data easier to understand and EEW works with communities to make environmental compliance report cards which pushes on congress to enforce environmental enforcement through the EPA](./report-card-tracker.png)
-
-EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA for the congressional districts of each Representative on the House Energy and Commerce Committee, as well as the State of each Senator on the Environment and Public Works Committee. Our goal is to shed light on the chronic and routine violations of environmental laws and the failure to enforce environmental laws.
-
-* Report – EEW 2020 Congressional Report Card Findings (coming soon)
-* Executive Summary (coming soon)
