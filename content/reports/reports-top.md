@@ -8,4 +8,4 @@ To view our summary report of all districts and states analyzed, see:
 
 ## Individual report cards
 
-Below, **hover** to see the rank and affiliation of a representative; **click** to open a full report on EPA enforcement in the representative's district or state:
+Below, **hover** to see the name and rank of a representative; **click** to open a full report on EPA enforcement in the representative's district or state:
