@@ -19,6 +19,14 @@ module.exports = {
         anonymize: true,
         // Setting this parameter is also optional
         respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: [],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Set Variation ID. 0 for original 1,2,3....
+        variationId: "0",
+        // Defers execution of google analytics script after page load
+        defer: false,
       },
     },
     {
