@@ -43,7 +43,7 @@ const Reports = ({ data }) => (
           height: 'fit-content',
           padding: '0px',
           backgroundColor: 'white',
-          outline: 'solid #defaf6'
+          outline: 'solid #defaf6',
         }}
       >
         <DataViz>
