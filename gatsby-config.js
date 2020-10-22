@@ -9,7 +9,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: "G-S89JKXR1BK",
@@ -17,16 +17,6 @@ module.exports = {
         head: true,
         // Setting this parameter is optional
         anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: [],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Set Variation ID. 0 for original 1,2,3....
-        variationId: "0",
-        // Defers execution of google analytics script after page load
-        defer: false,
       },
     },
     {
