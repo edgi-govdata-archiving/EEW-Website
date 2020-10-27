@@ -7,7 +7,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -38,6 +37,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-social-cards`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-transformer-remark`,
