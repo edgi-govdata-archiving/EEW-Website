@@ -9,17 +9,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "G-S89JKXR1BK",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Environmental Enforcement Watch",
