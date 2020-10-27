@@ -4,6 +4,9 @@ import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import { Location } from '@reach/router';
 import schemaGenerator from 'helpers/schemaGenerator';
+const googleAnalyticsId = 'G-S89JKXR1BK';
+import ReactGA from 'react-ga';
+ReactGA.initialize(googleAnalyticsId);
 
 const Head = ({
   siteTitle,
@@ -166,6 +169,19 @@ const Head = ({
           pageTitleFull,
         })
       )}
+    </script>
+    {/* Global site tag (gtag.js) - Google Analytics  */}
+    <script
+      async
+      src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+    ></script>
+    <script>
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', "${googleAnalyticsId}");
+      `}
     </script>
   </Helmet>
 );

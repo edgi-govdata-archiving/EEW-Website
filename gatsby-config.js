@@ -8,17 +8,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "G-S89JKXR1BK",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Environmental Enforcement Watch",
@@ -29,7 +18,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "content/images/logos/eew-logo.png", // This path is relative to the root of the site.
+        icon: "content/images/logos/eew-icon-web.png", // This path is relative to the root of the site.
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
