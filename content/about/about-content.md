@@ -3,6 +3,7 @@
 <!--The text at the top of this page is pulled from `eew-desc.md` in this folder-->
 
 ## Our Goals
+* Test this out
 * Draw large-scale public attention to the lack of environmental enforcement.
 * Work with partner organizations, especially marginalized communities, to build data efficacy through mutually beneficial relationships
 * Inform EPA visions of alternative forms of public engagement
