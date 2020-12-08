@@ -13,3 +13,16 @@ jobs:
         with:
           access-token: ${{ secrets.DEPLOYMENT_TOKEN }}
           deploy-branch: gh-pages
+  uploadFTP:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: 'gh-pages'
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.ftpserver }}
+          username: ${{ secrets.ftpuser }}
+          password: ${{ secrets.ftppassword }}
