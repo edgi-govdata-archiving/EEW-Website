@@ -1,0 +1,19 @@
+name: Release to Production
+on:
+  release:
+    types: [published]
+
+jobs:
+  uploadFTP:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        ref: 'gh-pages'
+    - name: FTP to production
+      uses: sebastianpopp/git-ftp-action@releases/v3
+      with:
+        url: ${{ secrets.ftpserver }}
+        user: ${{ secrets.productionftpuser }}
+        password: ${{ secrets.productionftppassword }}
+        options: --auto-init --force --verbose --insecure --all
