@@ -3,9 +3,9 @@
 
 # EEW Website
 
-A website for the [Environmental Enforcement Watch](//environmentalenforcementwatch.org) project by [EDGI](//envirodatagov.org)
+The environmentalenforcementwatch.org website for the [Environmental Enforcement Watch](//environmentalenforcementwatch.org) project by [EDGI](//envirodatagov.org)
 
-Currently staged at https://edgi-govdata-archiving.github.io/EEW-Website/
+Staging site at [staging.environmentalenforcementwatch.org](staging.environmentalenforcementwatch.org)
 
 ## For site maintainers
 ### Where to edit content
@@ -26,23 +26,24 @@ Currently staged at https://edgi-govdata-archiving.github.io/EEW-Website/
 ## For developers
 ### Toolset
 * Written in [Gatsby](https://www.gatsbyjs.org/), a Node React framework
-* Hosted on Github Pages
+* Hosted on Namecheap
 * Continuous deployment uses Github Actions
 
 ### Deployment
 #### Continuous deployment
-The site currently deploys automatically on each merge to the `main` branch using Github Actions.
+This site deploys automatically to [staging](staging.environmentalenforcementwatch.org) upon merge to `main`, and to [production](environmentalenforcementwatch.org) upon tagged release.
 
-You can see automatic deployment status in the badge at the top of this readme.
+You can see automatic deployment status in the badge at the top of this readme. To debug, check the Actions tab of this repo.
 
-Deployment configuration can be found in `.github/workflows/continuous-integration-workflow.yml`.
+##### Staging
+Staging automatic deployment configuration can be found in `.github/workflows/continuous-integration-workflow.yml`.
 
-To debug, check the Actions tab of this repo.
+Upon merge to main, the staging Github Action is triggered which builds the site to the gh-pages branch and ftp deploys it to [staging.environmentalenforcementwatch.org](staging.environmentalenforcementwatch.org)
 
-#### Manual deployment
-The site can be manually deployed using the npm module [gh-pages](https://github.com/tschaub/gh-pages) as recommended by Gatsby [here](https://www.gatsbyjs.com/docs/how-gatsby-works-with-github-pages/#deploying-to-a-github-pages-subdomain-at-githubio).
+##### Production
+Staging automatic deployment configuration can be found in `.github/workflows/release-to-production.yml`.
 
-Ensure you have dev dependencies installed and then run `npm run deploy` from a local clone of the `main` branch.
+Upon a tagged release (through the “Releases” section of the repo), production Github action is triggered which ftp deploys the gh-pages branch to [environmentalenforcementwatch.org](environmentalenforcementwatch.org)
 
 ### Local development
 0. (If you're just learning, it would be a good idea to get familiar with the command line. Here's a [1-page tutorial](https://tessel.github.io/t2-start/cmd.html), and here's a [video demo](https://www.loom.com/share/7b8008ac9cd649f6beae77bf389cee0d))
