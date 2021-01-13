@@ -41,7 +41,7 @@ Staging automatic deployment configuration can be found in `.github/workflows/co
 Upon merge to main, the staging Github Action is triggered which builds the site to the gh-pages branch and ftp deploys it to [staging.environmentalenforcementwatch.org](staging.environmentalenforcementwatch.org)
 
 ##### Production
-Staging automatic deployment configuration can be found in `.github/workflows/release-to-production.yml`.
+Production automatic deployment configuration can be found in `.github/workflows/release-to-production.yml`.
 
 Upon a tagged release (through the “Releases” section of the repo), production Github action is triggered which ftp deploys the gh-pages branch to [environmentalenforcementwatch.org](environmentalenforcementwatch.org)
 
