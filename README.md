@@ -5,7 +5,7 @@
 
 The environmentalenforcementwatch.org website for the [Environmental Enforcement Watch](//environmentalenforcementwatch.org) project by [EDGI](//envirodatagov.org)
 
-Staging site at [staging.environmentalenforcementwatch.org](staging.environmentalenforcementwatch.org)
+Staging site at [staging.environmentalenforcementwatch.org](//staging.environmentalenforcementwatch.org)
 
 ## For site maintainers
 ### Where to edit content
@@ -31,7 +31,7 @@ Staging site at [staging.environmentalenforcementwatch.org](staging.environmenta
 
 ### Deployment
 #### Continuous deployment
-This site deploys automatically to [staging](staging.environmentalenforcementwatch.org) upon merge to `main`, and to [production](environmentalenforcementwatch.org) upon tagged release.
+This site deploys automatically to [staging](//staging.environmentalenforcementwatch.org) upon merge to `main`, and to [production](//environmentalenforcementwatch.org) upon tagged release.
 
 You can see automatic deployment status in the badge at the top of this readme. To debug, check the Actions tab of this repo.
 
@@ -43,7 +43,7 @@ Upon merge to main, the staging Github Action is triggered which builds the site
 ##### Production
 Production automatic deployment configuration can be found in `.github/workflows/release-to-production.yml`.
 
-Upon a tagged release (through the “Releases” section of the repo), production Github action is triggered which ftp deploys the gh-pages branch to [environmentalenforcementwatch.org](environmentalenforcementwatch.org)
+Upon a tagged release (through the “Releases” section of the repo), production Github action is triggered which ftp deploys the gh-pages branch to [environmentalenforcementwatch.org](//environmentalenforcementwatch.org)
 
 ### Local development
 0. (If you're just learning, it would be a good idea to get familiar with the command line. Here's a [1-page tutorial](https://tessel.github.io/t2-start/cmd.html), and here's a [video demo](https://www.loom.com/share/7b8008ac9cd649f6beae77bf389cee0d))
