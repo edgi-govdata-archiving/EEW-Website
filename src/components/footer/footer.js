@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Container } from './footer.css';
 import EmailListForm from 'components/EmailListForm';
 
@@ -28,14 +29,16 @@ const shareBlockProps = {
   url: 'https://envirodgi.org',
 };
 
-const Footer = () => (
+const Footer = ({ language }) => (
   <Container>
     <div id="get-involved">
       {/* Add mailchimp component here */}
-      <EmailListForm />
+      <EmailListForm language={language} />
     </div>
     <div id="contribute">
-      <h2>Contribute to EDGI</h2>
+      <h2>
+        {language == 'spanish' ? 'Contribuir a EDGI' : 'Contribute to EDGI'}
+      </h2>
       <div
         data-ab-button
         data-ab-token="MtYXR6eU4AKeV3oqqj3pdmuK"
@@ -54,5 +57,9 @@ const Footer = () => (
     </div>
   </Container>
 );
+
+Footer.propTypes = {
+  language: PropTypes.string,
+};
 
 export default Footer;

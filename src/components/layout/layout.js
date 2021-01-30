@@ -6,19 +6,20 @@ import Header from 'components/header';
 import Footer from 'components/footer';
 import GlobalStyle from 'global.css.js';
 
-const Layout = ({ data, children }) => (
+const Layout = ({ data, children, language }) => (
   <div>
     <GlobalStyle />
     <Head />
     <Header title={data.site.siteMetadata.siteTitle} />
     {children}
-    <Footer title={data.site.siteMetadata.siteTitle} />
+    <Footer title={data.site.siteMetadata.siteTitle} language={language} />
   </div>
 );
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   data: PropTypes.object.isRequired,
+  language: PropTypes.string,
 };
 
 const LayoutWithQuery = props => (

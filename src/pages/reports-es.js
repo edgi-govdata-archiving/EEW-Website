@@ -29,7 +29,7 @@ const DataViz = styled.div`
 `;
 
 const ReportsES = ({ data }) => (
-  <Layout>
+  <Layout language={'spanish'}>
     <Head pageTitle={data.reportsEsJson.title} />
     <Box>
       <h1>{data.reportsEsJson.title}</h1>

@@ -102,15 +102,16 @@ function Congress({ chamber, language }) {
         if (language == 'spanish') {
           party = '';
           d.affil == 'Democrat'
-            ? (party = 'Demócrata') 
-            : (d.affil == 'Republican' 
-            ? party = 'Republicano' 
-            : (d.affil == 'Independent' 
-            ? party = 'Independiente' 
-            : (party = 'Desconocido')));
+            ? (party = 'Demócrata')
+            : d.affil == 'Republican'
+            ? (party = 'Republicano')
+            : d.affil == 'Independent'
+            ? (party = 'Independiente')
+            : (party = 'Desconocido');
         }
         var infoText = '\n' + party + '';
-        language == 'spanish' ? infoText += '\nRepresentando ' : infoText += '\nRepresenting ';
+        infoText +=
+          language == 'spanish' ? '\nRepresentando ' : '\nRepresenting ';
         infoText += d.state;
         if (d.district) {
           // d.district undefined for senate because not called in graphQL query
@@ -152,7 +153,7 @@ function Congress({ chamber, language }) {
         // When the correct URL has been determined, replace the "url" property for each representative in congress.json
         if (d.reportStatus == 'completed') {
           let url = d.url;
-          language == 'spanish' ? url += '_es' : url = d.url;
+          language == 'spanish' ? (url += '_es') : (url = d.url);
           window.open(url);
         }
       });
