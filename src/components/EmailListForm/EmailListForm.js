@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 import styled from 'styled-components';
 import styles from './EmailListForm.module.css';
@@ -23,6 +24,24 @@ export default class EmailListForm extends React.Component {
   state = {
     email: null,
   };
+
+  constructor(props) {
+    super(props);
+    if (this.props.language && this.props.language == 'spanish') {
+      this.message =
+        'Juntos podemos hacer responsables a los reguladores de la industria y el medio ambiente.';
+      this.join_us = 'Únete a nosotros.';
+      this.subscribe =
+        'Suscríbase a nuestra lista de email / correo electronico';
+      this.email_msg = 'Email / correo electronico';
+    } else {
+      this.message =
+        'Together we can hold industry and environemtal regulators accountable.';
+      this.join_us = 'Join us.';
+      this.subscribe = 'Subscribe to our mailing list';
+      this.email_msg = 'Email address';
+    }
+  }
 
   _handleChange = e => {
     this.setState({
@@ -49,24 +68,27 @@ export default class EmailListForm extends React.Component {
     return (
       <form onSubmit={this._handleSubmit}>
         <h2>
-          Together we can hold industry and environmental regulators
-          accountable.
+          {this.message}
           <br />
-          Join us.
+          {this.join_us}
         </h2>
         <FormWrapper>
           <AddressBox
-            aria-label="Email address"
+            aria-label={this.email_msg}
             type="email"
             name="email"
-            placeholder="Email address"
+            placeholder={this.email_msg}
             onChange={this._handleChange}
           />
           <button className={styles.button} type="submit">
-            Subscribe to our mailing list
+            {this.subscribe}
           </button>
         </FormWrapper>
       </form>
     );
   }
 }
+
+EmailListForm.propTypes = {
+  language: PropTypes.string,
+};

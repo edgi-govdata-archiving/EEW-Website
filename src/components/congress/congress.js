@@ -17,7 +17,7 @@ import { useCongressData } from 'hooks/use-congress-data';
 // Notes:
 // If report cards will be links, then could do something like this: http://www.d3noob.org/2014/05/including-html-link-in-d3js-tool-tip.html
 
-function Congress({ chamber }) {
+function Congress({ chamber, language }) {
   const figureRef = useRef();
   const allCongressData = useCongressData();
   let congressData = '';
@@ -25,10 +25,18 @@ function Congress({ chamber }) {
 
   if (chamber == 'senate') {
     congressData = allCongressData.senateData;
-    committee = 'Senate Environment and Public Works Committee';
+    if (language == 'spanish') {
+      committee = 'Comité de Obras Públicas y Medio Ambiente del Senado';
+    } else {
+      committee = 'Senate Environment and Public Works Committee';
+    }
   } else {
     congressData = allCongressData.houseData;
-    committee = 'House Energy and Commerce Committee';
+    if (language == 'spanish') {
+      committee = 'Comité de Energía y Comercio de la Cámara de Representantes';
+    } else {
+      committee = 'House Energy and Commerce Committee';
+    }
   }
 
   useEffect(() => {
@@ -90,7 +98,21 @@ function Congress({ chamber }) {
         // This section sets up contents of tooltip
 
         // Include district if applicable
-        var infoText = '\n' + d.affil + '\nRepresenting ' + d.state;
+        let party = d.affil;
+        if (language == 'spanish') {
+          party = '';
+          d.affil == 'Democrat'
+            ? (party = 'Demócrata')
+            : d.affil == 'Republican'
+            ? (party = 'Republicano')
+            : d.affil == 'Independent'
+            ? (party = 'Independiente')
+            : (party = 'Desconocido');
+        }
+        var infoText = '\n' + party + '';
+        infoText +=
+          language == 'spanish' ? '\nRepresentando ' : '\nRepresenting ';
+        infoText += d.state;
         if (d.district) {
           // d.district undefined for senate because not called in graphQL query
           infoText = infoText + ' ' + d.district;
@@ -130,7 +152,9 @@ function Congress({ chamber }) {
         // Open a link on click
         // When the correct URL has been determined, replace the "url" property for each representative in congress.json
         if (d.reportStatus == 'completed') {
-          window.open(d.url);
+          let url = d.url;
+          language == 'spanish' ? (url += '_es') : (url = d.url);
+          window.open(url);
         }
       });
 
@@ -154,6 +178,7 @@ function Congress({ chamber }) {
 
 Congress.propTypes = {
   chamber: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
 };
 
 export default Congress;
