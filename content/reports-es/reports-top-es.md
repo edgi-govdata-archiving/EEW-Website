@@ -1,6 +1,8 @@
 <!--This snippet goes above the main content in `reports-content.md` in this folder-->
 
-<a href="../reports">See the English version here</a>
+<form>
+<input type="button" value="See the English version" onclick="window.location.href='../reports'" />
+</form>
 
 Las Boleta de Calificaciones de EEW analizan y presentan datos sobre las violaciones de las leyes ambientales, las inspecciones de las instalaciones contaminantes y las acciones de aplicación de la EPA.
 

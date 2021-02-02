@@ -1,6 +1,8 @@
 <!--This snippet goes above the main content in `reports-content.md` in this folder-->
 
-<a href="../reports-es">Ver la versión en español</a>
+<form>
+<input type="button" value="Ver la versión en español" onclick="window.location.href='../reports-es'" />
+</form>
 
 EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
 
