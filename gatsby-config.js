@@ -2,6 +2,9 @@ const siteConfig = require('./site-config');
 const { nominalTypeHack } = require('prop-types');
 
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+  },
   siteMetadata: {
     ...siteConfig,
   },
