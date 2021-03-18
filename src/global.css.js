@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { primary, background, accent } from 'constants/theme';
+import { primary, background, accent, gray } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -113,5 +113,22 @@ export default createGlobalStyle`
     font-size: 150%;
     font-weight: bold;
     color: ${accent};
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 0;
+    
+    background-image: none;
+    background-color: ${gray};
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background: ${primary};
   }
 `;
