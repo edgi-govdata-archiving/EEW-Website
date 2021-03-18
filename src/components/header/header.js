@@ -26,7 +26,10 @@ const Header = ({ data }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
-        <Img fixed={data.file.childImageSharp.fixed} alt="EEW Logo" />
+        <Img
+          fixed={data.file.childImageSharp.fixed}
+          alt="Environmental Enforcement Watch Logo"
+        />
       </Link>
 
       <Nav />
