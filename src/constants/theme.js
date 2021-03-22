@@ -4,3 +4,4 @@ export const lightprimary = '#defaf6';
 export const blue = '#3f6bc1';
 export const red = '#bc4749';
 export const background = 'white';
+export const gray = '#aaaaaa';

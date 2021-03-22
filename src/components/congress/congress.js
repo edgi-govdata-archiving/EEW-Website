@@ -99,6 +99,7 @@ function Congress({ chamber, language }) {
 
         // Include district if applicable
         let party = d.affil;
+        let rank = d.rank;
         if (language == 'spanish') {
           party = '';
           d.affil == 'Democrat'
@@ -108,6 +109,14 @@ function Congress({ chamber, language }) {
             : d.affil == 'Independent'
             ? (party = 'Independiente')
             : (party = 'Desconocido');
+          rank = '';
+          d.rank == 'Chair'
+            ? (rank = 'Presidente')
+            : d.rank == 'Ranking Member'
+            ? (rank = 'Miembro de Mayor Rango')
+            : d.rank == 'Member'
+            ? (rank = 'Miembro')
+            : (rank = 'Desconocido');
         }
         var infoText = '\n' + party + '';
         infoText +=
@@ -123,7 +132,7 @@ function Congress({ chamber, language }) {
           .text(d.name)
           .append('tspan')
           .style('font-weight', 700)
-          .text('\n' + d.rank)
+          .text('\n' + rank)
           .append('tspan')
           .style('font-weight', 300)
           .text(infoText);
