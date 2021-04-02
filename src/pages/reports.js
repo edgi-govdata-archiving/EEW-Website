@@ -33,6 +33,9 @@ const Reports = ({ data }) => (
     <Head pageTitle={data.reportsJson.title} />
     <Box>
       <h1>{data.reportsJson.title}</h1>
+      <a href="../reports-es" className="button">
+        Ver esta página en español
+      </a>
       <div
         dangerouslySetInnerHTML={{
           __html: data.reportsJson.reportsTop.childMarkdownRemark.html,
