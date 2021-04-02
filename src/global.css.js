@@ -117,7 +117,7 @@ export default createGlobalStyle`
   
   .button {
     display: inline-block;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     margin: 1rem;
     margin-left: 0;
     
