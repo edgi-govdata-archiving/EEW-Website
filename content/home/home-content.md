@@ -8,9 +8,18 @@ The map below shows the states and districts with completed report cards:
 
 [![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)](/reports "EEW's Reports Page")
 
+<center><a href="/reports"><big>Show me the reports</big></a></center>
+
+<br />
+
+<!--handy encoder if you want to change the tweet text: https://meyerweb.com/eric/tools/dencoder/ -->
+<center><a href="https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch" target=_blank rel=noopener >Share this page</a></center>
+
+<br />
+
 ## Join us at an upcoming event!
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23defaf6&amp;ctz=America%2FLos_Angeles&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23defaf6&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23defaf6&amp;ctz=America%2FLos_Angeles&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23defaf6&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0" style="border-width:0" width="800" height="250" frameborder="0" scrolling="no"></iframe>
 
 # Practicing our right to know, together.
 
