@@ -1,6 +1,8 @@
 <!--This snippet goes above the main content in `reports-content.md` in this folder-->
 
-EEW Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
+Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target=_blank rel=noopener >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target=_blank rel=noopener >Senate Environment and Public Works Committee</a>.
+
+EEW Congressional Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA, to give the members of these Congressional committees–and their constituents–the chance to evaluate whether the EPA is fulfilling its mandate in their state/district.
 
 To view our summary report of all districts and states analyzed, see:
 
