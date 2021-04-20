@@ -30,12 +30,26 @@ function Congress({ chamber, language }) {
     } else {
       committee = 'Senate Environment and Public Works Committee';
     }
-  } else {
+  } else if (chamber == 'house') {
     congressData = allCongressData.houseData;
     if (language == 'spanish') {
       committee = 'Comité de Energía y Comercio de la Cámara de Representantes';
     } else {
       committee = 'House Energy and Commerce Committee';
+    }
+  } else if (chamber == 'otherSenate') {
+    congressData = allCongressData.otherSenate;
+    if (language == 'spanish') {
+      committee = 'Boletas de Calificaciones Adicionales del Senado';
+    } else {
+      committee = 'Additional Senate Reports';
+    }
+  } else if (chamber == 'otherHouse') {
+    congressData = allCongressData.otherHouse;
+    if (language == 'spanish') {
+      committee = 'Boletas de Calificaciones Adicionales de la Cámara de Representantes';
+    } else {
+      committee = 'Additional House Reports';
     }
   }
 
@@ -116,6 +130,8 @@ function Congress({ chamber, language }) {
             ? (rank = 'Miembro de Mayor Rango')
             : d.rank == 'Member'
             ? (rank = 'Miembro')
+            : d.rank == 'Not a member of an\nEPA oversight committee'
+            ? (rank = 'No es miembro de un comité\nde supervisión de la EPA')
             : (rank = 'Desconocido');
         }
         var infoText = '\n' + party + '';
