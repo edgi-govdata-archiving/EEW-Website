@@ -30,12 +30,19 @@ function Congress({ chamber, language }) {
     } else {
       committee = 'Senate Environment and Public Works Committee';
     }
-  } else {
+  } else if (chamber == 'house') {
     congressData = allCongressData.houseData;
     if (language == 'spanish') {
       committee = 'Comité de Energía y Comercio de la Cámara de Representantes';
     } else {
       committee = 'House Energy and Commerce Committee';
+    }
+  } else {
+    congressData = allCongressData.houseData;
+    if (language == 'spanish') {
+      committee = 'Boletas de Calificaciones Adicionales'
+    } else {
+      committee = 'Additional Reports'
     }
   }
 
