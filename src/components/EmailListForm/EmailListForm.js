@@ -36,7 +36,7 @@ export default class EmailListForm extends React.Component {
       this.email_msg = 'Email / correo electronico';
     } else {
       this.message =
-        'Together we can hold industry and environemtal regulators accountable.';
+        'Together we can hold industry and environmental regulators accountable.';
       this.join_us = 'Join us.';
       this.subscribe = 'Subscribe to our mailing list';
       this.email_msg = 'Email address';
