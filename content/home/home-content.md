@@ -2,10 +2,17 @@
 
 # Strong environmental regulation is important, but it’s only as good as its enforcement.
 
-The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target=_blank rel=noopener >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target=_blank rel=noopener >Senate Environment and Public Works Committee</a>. Based on an analysis of EPA data, EEW Congressional Report Cards give the members of these Congressional committees—and their constituents—the chance to evaluate whether the EPA is fulfilling its mandate in their state/district. Eventually, we hope to compile reports for every district in the U.S.
+The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
+
+![Poster announcing 4/29 Open Hour event. Text reads: Environmental Enforcement Watch EEW Open Hour: Challenges with Environmental Data. Join us Thursday, April 29 at 6:00-7:00 ET to discuss the challenges we face with currently available environmental data and tools.](open-hour-poster.png)
+
+## Join us at an upcoming event!
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23defaf6&amp;ctz=America%2FLos_Angeles&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23defaf6&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0" style="border-width:0" width="800" height="250" frameborder="0" scrolling="no"></iframe>
+
+<br /><br />
 
 The map below shows the states and districts with completed report cards:
-
 
 [![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)](/reports "EEW's Reports Page")
 
@@ -17,6 +24,7 @@ The map below shows the states and districts with completed report cards:
 <center><a href="https://twitter.com/intent/tweet?text=EPA%20is%20overseen%20by%20two%20congressional%20committees.%20%40EnviroDGI%20took%20a%20look%20at%20environmental%20enforcement%20in%20committee%20members%27%20home%20districts%3A%20environmentalenforcementwatch.org%20%23EEWatch" target=_blank rel=noopener >Share this page</a></center>
 
 <br />
+
 
 # Practicing our right to know, together.
 
