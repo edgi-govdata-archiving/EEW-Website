@@ -684,5 +684,15 @@
     "district": "00",
     "reportStatus":"completed",
     "url":"https://edgi-govdata-archiving.github.io/CD-report/VT_2020"  
+  }], 
+  "otherData": [
+  {
+    "rank":"Chair",
+    "state":"NJ",
+    "district": "06",
+    "name":"Frank Pallone",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NJ6_2020"
   }]
 }

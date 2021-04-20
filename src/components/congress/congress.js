@@ -38,7 +38,7 @@ function Congress({ chamber, language }) {
       committee = 'House Energy and Commerce Committee';
     }
   } else {
-    congressData = allCongressData.houseData;
+    congressData = allCongressData.otherData;
     if (language == 'spanish') {
       committee = 'Boletas de Calificaciones Adicionales'
     } else {
