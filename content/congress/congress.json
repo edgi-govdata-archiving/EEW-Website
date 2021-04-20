@@ -687,12 +687,66 @@
   }], 
   "otherData": [
   {
-    "rank":"Chair",
-    "state":"NJ",
-    "district": "06",
-    "name":"Frank Pallone",
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"AZ",
+    "district": "03",
+    "name":"Raúl M. Grijalva",
     "affil":"Democrat",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/NJ6_2020"
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/AZ03_2020"
+  },
+  {
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"NY",
+    "district": "14",
+    "name":"Alexandria Ocasio-Cortez",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY14_2020"
+  },
+  {
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"TX",
+    "district": "20",
+    "name":"Joaquin Castro",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX20_2020"
+  },
+  {
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"TX",
+    "district": "21",
+    "name":"Chip Roy",
+    "affil":"Republican",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX21_2020"
+  },
+  {
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"TX",
+    "district": "34",
+    "name":"Filemon Vela",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX34_2020"
+  },
+  {
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"TX",
+    "district": "35",
+    "name":"Lloyd Doggett",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX35_2020"
+  },
+  {
+    "rank":"Not a member of an\nEPA oversight committee",
+    "state":"VA",
+    "district": "04",
+    "name":"A. Donald McEachin",
+    "affil":"Democrat",
+    "reportStatus":"completed",
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/VA04_2020"
   }]
 }

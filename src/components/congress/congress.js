@@ -37,12 +37,12 @@ function Congress({ chamber, language }) {
     } else {
       committee = 'House Energy and Commerce Committee';
     }
-  } else {
+  } else if (chamber == 'other') {
     congressData = allCongressData.otherData;
     if (language == 'spanish') {
-      committee = 'Boletas de Calificaciones Adicionales'
+      committee = 'Boletas de Calificaciones Adicionales';
     } else {
-      committee = 'Additional Reports'
+      committee = 'Additional Reports';
     }
   }
 
@@ -123,6 +123,8 @@ function Congress({ chamber, language }) {
             ? (rank = 'Miembro de Mayor Rango')
             : d.rank == 'Member'
             ? (rank = 'Miembro')
+            : d.rank == 'Not a member of an\nEPA oversight committee'
+            ? (rank = 'No es miembro de un comité\nde supervisión de la EPA')
             : (rank = 'Desconocido');
         }
         var infoText = '\n' + party + '';
