@@ -752,58 +752,18 @@
   "otherSenate": [
   {
     "rank":"Not a member of an\nEPA oversight committee",
-    "state":"AZ",
-    "name":"Raúl M. Grijalva",
+    "state":"CA",
+    "name":"Dianne Feinstein, Kamala Harris",
     "affil":"Democrat",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/AZ03_2020"
-  },
-  {
-    "rank":"Not a member of an\nEPA oversight committee",
-    "state":"NY",
-    "name":"Alexandria Ocasio-Cortez",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/NY14_2020"
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/CA_2020"
   },
   {
     "rank":"Not a member of an\nEPA oversight committee",
     "state":"TX",
-    "name":"Joaquin Castro",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX20_2020"
-  },
-  {
-    "rank":"Not a member of an\nEPA oversight committee",
-    "state":"TX",
-    "name":"Chip Roy",
+    "name":"John Cornyn, Ted Cruz",
     "affil":"Republican",
     "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX21_2020"
-  },
-  {
-    "rank":"Not a member of an\nEPA oversight committee",
-    "state":"TX",
-    "name":"Filemon Vela",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX34_2020"
-  },
-  {
-    "rank":"Not a member of an\nEPA oversight committee",
-    "state":"TX",
-    "name":"Lloyd Doggett",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX35_2020"
-  },
-  {
-    "rank":"Not a member of an\nEPA oversight committee",
-    "state":"VA",
-    "name":"A. Donald McEachin",
-    "affil":"Democrat",
-    "reportStatus":"completed",
-    "url":"https://edgi-govdata-archiving.github.io/CD-report/VA04_2020"
+    "url":"https://edgi-govdata-archiving.github.io/CD-report/TX_2020"
   }]
 }
