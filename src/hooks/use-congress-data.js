@@ -22,7 +22,15 @@ export const useCongressData = () => {
             reportStatus
             url
           }
-          otherData {
+          otherSenate {
+            rank
+            state
+            name
+            affil
+            reportStatus
+            url
+          }
+          otherHouse {
             rank
             state
             district

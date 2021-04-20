@@ -37,12 +37,19 @@ function Congress({ chamber, language }) {
     } else {
       committee = 'House Energy and Commerce Committee';
     }
-  } else if (chamber == 'other') {
-    congressData = allCongressData.otherData;
+  } else if (chamber == 'otherSenate') {
+    congressData = allCongressData.otherSenate;
     if (language == 'spanish') {
-      committee = 'Boletas de Calificaciones Adicionales';
+      committee = 'Boletas de Calificaciones Adicionales del Senado';
     } else {
-      committee = 'Additional Reports';
+      committee = 'Additional Senate Reports';
+    }
+  } else if (chamber == 'otherHouse') {
+    congressData = allCongressData.otherHouse;
+    if (language == 'spanish') {
+      committee = 'Boletas de Calificaciones Adicionales de la Cámara de Representantes';
+    } else {
+      committee = 'Additional House Reports';
     }
   }
 
