@@ -10,4 +10,8 @@ So far, we have developed Notebooks that generate several different types of rep
 
 We want to make environmental compliance data more accessible and useful through our Jupyter Notebooks and supplementing the numbers with community stories, compelling data visualizations, and contextual research. 
 
+## Tutorial videos
+* [Jupyter Notebook Demo](https://www.youtube.com/watch?v=KJuEK89Y73c)
+* [EEW Demo Video](https://www.youtube.com/watch?v=Q0iXOn-dY1g)
+
 **Interested in hosting an EEW event? Email us at environmentalenforcementwatch@gmail.com**
