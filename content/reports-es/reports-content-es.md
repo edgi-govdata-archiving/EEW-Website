@@ -7,7 +7,7 @@
 ## Acerca de las boletas de calificaciones de EEW
 El <a href="https://www.epw.senate.gov/public/" target=_blank rel=noopener>Comité de Obras Públicas y Medio Ambiente del Senado</a> y el <a href = "https://energycommerce.house.gov/" target = _blank rel = noopener>Comité de Energía y Comercio de la Cámara de Representantes</a> tiene jurisdicción sobre la EPA. La EPA hace cumplir las leyes ambientales como:
 
-* La Ley de agua Limpia (CWA)
+* La Ley de Agua Limpia (CWA)
 * La Ley de Aire Limpio (CAA)
 * La Ley de Conservación y Recuperación de Recursos (RCRA)
 
