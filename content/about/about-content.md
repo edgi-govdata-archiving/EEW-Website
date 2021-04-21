@@ -46,4 +46,5 @@ Rather than presenting a hierarchical representation of contributions, below we 
 ## Funders
 - <a href="https://www.ddcf.org/" target=_blank rel=noopener >The Doris Duke Charitable Foundation</a>
 - <a href="https://www.packard.org/" target=_blank rel=noopener >The David and Lucile Packard Foundation</a>
+- <a href="https://eventfund.codeforscience.org/" target=_blank rel=noopener >Code for Science & Society Virtual Events Fund</a>, made possible by grant number GBMF8449 from the Gordon and Betty Moore Foundation (https://doi.org/10.37807/GBMF8449)
 - <a href="https://web.northeastern.edu/nulab/" target=_blank rel=noopener >Northeastern University Lab for Texts, Maps, and Networks</a>

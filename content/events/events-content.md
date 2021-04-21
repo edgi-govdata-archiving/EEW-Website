@@ -8,6 +8,12 @@ These can gather information about EPA inspections of these sites, whether facil
 
 So far, we have developed Notebooks that generate several different types of report metrics, all of which can be found in [EDGI’s GitHub repositories](https://github.com/edgi-govdata-archiving/ECHO-Cross-Program). One gathers data on facility inspections, violations, and enforcement actions for three different regulatory statutes [CAA](https://www.epa.gov/laws-regulations/summary-clean-air-act), [CWA](https://www.epa.gov/laws-regulations/summary-clean-water-act), [RCRA](https://www.epa.gov/laws-regulations/summary-resource-conservation-and-recovery-act) at the zip-code, congressional district, and county level. Another allows users to investigate a specific facility of concern across the same three regulatory statutes. A specialized notebook was developed to analyze declining enforcement during the COVID-19 crisis in order to supplement [EDGI’s COVID Enforcement Report](https://envirodatagov.org/more-permission-to-pollute-the-decline-of-epa-enforcement-and-industry-compliance-during-covid/).
 
+## Tutorial videos
+* [Jupyter Notebook Demo](https://www.youtube.com/watch?v=KJuEK89Y73c)
+* [EEW Demo Video](https://www.youtube.com/watch?v=Q0iXOn-dY1g)
+
+<br/>
+
 We want to make environmental compliance data more accessible and useful through our Jupyter Notebooks and supplementing the numbers with community stories, compelling data visualizations, and contextual research. 
 
 **Interested in hosting an EEW event? Email us at environmentalenforcementwatch@gmail.com**
