@@ -4,7 +4,7 @@
 
 The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
 
-![Poster announcing 4/29 Open Hour event. Text reads: Environmental Enforcement Watch EEW Open Hour: Challenges with Environmental Data. Join us Thursday, April 29 at 6:00-7:00 ET to discuss the challenges we face with currently available environmental data and tools.](open-hour-poster.png)
+![Poster announcing 4/29 Open Hour event. Text reads: Environmental Enforcement Watch EEW Open Hour: Challenges with Environmental Data. Join us Thursday, April 29 at 6-7 ET to discuss the challenges we face with currently available environmental data and tools. Sponsor logos: EDGI, EEW, Moore Foundation, Code for Science & Society](open-hour-poster.png)
 
 ## Join us at an upcoming event!
 
