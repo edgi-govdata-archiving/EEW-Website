@@ -47,7 +47,8 @@ function Congress({ chamber, language }) {
   } else if (chamber == 'otherHouse') {
     congressData = allCongressData.otherHouse;
     if (language == 'spanish') {
-      committee = 'Boletas de Calificaciones Adicionales de la Cámara de Representantes';
+      committee =
+       'Boletas de Calificaciones Adicionales de la Cámara de Representantes';
     } else {
       committee = 'Additional House Reports';
     }
@@ -131,7 +132,7 @@ function Congress({ chamber, language }) {
             : d.rank == 'Member'
             ? (rank = 'Miembro')
             : d.rank == 'Not a member of an\nEPA oversight committee'
-            ? (rank = 'No es miembro de un comité\nde supervisión de la EPA')
+            ? (rank = 'No es un miembro de un comité\nque supervisa la EPA')
             : (rank = 'Desconocido');
         }
         var infoText = '\n' + party + '';
