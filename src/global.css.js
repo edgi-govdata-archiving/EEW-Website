@@ -115,6 +115,12 @@ export default createGlobalStyle`
     color: ${accent};
   }
   
+  bigger {
+    font-size: 200%;
+    font-weight: bold;
+    color: ${accent};
+  }
+  
   .button {
     display: inline-block;
     padding: 1rem 1.5rem 1rem 1.5rem;
