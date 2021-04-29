@@ -4,7 +4,10 @@
 
 The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
 
-![Poster announcing 4/29 Open Hour event. Text reads: Environmental Enforcement Watch EEW Open Hour: Challenges with Environmental Data. Join us Thursday, April 29 at 6-7 ET to discuss the challenges we face with currently available environmental data and tools. Sponsor logos: EDGI, EEW, Moore Foundation, Code for Science & Society](open-hour-poster.png)
+<a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">![Environmental Justice and EPA Data Accessibility in Latinx Communities. Join us Thursday, May 13, 6:00-7:30 PM ET in a public conversation discussing how EPA data can be made more accessible to Spanish-speaking communities affected by environmental injustice.](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F133732387%2F534258519949%2F1%2Foriginal.20210429-042548?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=386068a149304c47cdd83a01eb11c4c4)</a>
+<a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">![Justicia ambiental: Acceso al lenguaje de datos de la EPA en comunidades Latinxs. Únase a nosotros el jueves 13 de mayo, de 6:00-7:30 PM ET en una conversación pública sobre cómo aumentar la accesibilidad de los datos de la EPA para las comunidades de habla hispana afectadas por la injusticia ambiental.](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F133696885%2F534258519949%2F1%2Foriginal.20210428-202634?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fd4de48bec9c111e0882dc3d919fb32b)
+
+<bigger><center><a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">RSVP en espanol</a> | <a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">RSVP in English</a></center></bigger>
 
 ## Join us at an upcoming event!
 
@@ -14,7 +17,7 @@ The Environmental Protection Agency (EPA) is charged by Congress to enforce laws
 
 The map below shows the states and districts with completed report cards:
 
-[![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)](/reports "EEW's Reports Page")
+<a href="/reports">![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)</a>
 
 <center><a href="/reports"><big>Show me the reports</big></a></center>
 

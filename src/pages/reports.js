@@ -52,8 +52,6 @@ const Reports = ({ data }) => (
         <DataViz>
           <Congress chamber={'senate'} language={'english'} />
           <Congress chamber={'house'} language={'english'} />
-          <Congress chamber={'otherSenate'} language={'english'} />
-          <Congress chamber={'otherHouse'} language={'english'} />
         </DataViz>
       </HomeWrapper>
       <div
