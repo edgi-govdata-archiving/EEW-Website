@@ -4,14 +4,17 @@
 
 The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
 
-<a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">![Environmental Justice and EPA Data Accessibility in Latinx Communities. Join us Thursday, May 13, 6:00-7:30 PM ET in a public conversation discussing how EPA data can be made more accessible to Spanish-speaking communities affected by environmental injustice.](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F133732387%2F534258519949%2F1%2Foriginal.20210429-042548?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=386068a149304c47cdd83a01eb11c4c4)</a>
-<a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">![Justicia ambiental: Acceso al lenguaje de datos de la EPA en comunidades Latinxs. Únase a nosotros el jueves 13 de mayo, de 6:00-7:30 PM ET en una conversación pública sobre cómo aumentar la accesibilidad de los datos de la EPA para las comunidades de habla hispana afectadas por la injusticia ambiental.](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F133696885%2F534258519949%2F1%2Foriginal.20210428-202634?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fd4de48bec9c111e0882dc3d919fb32b)
+<a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">![Justicia ambiental: Acceso al lenguaje de datos de la EPA en comunidades Latinxs. Únase a nosotros el jueves 13 de mayo, de 6:00-7:30 PM ET en una conversación pública sobre cómo aumentar la accesibilidad de los datos de la EPA para las comunidades de habla hispana afectadas por la injusticia ambiental.](spanish-event-es.png)</a>
 
-<bigger><center><a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">RSVP en espanol</a> | <a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">RSVP in English</a></center></bigger>
+<a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">![Environmental Justice and EPA Data Accessibility in Latinx Communities. Join us Thursday, May 13, 6:00-7:30 PM ET in a public conversation discussing how EPA data can be made more accessible to Spanish-speaking communities affected by environmental injustice.](spanish-event-en.png)
+
+<center class="bigger"><a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">RSVP en Español</a> | <a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">RSVP in English</a></center>
+
+<br/>
 
 ## Join us at an upcoming event!
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23defaf6&amp;ctz=America%2FNew_York&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23defaf6&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0" style="border-width:0" width="800" height="250" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23defaf6&amp;ctz=America%2FNew_York&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23defaf6&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0" style="border-width:0" width="700" height="250" frameborder="0" scrolling="no"></iframe>
 
 <br /><br />
 
