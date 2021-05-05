@@ -48,7 +48,7 @@ function Congress({ chamber, language }) {
     congressData = allCongressData.otherHouse;
     if (language == 'spanish') {
       committee =
-       'Boletas de Calificaciones Adicionales de la Cámara de Representantes';
+        'Boletas de Calificaciones Adicionales de la Cámara de Representantes';
     } else {
       committee = 'Additional House Reports';
     }
