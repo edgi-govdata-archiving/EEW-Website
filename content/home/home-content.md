@@ -4,12 +4,16 @@
 
 The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
 
-<a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">![Justicia ambiental: Acceso al lenguaje de datos de la EPA en comunidades Latinxs. Únase a nosotros el jueves 13 de mayo, de 6:00-7:30 PM ET en una conversación pública sobre cómo aumentar la accesibilidad de los datos de la EPA para las comunidades de habla hispana afectadas por la injusticia ambiental.](spanish-event-es.png)</a>
+<a href="https://www.eventbrite.com/e/eew-open-hour-whats-not-talked-about-enough-tickets-155823794163">![Click here to sign up for this Open Hour!](openhour_june17.png)</a>
 
-<a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">![Environmental Justice and EPA Data Accessibility in Latinx Communities. Join us Thursday, May 13, 6:00-7:30 PM ET in a public conversation discussing how EPA data can be made more accessible to Spanish-speaking communities affected by environmental injustice.](spanish-event-en.png)
+<center class="bigger"><a href="https://www.eventbrite.com/e/eew-open-hour-whats-not-talked-about-enough-tickets-155823794163">RSVP</a></center>
 
-<center class="bigger"><a href="https://www.eventbrite.com/e/justicia-ambiental-accesibilidad-de-datos-del-epa-para-comunidades-latinx-tickets-152799055087?aff=ebdsoporgprofile">RSVP en Español</a> | <a href="https://www.eventbrite.com/e/environmental-justice-epa-data-language-access-in-latinx-communities-tickets-152380972591?aff=ebdsoporgprofile">RSVP in English</a></center>
+<br/>
 
+![Click the links below to learn more about and apply to these positions. Join our team!](werehiring.png)
+
+<center class="bigger"><a href="https://docs.google.com/document/d/1DxvgF_UmMZsqFSnN8-3_gmDgForcG55zy1o6XwI7VeY/edit?usp=sharing">UX Designer</a> | <a href="https://docs.google.com/document/d/150itkIXSltc_m2yAaXKwUf-whZjLo4Q9o-fduHDf-Cg/edit?usp=sharing">Web Developer</a></center>
+  
 <br/>
 
 ## Join us at an upcoming event!
