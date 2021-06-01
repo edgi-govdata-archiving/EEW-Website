@@ -10,7 +10,9 @@ The Environmental Protection Agency (EPA) is charged by Congress to enforce laws
 
 <br/>
 
-![Click the links below to learn more about and apply to these positions. Join our team!](werehiring.png)
+<p align="center">
+<img src="werehiring.png" alt="Click the links below to learn more about and apply to these positions. Join our team!" width="600">
+</p>
 
 <center class="bigger"><a href="https://docs.google.com/document/d/1DxvgF_UmMZsqFSnN8-3_gmDgForcG55zy1o6XwI7VeY/edit?usp=sharing">UX Designer</a> | <a href="https://docs.google.com/document/d/150itkIXSltc_m2yAaXKwUf-whZjLo4Q9o-fduHDf-Cg/edit?usp=sharing">Web Developer</a></center>
   
