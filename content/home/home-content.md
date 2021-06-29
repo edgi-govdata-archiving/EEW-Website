@@ -4,16 +4,7 @@
 
 The Environmental Protection Agency (EPA) is charged by Congress to enforce laws that protect people from air pollution, water pollution, and hazardous waste. The Environmental Enforcement Watch (EEW) works [with members of the public](/events) to analyze and present EPA data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA.
 
-<h2><a href="https://megraisle.shinyapps.io/eew_report_demo/" target="_blank" rel="noopener">Click here to view app in a separate window</a></h2>
-
-<iframe style="border: none;" title="description" src="https://megraisle.shinyapps.io/eew_report_demo/" width="1000" height="1000"></iframe>
-
-
-## Join us at an upcoming event!
-
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23defaf6&amp;ctz=America%2FNew_York&amp;src=c280bXJsNjk5YWVhNTE5bnQxNzhwNTBwMzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23defaf6&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showCalendars=0&amp;showTz=1&amp;showTitle=0" style="border-width:0" width="700" height="250" frameborder="0" scrolling="no"></iframe>
-
-<br /><br />
+<br />
 
 The map below shows the states and districts with completed report cards:
 
