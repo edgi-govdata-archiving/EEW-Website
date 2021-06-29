@@ -6,6 +6,17 @@ The Environmental Protection Agency (EPA) is charged by Congress to enforce laws
 
 <br />
 
+Below is a shiny app still being developed. It is visualized here for demo purposes only.
+
+
+<h2><a href="https://megraisle.shinyapps.io/eew_report_demo/" target="_blank" rel="noopener">Click here to view app in a separate window</a></h2>
+	
+<iframe style="border: none;" title="description" src="https://megraisle.shinyapps.io/eew_report_demo/" width="1000" height="1000"></iframe>
+
+
+<br /><br />
+
+
 The map below shows the states and districts with completed report cards:
 
 <a href="/reports">![Map of representatives on EPA oversight committees, covered by EEW Congressional Report Cards project](eew-map.png)</a>
