@@ -1,0 +1,43 @@
+import Layout from '../../components/Layout'
+import InfoCard from '../../components/InfoCard'
+import { LearnPageSidebarLinks } from '../../helpers/constants'
+import intro from "../../images/tutorials-intro.png"
+import jupyter from "../../images/tutorials-jupyter.png"
+import watershed from "../../images/tutorials-watershed.png"
+import watersheddoc from "../../images/tutorials-watersheddoc.png"
+
+<Layout pageTitle="Tutorials" sidebarLinks={LearnPageSidebarLinks} activeHeaderLink="Learn">
+
+# Tutorial videos
+
+We want to make environmental compliance data more accessible and useful through our Jupyter Notebooks and supplementing the numbers with community stories, compelling data visualizations, and contextual research.
+
+<div className='row'>
+  <InfoCard
+      title="EEW Introduction Video"
+      description='A short video introducing the Environmental Enforcement Watch project and our approach.'
+      link='https://www.youtube.com/watch?v=Q0iXOn-dY1g'
+      image={intro}
+  />
+  <InfoCard
+      title="Jupyter Notebook Demo"
+      description='A video explaining how to run a Jupyter Notebook.'
+      link='https://www.youtube.com/watch?v=KJuEK89Y73c'
+      image={jupyter}
+  />
+  <InfoCard
+      title="Watershed Notebook Demo"
+      description='A video walkthrough of the Environmental Enforcement Watch watershed notebook - a data science tool that allows you to see what facilities are polluting under the Clean Water Act in watersheds that are interesting and relevant to you!'
+      link='https://www.youtube.com/watch?v=gR5jVqb43os'
+      image={watershed}
+  />
+  <InfoCard
+      title="Watershed Notebook Guide"
+      description='A detailed guide for educators, journalists, and civic organizers on how to get the most our of the watershed Notebook.'
+      link='https://docs.google.com/document/d/1fOL1O30cAXS7iOZMItSekG8E8KIUfH-EaYG601W-ncM/edit'
+      image={watersheddoc}
+  />
+</div>
+
+
+</Layout>

@@ -1,0 +1,26 @@
+import Layout from '../../components/Layout'
+import InfoCard from '../../components/InfoCard'
+import { DataPageSidebarLinks } from '../../helpers/constants'
+import democratizing from "../../images/research-democratizing.png"
+import covid from "../../images/research-covid.jpg"
+
+<Layout pageTitle="Research" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
+
+# Research
+
+<div className='row'>
+  <InfoCard
+      title="Democratizing Data Report"
+      description='Democratizing Data: Environmental Enforcement Watch’s Report Cards for Congressional Oversight of the EPA'
+      link='https://envirodatagov.org/press-release-democratizing-data-reports-released-by-edgis-environmental-enforcement-watch/'
+      image={democratizing}
+  />
+  <InfoCard
+      title="COVID Enforcement Report"
+      description='More Permission to Pollute: The Decline of EPA Enforcement and Industry Compliance during COVID'
+      link='https://envirodatagov.org/more-permission-to-pollute-the-decline-of-epa-enforcement-and-industry-compliance-during-covid/'
+      image={covid}
+  />
+</div>
+
+</Layout>
