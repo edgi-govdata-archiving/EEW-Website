@@ -21,7 +21,7 @@
     "format": "prettier --config ./.prettierrc --write src/**/*.js",
     "build:dir": "mkdirp ./public/icons/",
     "build:favicons": "node scripts/favicons",
-    "build": "npm run build:dir && npm run build:favicons && gatsby build",
+    "build": "npm run build:dir && gatsby build",
     "test": "ava **/*.test.js --verbose",
     "deploy": "gatsby build && gh-pages -d public"
   },
