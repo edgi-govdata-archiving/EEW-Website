@@ -2,6 +2,7 @@ import * as React from 'react'
 import Layout from '../../components/Layout'
 import { AboutSidebarLinks } from '../../helpers/constants'
 
+{/* This contact page is implemented using FormSpark - to make changes to how it works, log into EDGI's FormSpark account and configure using the online dashboard */}
 const ContactPage = () => 
   <Layout pageTitle="Contact" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <h1>Contact</h1>
