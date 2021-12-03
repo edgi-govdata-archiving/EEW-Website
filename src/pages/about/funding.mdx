@@ -1,0 +1,61 @@
+import Layout from '../../components/Layout'
+import InfoCard from '../../components/InfoCard'
+import { AboutSidebarLinks } from '../../helpers/constants'
+import EDGI from "../../images/EDGI-logo.png"
+import Packard from "../../images/funders-packard.png"
+import ESIP from "../../images/funders-esip.png"
+import CSS from "../../images/funders-css.png"
+import NEU from "../../images/funders-neu.png"
+import SBU from "../../images/funders-sbu.png"
+import DDCF from "../../images/funders-ddcf.png"
+
+<Layout pageTitle="Funding" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+
+# Donors & Fundraising
+
+<div className='row'>
+    <InfoCard
+        title="Volunteers"
+        description='Many EDGI contributors are skilled volunteers who donate their labor.'
+        link='https://www.envirodatagov.org'
+        image={EDGI}
+    />
+    <InfoCard
+        title="Packard Foundation"
+        description='Sustaining organizational funding.'
+        link='https://www.packard.org'
+        image={Packard}
+    />
+    <InfoCard
+        title="ESIP Lab"
+        description='UX testing and website rebuild, 2021.'
+        link='https://www.esipfed.org/lab'
+        image={ESIP}
+    />
+    <InfoCard
+        title="Code for Science & Society Virtual Events Fund"
+        description='Funding for highly accessible virtual events, made possible by grant number GBMF8449 from the Gordon and Betty Moore Foundation (https://doi.org/10.37807/GBMF8449).'
+        link='https://www.eventfund.codeforscience.org'
+        image={CSS}
+    />
+    <InfoCard
+        title="Northeastern University Lab for Texts, Maps, and Networks"
+        description='Helped to fund the 2020 Intern program.'
+        link='https://web.northeastern.edu/nulab'
+        image={NEU}
+    />
+    <InfoCard
+        title="Stony Brook University"
+        description='In-kind donation to mirror the databases core to this work.'
+        link='https://it.stonybrook.edu/services/teaching-learning-lab'
+        image={SBU}
+    />
+    <InfoCard
+        title="Doris Duke Charitable Foundation"
+        description='Sustaining organizational funding.'
+        link='https://ddcf.org'
+        image={DDCF}
+    />
+</div>
+
+</Layout>

@@ -1,0 +1,25 @@
+import Layout from '../../components/Layout'
+import InfoCard from '../../components/InfoCard'
+import { DataPageSidebarLinks } from '../../helpers/constants'
+import watershed from "../../images/notebooks-watershed.png"
+import crossprog from "../../images/notebooks-cross-program.png"
+
+<Layout pageTitle="Notebooks" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
+
+# Notebooks
+
+<div className='row'>
+  <InfoCard
+    title="Cross-Program Notebook"
+    description='Explore EPA databases including the Enforcement and Compliance History Online and the Toxics Release Inventory by state, ZIP code, county, or congressional district.'
+    link='https://colab.research.google.com/github/edgi-govdata-archiving/ECHO-Cross-Program/blob/main/ECHO-Cross-Programs.ipynb'
+    image={crossprog}
+  />
+  <InfoCard
+    title="Watershed Notebook"
+    description='Discover the shape of watersheds in an area and explore the behaviors of regulated facilities by watershed.'
+    link='https://colab.research.google.com/github/edgi-govdata-archiving/ECHO-Watershed/blob/main/ECHO_Watershed.ipynb'
+    image={watershed}
+  />
+</div>
+</Layout>

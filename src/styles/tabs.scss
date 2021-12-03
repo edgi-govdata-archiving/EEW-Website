@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+  .react-tabs__tab {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .react-tabs__tab {
+    flex: 1 1 auto;
+    max-width: 100px;
+  }
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+li figure {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.react-tabs__tab--selected {
+  background-color: rgb(222, 250, 246);
+}
+
+.react-tabs__tab-panel {
+  background-color: rgb(222, 250, 246);
+  border: 1px solid #aaa;
+  border-top: none;
+  padding: 1.5rem 2rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  
+}
+
+.react-tabs img {
+  width: 100%;
+}
