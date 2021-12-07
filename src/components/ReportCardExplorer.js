@@ -1,15 +1,15 @@
 import * as React from "react"
 import { Link } from 'gatsby'
-import { CongressReportCardData } from '../helpers/congress'
+import { CongressReportCardData } from '../helpers/congress2'
 import ReactTooltip from 'react-tooltip';
 
 const ReportCardExplorer = () =>
   <div className='ReportCardExplorer'>
     <h3>Senate Environment and Public Works Committee</h3>
     {
-      CongressReportCardData.senateData.map(congressMember => 
+      CongressReportCardData.senateData.map(congressMember =>
         <Link to={congressMember.url} target='_blank'>
-          <div data-tip={`${congressMember.name} <br /> <strong>${congressMember.rank}</strong> <br /> ${congressMember.affil} <br /> Representing ${congressMember.state}-${congressMember.district}`} 
+          <div data-tip={`${congressMember.name} <br /> <strong>${congressMember.rank}</strong> <br /> ${congressMember.affil} <br /> Representing ${congressMember.state}-${congressMember.district}`}
                className={`ReportCard ${congressMember.affil} tooltip`}>
             {congressMember.state}
           </div>
@@ -18,9 +18,9 @@ const ReportCardExplorer = () =>
     }
     <h3>House Energy and Commerce Committee</h3>
     {
-      CongressReportCardData.houseData.map(congressMember => 
+      CongressReportCardData.houseData.map(congressMember =>
         <Link to={congressMember.url} target='_blank'>
-          <div data-tip={`${congressMember.name} <br /> <strong>${congressMember.rank}</strong> <br /> ${congressMember.affil} <br /> Representing ${congressMember.state}-${congressMember.district}`} 
+          <div data-tip={`${congressMember.name} <br /> <strong>${congressMember.rank}</strong> <br /> ${congressMember.affil} <br /> Representing ${congressMember.state}-${congressMember.district}`}
                className={`ReportCard ${congressMember.affil} tooltip`}>
             <div>{congressMember.state}</div>
             <div>{congressMember.district}</div>
