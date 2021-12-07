@@ -15,7 +15,7 @@ export const HeaderLinks = [
     sublinks: [
       {
         text: "Congressional Report Cards",
-        url: "/data/reports",
+        url: "/data/congress",
       },
       {
         text: "Notebooks",
@@ -24,6 +24,10 @@ export const HeaderLinks = [
       {
         text: "Research",
         url: "/data/research",
+      },
+      {
+        text: "2020 Congressional Committee Report Cards",
+        url: "/data/reports",
       },
     ],
   },

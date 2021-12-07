@@ -1,26 +1,17 @@
 import Layout from '../../components/Layout'
 import { DataPageSidebarLinks } from '../../helpers/constants'
-import CycleDiagram from "../../images/report-card-tracker.png"
 import { Link } from 'gatsby'
 import ReportCardExplorer from '../../components/ReportCardExplorer';
 
-<Layout pageTitle="2020 Congressional Committee Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
-# 2020 Congressional Committee Report Cards
 
-<Link to='../reports-es' className='button'>Ver esta página en español</Link>
+<Layout pageTitle="Congressional Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
-Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target='_blank' rel='noopener' >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener' >Senate Environment and Public Works Committee</a>.
+# Congressional Report Cards
 
-EEW's 2020 Committee Congressional Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA, to give the members of these Congressional committees–and their constituents–the chance to evaluate whether the EPA is fulfilling its mandate in their state/district.
+ABOUT THE DATA / UPDATES / WHY TO SHOW AT THIS VIEW
 
-To view our summary report of all districts and states analyzed, see:
-
-Summary Report – <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank'>Democratizing Data: Environmental Enforcement Watch's Report Cards for Congressional Oversight of the EPA</a>
-
-## Individual report cards
-
-Below, **hover** to see the name and rank of a representative; **click** to open a full report on EPA enforcement in the representative's district or state:
+MAPS?
 
 <ReportCardExplorer />
 
@@ -28,18 +19,12 @@ Below, **hover** to see the name and rank of a representative; **click** to open
 
 <a className='button' href="https://democracy.io" target='_blank' rel='noopener' >Write to your representatives</a>
 
-<a className='button' href="https://docs.google.com/document/d/112O6ZQ66Bd-DFsrsOQT-43Fg8SqRAfbrLzhzG0yR4xY/edit#" target='_blank' rel='noopener' >Social Media Kit</a>
-
 ## About EEW Report Cards
 The <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener' >Senate Environment and Public Works Committee</a> and the <a href="https://energycommerce.house.gov/" target='_blank' rel='noopener' >House Energy and Commerce Committee</a> have jurisdiction over the EPA. The EPA is mandated to enforce environmental laws such as the:
 
 * Clean Water Act (CWA)
 * Clean Air Act (CAA)
 * Resource Conservation and Recovery Act (RCRA)
-
-<img src={CycleDiagram} alt='A cycle diagram demonstrating how Congress mandates EPA, the EPA issues and enforces permits to facilities that pollute, the ECHO database stores compliance data about these facilities, EEW makes ECHO data easier to understand and EEW works with communities to make environmental compliance report cards which pushes on congress to enforce environmental enforcement through the EPA' />
-
-So far, we’ve generated reports for the congressional districts of each Representative on the House Energy and Commerce Committee, and for the state of each Senator on the Environment and Public Works Committee. These two committees are responsible for oversight of the EPA, an agency with a congressional mandate to enforce environmental laws. On October 22nd, 2020, we hosted a webinar outlining the findings from our Congressional Report Cards and the corresponding <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank' rel='noopener' >summary report</a>, with invaluable regulatory and political context provided by our amazing panelists. **Click <a href="https://youtu.be/9Ot7uFA4ucQ" target='_blank' rel='noopener' >here</a> to view the recording.** Our goal is to shed light on the chronic and routine violations of environmental laws and the failure of EPA to enforce them.
 
 ## Why Enforcement Matters
 The EPA is mandated by Congress to enforce environmental laws. With the [EEW workshops](/events), we aim to draw attention to the large gaps in effective enforcement of environmental laws. By mobilizing community expertise, public engagement and education, compelling material evidence, and an ethic of care, we can pressure our elected officials and local industries to put health and justice before power and profit.
