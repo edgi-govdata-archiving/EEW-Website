@@ -25,6 +25,10 @@ export const HeaderLinks = [
         text: "Research",
         url: "/data/research",
       },
+      {
+        text: "External Resources",
+        url: "/data/resources",
+      },
     ],
   },
   {
@@ -127,6 +131,10 @@ export const DataPageSidebarLinks = [
   {
     text: "Research",
     url: "/data/research",
+  },
+  {
+    text: "External Resources",
+    url: "/data/resources",
   },
 ];
 
