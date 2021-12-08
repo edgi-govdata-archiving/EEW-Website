@@ -29,6 +29,10 @@ export const HeaderLinks = [
         text: "2020 Congressional Committee Report Cards",
         url: "/data/reports",
       },
+      {
+        text: "External Resources",
+        url: "/data/resources",
+      },
     ],
   },
   {
@@ -131,6 +135,10 @@ export const DataPageSidebarLinks = [
   {
     text: "Research",
     url: "/data/research",
+  },
+  {
+    text: "External Resources",
+    url: "/data/resources",
   },
 ];
 

@@ -1,0 +1,32 @@
+import Layout from '../../components/Layout'
+import { DataPageSidebarLinks } from '../../helpers/constants'
+import { Link } from 'gatsby'
+import InfoCard from '../../components/InfoCard'
+import { ExternalResourcesData } from '../../helpers/external-resources'
+
+<Layout pageTitle="External Resources" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
+
+# External Resources
+
+EEW's work draws on open datasets provided by the U.S. federal government— but
+our work only scratches the surface! Below we list a collection of open federal
+data tools and resources relevant to various aspects of environmental governance,
+including health and toxics; air and surface quality water, and much more, for
+you to delve deeper.
+
+Is there a dataset that you would especially like to see us incorporate into our
+work? Please [let us know!](/about/contact)
+
+<div className='row'>
+  {
+    ExternalResourcesData.resources.map(resource =>
+      <InfoCard
+        title = {resource.Name}
+        description={resource.Description}
+        link={resource.Link}
+      />
+    )
+  }
+</div>
+
+</Layout>
