@@ -1,6 +1,7 @@
 import Layout from '../../components/Layout'
 import { DataPageSidebarLinks } from '../../helpers/constants'
 import CycleDiagramSpanish from "../../images/report-card-tracker-es.png"
+import ReportCardExplorer from '../../components/ReportCardExplorer';
 import { Link } from 'gatsby'
 
 <Layout pageTitle="2020 Congressional Committee Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
@@ -20,11 +21,7 @@ Para ver nuestro informe resumido de todos los distritos y estados analizados, c
 
 A continuación, ** coloque el cursor ** para ver el nombre y rango de un representante; ** haga clic ** para abrir un informe completo sobre la aplicación de la EPA en el distrito o estado del representante en español:
 
-<!--This is the main content file to edit for this page. It is embedded in src/pages/cd-reports.js-->
-
-<!--Content for the top of the page (above the data visualization) is in reports-top.md in this folder-->
-
-<!--The call-to-action text between the data visualization and the EEW icon is in reports-cta.md-->
+<ReportCardExplorer language='spanish'/>
 
 ### ¿Le preocupan estos datos?
 
