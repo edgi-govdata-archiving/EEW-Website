@@ -18,13 +18,14 @@ let spanishStrings = {
 }
 
 let translatedString = (string, language) => language === 'spanish' ? spanishStrings[string] : string;
+let translatedURL = (url, language) => language === 'spanish' ? url + '_es' : url;
 
 const ReportCardExplorer = ({language}) =>
   <div className='ReportCardExplorer'>
     <h3>{translatedString('Senate Environment and Public Works Committee', language)}</h3>
     {
       CongressReportCardData.senateData.map(congressMember => 
-        <Link to={congressMember.url} target='_blank'>
+        <Link to={translatedURL(congressMember.url, language)} target='_blank'>
           <div data-tip={`${congressMember.name} <br /> <strong>${translatedString(congressMember.rank, language)}</strong> <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}-${congressMember.district}`} 
                className={`ReportCard ${congressMember.affil} tooltip`}>
             {congressMember.state}
@@ -35,7 +36,7 @@ const ReportCardExplorer = ({language}) =>
     <h3>{translatedString('House Energy and Commerce Committee', language)}</h3>
     {
       CongressReportCardData.houseData.map(congressMember => 
-        <Link to={congressMember.url} target='_blank'>
+        <Link to={translatedURL(congressMember.url, language)} target='_blank'>
           <div data-tip={`${congressMember.name} <br /> <strong>${translatedString(congressMember.rank, language)}</strong> <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}-${congressMember.district}`} 
                className={`ReportCard ${congressMember.affil} tooltip`}>
             <div>{congressMember.state}</div>
