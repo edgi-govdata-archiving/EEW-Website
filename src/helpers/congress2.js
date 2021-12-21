@@ -1,3066 +1,3067 @@
-﻿{"houseData":[
+﻿export const CongressReportCardData = {
+  "houseData":[
   {
     "name": "Robert B. Aderholt",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL04_2021.pdf"
   },
   {
     "name": "Karen Bass",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "37",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA37_2021.pdf"
   },
   {
     "name": "Gus M. Bilirakis",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL12_2021.pdf"
   },
   {
     "name": "Sanford D. Bishop, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA02_2021.pdf"
   },
   {
     "name": "Earl Blumenauer",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OR",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR03_2021.pdf"
   },
   {
     "name": "Kevin Brady",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX08_2021.pdf"
   },
   {
     "name": "Mo Brooks",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL05_2021.pdf"
   },
   {
     "name": "Vern Buchanan",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL16_2021.pdf"
   },
   {
     "name": "Larry Bucshon",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN08_2021.pdf"
   },
   {
     "name": "Michael C. Burgess",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "26",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX26_2021.pdf"
   },
   {
     "name": "G. K. Butterfield",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NC",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC01_2021.pdf"
   },
   {
     "name": "Ken Calvert",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "42",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA42_2021.pdf"
   },
   {
     "name": "André Carson",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IN",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN07_2021.pdf"
   },
   {
     "name": "John R. Carter",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "31",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX31_2021.pdf"
   },
   {
     "name": "Kathy Castor",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL14_2021.pdf"
   },
   {
     "name": "Steve Chabot",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH01_2021.pdf"
   },
   {
     "name": "Judy Chu",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "27",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA27_2021.pdf"
   },
   {
     "name": "David N. Cicilline",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "RI",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/RI01_2021.pdf"
   },
   {
     "name": "Yvette D. Clarke",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY09_2021.pdf"
   },
   {
     "name": "Emanuel Cleaver",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MO",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO05_2021.pdf"
   },
   {
     "name": "James E. Clyburn",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "SC",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC06_2021.pdf"
   },
   {
     "name": "Steve Cohen",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TN",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN09_2021.pdf"
   },
   {
     "name": "Tom Cole",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK04_2021.pdf"
   },
   {
     "name": "Gerald E. Connolly",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA11_2021.pdf"
   },
   {
     "name": "Jim Cooper",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TN",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN05_2021.pdf"
   },
   {
     "name": "Jim Costa",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA16_2021.pdf"
   },
   {
     "name": "Joe Courtney",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT02_2021.pdf"
   },
   {
     "name": "Eric A. \"Rick\" Crawford",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AR",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/AR01_2021.pdf"
   },
   {
     "name": "Henry Cuellar",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "28",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX28_2021.pdf"
   },
   {
     "name": "Danny K. Davis",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL07_2021.pdf"
   },
   {
     "name": "Peter A. DeFazio",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OR",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR04_2021.pdf"
   },
   {
     "name": "Diana DeGette",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CO",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO01_2021.pdf"
   },
   {
     "name": "Rosa L. DeLauro",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT03_2021.pdf"
   },
   {
     "name": "Scott DesJarlais",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN04_2021.pdf"
   },
   {
     "name": "Theodore E. Deutch",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "22",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL22_2021.pdf"
   },
   {
     "name": "Mario Diaz-Balart",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "25",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL25_2021.pdf"
   },
   {
     "name": "Lloyd Doggett",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "35",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX35_2021.pdf"
   },
   {
     "name": "Michael F. Doyle",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "18",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA18_2021.pdf"
   },
   {
     "name": "Jeff Duncan",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC03_2021.pdf"
   },
   {
     "name": "Anna G. Eshoo",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "18",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA18_2021.pdf"
   },
   {
     "name": "Charles J. \"Chuck\" Fleischmann",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN03_2021.pdf"
   },
   {
     "name": "Jeff Fortenberry",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NE",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NE01_2021.pdf"
   },
   {
     "name": "Virginia Foxx",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC05_2021.pdf"
   },
   {
     "name": "John Garamendi",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA03_2021.pdf"
   },
   {
     "name": "Bob Gibbs",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH07_2021.pdf"
   },
   {
     "name": "Louie Gohmert",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX01_2021.pdf"
   },
   {
     "name": "Paul A. Gosar",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AZ",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ04_2021.pdf"
   },
   {
     "name": "Kay Granger",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX12_2021.pdf"
   },
   {
     "name": "Sam Graves",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO06_2021.pdf"
   },
   {
     "name": "Al Green",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX09_2021.pdf"
   },
   {
     "name": "H. Morgan Griffith",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "VA",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA09_2021.pdf"
   },
   {
     "name": "Raúl M. Grijalva",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ03_2021.pdf"
   },
   {
     "name": "Brett Guthrie",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY02_2021.pdf"
   },
   {
     "name": "Andy Harris",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MD",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD01_2021.pdf"
   },
   {
     "name": "Vicky Hartzler",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO04_2021.pdf"
   },
   {
     "name": "Jaime Herrera Beutler",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA03_2021.pdf"
   },
   {
     "name": "Brian Higgins",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "26",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY26_2021.pdf"
   },
   {
     "name": "James A. Himes",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT04_2021.pdf"
   },
   {
     "name": "Steny H. Hoyer",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD05_2021.pdf"
   },
   {
     "name": "Bill Huizenga",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI02_2021.pdf"
   },
   {
     "name": "Sheila Jackson Lee",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "18",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX18_2021.pdf"
   },
   {
     "name": "Bill Johnson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH06_2021.pdf"
   },
   {
     "name": "Eddie Bernice Johnson",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "30",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX30_2021.pdf"
   },
   {
     "name": "Henry C. \"Hank\" Johnson, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA04_2021.pdf"
   },
   {
     "name": "Jim Jordan",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH04_2021.pdf"
   },
   {
     "name": "Marcy Kaptur",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OH",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH09_2021.pdf"
   },
   {
     "name": "William R. Keating",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA09_2021.pdf"
   },
   {
     "name": "Mike Kelly",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA16_2021.pdf"
   },
   {
     "name": "Ron Kind",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WI",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI03_2021.pdf"
   },
   {
     "name": "Adam Kinzinger",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IL",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL16_2021.pdf"
   },
   {
     "name": "Doug Lamborn",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CO",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO05_2021.pdf"
   },
   {
     "name": "James R. Langevin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "RI",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/RI02_2021.pdf"
   },
   {
     "name": "Rick Larsen",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA02_2021.pdf"
   },
   {
     "name": "John B. Larson",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT01_2021.pdf"
   },
   {
     "name": "Robert E. Latta",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH05_2021.pdf"
   },
   {
     "name": "Barbara Lee",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA13_2021.pdf"
   },
   {
     "name": "Zoe Lofgren",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "19",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA19_2021.pdf"
   },
   {
     "name": "Billy Long",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO07_2021.pdf"
   },
   {
     "name": "Frank D. Lucas",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK03_2021.pdf"
   },
   {
     "name": "Blaine Luetkemeyer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO03_2021.pdf"
   },
   {
     "name": "Stephen F. Lynch",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA08_2021.pdf"
   },
   {
     "name": "Carolyn B. Maloney",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY12_2021.pdf"
   },
   {
     "name": "Doris O. Matsui",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA06_2021.pdf"
   },
   {
     "name": "Kevin McCarthy",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "23",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA23_2021.pdf"
   },
   {
     "name": "Michael T. McCaul",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX10_2021.pdf"
   },
   {
     "name": "Tom McClintock",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA04_2021.pdf"
   },
   {
     "name": "Betty McCollum",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MN",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN04_2021.pdf"
   },
   {
     "name": "James P. McGovern",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA02_2021.pdf"
   },
   {
     "name": "Patrick T. McHenry",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC10_2021.pdf"
   },
   {
     "name": "David B. McKinley",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WV",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/WV01_2021.pdf"
   },
   {
     "name": "Cathy McMorris Rodgers",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA05_2021.pdf"
   },
   {
     "name": "Jerry McNerney",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA09_2021.pdf"
   },
   {
     "name": "Gregory W. Meeks",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY05_2021.pdf"
   },
   {
     "name": "Gwen Moore",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WI",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI04_2021.pdf"
   },
   {
     "name": "Jerrold Nadler",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY10_2021.pdf"
   },
   {
     "name": "Grace F. Napolitano",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "32",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA32_2021.pdf"
   },
   {
     "name": "Richard E. Neal",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA01_2021.pdf"
   },
   {
     "name": "Eleanor Holmes Norton",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "DC",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/DC00_2021.pdf"
   },
   {
     "name": "Devin Nunes",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "22",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA22_2021.pdf"
   },
   {
     "name": "Steven M. Palazzo",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MS",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/MS04_2021.pdf"
   },
   {
     "name": "Frank Pallone, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ06_2021.pdf"
   },
   {
     "name": "Bill Pascrell, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ09_2021.pdf"
   },
   {
     "name": "Nancy Pelosi",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA12_2021.pdf"
   },
   {
     "name": "Ed Perlmutter",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CO",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO07_2021.pdf"
   },
   {
     "name": "Chellie Pingree",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "ME",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/ME01_2021.pdf"
   },
   {
     "name": "Bill Posey",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL08_2021.pdf"
   },
   {
     "name": "David E. Price",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NC",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC04_2021.pdf"
   },
   {
     "name": "Mike Quigley",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL05_2021.pdf"
   },
   {
     "name": "Tom Reed",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "23",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY23_2021.pdf"
   },
   {
     "name": "Harold Rogers",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY05_2021.pdf"
   },
   {
     "name": "Mike Rogers",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL03_2021.pdf"
   },
   {
     "name": "Lucille Roybal-Allard",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "40",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA40_2021.pdf"
   },
   {
     "name": "C. A. Dutch Ruppersberger",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD02_2021.pdf"
   },
   {
     "name": "Bobby L. Rush",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL01_2021.pdf"
   },
   {
     "name": "Tim Ryan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OH",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH13_2021.pdf"
   },
   {
     "name": "Gregorio Kilili Camacho Sablan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MP",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/MP00_2021.pdf"
   },
   {
     "name": "John P. Sarbanes",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD03_2021.pdf"
   },
   {
     "name": "Steve Scalise",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA01_2021.pdf"
   },
   {
     "name": "Janice D. Schakowsky",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL09_2021.pdf"
   },
   {
     "name": "Adam B. Schiff",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "28",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA28_2021.pdf"
   },
   {
     "name": "Kurt Schrader",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OR",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR05_2021.pdf"
   },
   {
     "name": "David Schweikert",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AZ",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ06_2021.pdf"
   },
   {
     "name": "Austin Scott",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA08_2021.pdf"
   },
   {
     "name": "David Scott",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA13_2021.pdf"
   },
   {
     "name": "Robert C. \"Bobby\" Scott",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA03_2021.pdf"
   },
   {
     "name": "Terri Sewell",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AL",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL07_2021.pdf"
   },
   {
     "name": "Brad Sherman",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "30",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA30_2021.pdf"
   },
   {
     "name": "Michael K. Simpson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ID",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/ID02_2021.pdf"
   },
   {
     "name": "Albio Sires",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ08_2021.pdf"
   },
   {
     "name": "Adam Smith",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA09_2021.pdf"
   },
   {
     "name": "Adrian Smith",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NE",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/NE03_2021.pdf"
   },
   {
     "name": "Christopher H. Smith",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NJ",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ04_2021.pdf"
   },
   {
     "name": "Jackie Speier",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA14_2021.pdf"
   },
   {
     "name": "Linda T. Sánchez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "38",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA38_2021.pdf"
   },
   {
     "name": "Bennie G. Thompson",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MS",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/MS02_2021.pdf"
   },
   {
     "name": "Mike Thompson",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA05_2021.pdf"
   },
   {
     "name": "Glenn Thompson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "15",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA15_2021.pdf"
   },
   {
     "name": "Paul Tonko",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "20",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY20_2021.pdf"
   },
   {
     "name": "Michael R. Turner",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH10_2021.pdf"
   },
   {
     "name": "Fred Upton",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI06_2021.pdf"
   },
   {
     "name": "Nydia M. Velázquez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY07_2021.pdf"
   },
   {
     "name": "Tim Walberg",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI07_2021.pdf"
   },
   {
     "name": "Debbie Wasserman Schultz",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "23",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL23_2021.pdf"
   },
   {
     "name": "Maxine Waters",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "43",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA43_2021.pdf"
   },
   {
     "name": "Daniel Webster",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL11_2021.pdf"
   },
   {
     "name": "Peter Welch",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VT",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/VT00_2021.pdf"
   },
   {
     "name": "Joe Wilson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC02_2021.pdf"
   },
   {
     "name": "Frederica S. Wilson",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "24",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL24_2021.pdf"
   },
   {
     "name": "Robert J. Wittman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "VA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA01_2021.pdf"
   },
   {
     "name": "Steve Womack",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AR",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/AR03_2021.pdf"
   },
   {
     "name": "John A. Yarmuth",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "KY",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY03_2021.pdf"
   },
   {
     "name": "Don Young",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AK",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/AK00_2021.pdf"
   },
   {
     "name": "Mark E. Amodei",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NV",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NV02_2021.pdf"
   },
   {
     "name": "Suzanne Bonamici",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OR",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR01_2021.pdf"
   },
   {
     "name": "Suzan K. DelBene",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA01_2021.pdf"
   },
   {
     "name": "Thomas Massie",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY04_2021.pdf"
   },
   {
     "name": "Donald M. Payne, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ10_2021.pdf"
   },
   {
     "name": "Bill Foster",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL11_2021.pdf"
   },
   {
     "name": "Dina Titus",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NV",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NV01_2021.pdf"
   },
   {
     "name": "Doug LaMalfa",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA01_2021.pdf"
   },
   {
     "name": "Jared Huffman",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA02_2021.pdf"
   },
   {
     "name": "Ami Bera",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA07_2021.pdf"
   },
   {
     "name": "Eric Swalwell",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "15",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA15_2021.pdf"
   },
   {
     "name": "Julia Brownley",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "26",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA26_2021.pdf"
   },
   {
     "name": "Tony Cárdenas",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "29",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA29_2021.pdf"
   },
   {
     "name": "Raul Ruiz",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "36",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA36_2021.pdf"
   },
   {
     "name": "Mark Takano",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "41",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA41_2021.pdf"
   },
   {
     "name": "Alan S. Lowenthal",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "47",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA47_2021.pdf"
   },
   {
     "name": "Juan Vargas",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "51",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA51_2021.pdf"
   },
   {
     "name": "Scott H. Peters",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "52",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA52_2021.pdf"
   },
   {
     "name": "Lois Frankel",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "21",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL21_2021.pdf"
   },
   {
     "name": "Rodney Davis",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IL",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL13_2021.pdf"
   },
   {
     "name": "Cheri Bustos",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "17",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL17_2021.pdf"
   },
   {
     "name": "Jackie Walorski",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN02_2021.pdf"
   },
   {
     "name": "Andy Barr",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY06_2021.pdf"
   },
   {
     "name": "Daniel T. Kildee",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI05_2021.pdf"
   },
   {
     "name": "Ann Wagner",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO02_2021.pdf"
   },
   {
     "name": "Richard Hudson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC08_2021.pdf"
   },
   {
     "name": "Ann Kuster",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NH",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NH02_2021.pdf"
   },
   {
     "name": "Grace Meng",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY06_2021.pdf"
   },
   {
     "name": "Hakeem S. Jeffries",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY08_2021.pdf"
   },
   {
     "name": "Sean Patrick Maloney",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "18",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY18_2021.pdf"
   },
   {
     "name": "Brad R. Wenstrup",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH02_2021.pdf"
   },
   {
     "name": "Joyce Beatty",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OH",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH03_2021.pdf"
   },
   {
     "name": "David P. Joyce",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH14_2021.pdf"
   },
   {
     "name": "Markwayne Mullin",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK02_2021.pdf"
   },
   {
     "name": "Scott Perry",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA10_2021.pdf"
   },
   {
     "name": "Matt Cartwright",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA08_2021.pdf"
   },
   {
     "name": "Tom Rice",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC07_2021.pdf"
   },
   {
     "name": "Randy K. Weber, Sr.",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX14_2021.pdf"
   },
   {
     "name": "Joaquin Castro",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "20",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX20_2021.pdf"
   },
   {
     "name": "Roger Williams",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "25",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX25_2021.pdf"
   },
   {
     "name": "Marc A. Veasey",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "33",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX33_2021.pdf"
   },
   {
     "name": "Filemon Vela",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "34",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX34_2021.pdf"
   },
   {
     "name": "Chris Stewart",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "UT",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/UT02_2021.pdf"
   },
   {
     "name": "Derek Kilmer",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA06_2021.pdf"
   },
   {
     "name": "Mark Pocan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WI",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI02_2021.pdf"
   },
   {
     "name": "Robin L. Kelly",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL02_2021.pdf"
   },
   {
     "name": "Jason Smith",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO08_2021.pdf"
   },
   {
     "name": "Katherine M. Clark",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA05_2021.pdf"
   },
   {
     "name": "Donald Norcross",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ01_2021.pdf"
   },
   {
     "name": "Alma S. Adams",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NC",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC12_2021.pdf"
   },
   {
     "name": "Gary J. Palmer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL06_2021.pdf"
   },
   {
     "name": "J. Hill",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AR",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/AR02_2021.pdf"
   },
   {
     "name": "Bruce Westerman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AR",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/AR04_2021.pdf"
   },
   {
     "name": "Ruben Gallego",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ07_2021.pdf"
   },
   {
     "name": "Mark DeSaulnier",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA11_2021.pdf"
   },
   {
     "name": "Pete Aguilar",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "31",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA31_2021.pdf"
   },
   {
     "name": "Ted Lieu",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "33",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA33_2021.pdf"
   },
   {
     "name": "Norma J. Torres",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "35",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA35_2021.pdf"
   },
   {
     "name": "Ken Buck",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CO",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO04_2021.pdf"
   },
   {
     "name": "Earl L. \"Buddy\" Carter",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA01_2021.pdf"
   },
   {
     "name": "Jody B. Hice",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA10_2021.pdf"
   },
   {
     "name": "Barry Loudermilk",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA11_2021.pdf"
   },
   {
     "name": "Rick W. Allen",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA12_2021.pdf"
   },
   {
     "name": "Mike Bost",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IL",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL12_2021.pdf"
   },
   {
     "name": "Garret Graves",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA06_2021.pdf"
   },
   {
     "name": "Seth Moulton",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA06_2021.pdf"
   },
   {
     "name": "John R. Moolenaar",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI04_2021.pdf"
   },
   {
     "name": "Debbie Dingell",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI12_2021.pdf"
   },
   {
     "name": "Brenda L. Lawrence",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI14_2021.pdf"
   },
   {
     "name": "Tom Emmer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MN",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN06_2021.pdf"
   },
   {
     "name": "David Rouzer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC07_2021.pdf"
   },
   {
     "name": "Bonnie Watson Coleman",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ12_2021.pdf"
   },
   {
     "name": "Lee M. Zeldin",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY01_2021.pdf"
   },
   {
     "name": "Kathleen M. Rice",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY04_2021.pdf"
   },
   {
     "name": "Elise M. Stefanik",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "21",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY21_2021.pdf"
   },
   {
     "name": "John Katko",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "24",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY24_2021.pdf"
   },
   {
     "name": "Brendan F. Boyle",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA02_2021.pdf"
   },
   {
     "name": "Brian Babin",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "36",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX36_2021.pdf"
   },
   {
     "name": "Donald S. Beyer, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA08_2021.pdf"
   },
   {
     "name": "Stacey E. Plaskett",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VI",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/VI00_2021.pdf"
   },
   {
     "name": "Dan Newhouse",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA04_2021.pdf"
   },
   {
     "name": "Glenn Grothman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WI",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI06_2021.pdf"
   },
   {
     "name": "Alexander Mooney",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WV",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/WV02_2021.pdf"
   },
   {
     "name": "Aumua Amata Coleman Radewagen",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AS",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/AS00_2021.pdf"
   },
   {
     "name": "Trent Kelly",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MS",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/MS01_2021.pdf"
   },
   {
     "name": "Darin LaHood",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IL",
     "district": "18",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL18_2021.pdf"
   },
   {
     "name": "Warren Davidson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH08_2021.pdf"
   },
   {
     "name": "James Comer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY01_2021.pdf"
   },
   {
     "name": "Dwight Evans",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA03_2021.pdf"
   },
   {
     "name": "Bradley Scott Schneider",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL10_2021.pdf"
   },
   {
     "name": "Tom O’Halleran",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ01_2021.pdf"
   },
   {
     "name": "Andy Biggs",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AZ",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ05_2021.pdf"
   },
   {
     "name": "Ro Khanna",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "17",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA17_2021.pdf"
   },
   {
     "name": "Jimmy Panetta",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "20",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA20_2021.pdf"
   },
   {
     "name": "Salud O. Carbajal",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "24",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA24_2021.pdf"
   },
   {
     "name": "Nanette Diaz Barragán",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "44",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA44_2021.pdf"
   },
   {
     "name": "J. Luis Correa",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "46",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA46_2021.pdf"
   },
   {
     "name": "Lisa Blunt Rochester",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "DE",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/DE00_2021.pdf"
   },
   {
     "name": "Matt Gaetz",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL01_2021.pdf"
   },
   {
     "name": "Neal P. Dunn",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL02_2021.pdf"
   },
   {
     "name": "John H. Rutherford",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL04_2021.pdf"
   },
   {
     "name": "Al Lawson, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL05_2021.pdf"
   },
   {
     "name": "Stephanie N. Murphy",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL07_2021.pdf"
   },
   {
     "name": "Darren Soto",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL09_2021.pdf"
   },
   {
     "name": "Val Butler Demings",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL10_2021.pdf"
   },
   {
     "name": "Charlie Crist",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "FL",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL13_2021.pdf"
   },
   {
     "name": "Brian J. Mast",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "18",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL18_2021.pdf"
   },
   {
     "name": "A. Drew Ferguson IV",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA03_2021.pdf"
   },
   {
     "name": "Raja Krishnamoorthi",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL08_2021.pdf"
   },
   {
     "name": "Jim Banks",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN03_2021.pdf"
   },
   {
     "name": "Trey Hollingsworth",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN09_2021.pdf"
   },
   {
     "name": "Clay Higgins",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA03_2021.pdf"
   },
   {
     "name": "Mike Johnson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA04_2021.pdf"
   },
   {
     "name": "Anthony Brown",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD04_2021.pdf"
   },
   {
     "name": "Jamie Raskin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD08_2021.pdf"
   },
   {
     "name": "Jack Bergman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI01_2021.pdf"
   },
   {
     "name": "Ted Budd",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC13_2021.pdf"
   },
   {
     "name": "Don Bacon",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NE",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NE02_2021.pdf"
   },
   {
     "name": "Josh Gottheimer",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ05_2021.pdf"
   },
   {
     "name": "Thomas R. Suozzi",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY03_2021.pdf"
   },
   {
     "name": "Adriano Espaillat",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY13_2021.pdf"
   },
   {
     "name": "Brian K. Fitzpatrick",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA01_2021.pdf"
   },
   {
     "name": "Lloyd Smucker",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA11_2021.pdf"
   },
   {
     "name": "Jenniffer González-Colón",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PR",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/PR00_2021.pdf"
   },
   {
     "name": "David Kustoff",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN08_2021.pdf"
   },
   {
     "name": "Vicente Gonzalez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "15",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX15_2021.pdf"
   },
   {
     "name": "Jodey C. Arrington",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "19",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX19_2021.pdf"
   },
   {
     "name": "A. Donald McEachin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA04_2021.pdf"
   },
   {
     "name": "Pramila Jayapal",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA07_2021.pdf"
   },
   {
     "name": "Mike Gallagher",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WI",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI08_2021.pdf"
   },
   {
     "name": "Liz Cheney",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WY",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/WY00_2021.pdf"
   },
   {
     "name": "Ron Estes",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KS",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/KS04_2021.pdf"
   },
   {
     "name": "Ralph Norman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC05_2021.pdf"
   },
   {
     "name": "Jimmy Gomez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "34",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA34_2021.pdf"
   },
   {
     "name": "John R. Curtis",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "UT",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/UT03_2021.pdf"
   },
   {
     "name": "Conor Lamb",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "17",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA17_2021.pdf"
   },
   {
     "name": "Debbie Lesko",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AZ",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ08_2021.pdf"
   },
   {
     "name": "Michael Cloud",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "27",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX27_2021.pdf"
   },
   {
     "name": "Troy Balderson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH12_2021.pdf"
   },
   {
     "name": "Kevin Hern",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK01_2021.pdf"
   },
   {
     "name": "Joseph D. Morelle",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "25",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY25_2021.pdf"
   },
   {
     "name": "Mary Gay Scanlon",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA05_2021.pdf"
   },
   {
     "name": "Susan Wild",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA07_2021.pdf"
   },
   {
     "name": "Ed Case",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "HI",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/HI01_2021.pdf"
   },
   {
     "name": "Steven Horsford",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NV",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/NV04_2021.pdf"
   },
   {
     "name": "Ann Kirkpatrick",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ02_2021.pdf"
   },
   {
     "name": "Greg Stanton",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ09_2021.pdf"
   },
   {
     "name": "Josh Harder",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA10_2021.pdf"
   },
   {
     "name": "Katie Porter",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "45",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA45_2021.pdf"
   },
   {
     "name": "Mike Levin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "49",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA49_2021.pdf"
   },
   {
     "name": "Joe Neguse",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CO",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO02_2021.pdf"
   },
   {
     "name": "Jason Crow",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CO",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO06_2021.pdf"
   },
   {
     "name": "Jahana Hayes",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT05_2021.pdf"
   },
   {
     "name": "Michael Waltz",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL06_2021.pdf"
   },
   {
     "name": "W. Gregory Steube",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "17",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL17_2021.pdf"
   },
   {
     "name": "Lucy McBath",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA06_2021.pdf"
   },
   {
     "name": "Michael F. Q. San Nicolas",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GU",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/GU00_2021.pdf"
   },
   {
     "name": "Cynthia Axne",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/IA03_2021.pdf"
   },
   {
     "name": "Russ Fulcher",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ID",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/ID01_2021.pdf"
   },
   {
     "name": "Jesús G. \"Chuy\" García",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL04_2021.pdf"
   },
   {
     "name": "Sean Casten",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL06_2021.pdf"
   },
   {
     "name": "Lauren Underwood",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL14_2021.pdf"
   },
   {
     "name": "James R. Baird",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN04_2021.pdf"
   },
   {
     "name": "Greg Pence",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN06_2021.pdf"
   },
   {
     "name": "Sharice Davids",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "KS",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/KS03_2021.pdf"
   },
   {
     "name": "Lori Trahan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA03_2021.pdf"
   },
   {
     "name": "Ayanna Pressley",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA07_2021.pdf"
   },
   {
     "name": "David J. Trone",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD06_2021.pdf"
   },
   {
     "name": "Elissa Slotkin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI08_2021.pdf"
   },
   {
     "name": "Andy Levin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI09_2021.pdf"
   },
   {
     "name": "Haley M. Stevens",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI11_2021.pdf"
   },
   {
     "name": "Rashida Tlaib",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI13_2021.pdf"
   },
   {
     "name": "Jim Hagedorn",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MN",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN01_2021.pdf"
   },
   {
     "name": "Angie Craig",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MN",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN02_2021.pdf"
   },
   {
     "name": "Dean Phillips",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MN",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN03_2021.pdf"
   },
   {
     "name": "Ilhan Omar",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MN",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN05_2021.pdf"
   },
   {
     "name": "Pete Stauber",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MN",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN08_2021.pdf"
   },
   {
     "name": "Michael Guest",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MS",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/MS03_2021.pdf"
   },
   {
     "name": "Kelly Armstrong",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ND",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/ND00_2021.pdf"
   },
   {
     "name": "Chris Pappas",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NH",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NH01_2021.pdf"
   },
   {
     "name": "Jefferson Van Drew",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NJ",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ02_2021.pdf"
   },
   {
     "name": "Andy Kim",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ03_2021.pdf"
   },
   {
     "name": "Tom Malinowski",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ07_2021.pdf"
   },
   {
     "name": "Mikie Sherrill",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ11_2021.pdf"
   },
   {
     "name": "Susie Lee",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NV",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/NV03_2021.pdf"
   },
   {
     "name": "Alexandria Ocasio-Cortez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY14_2021.pdf"
   },
   {
     "name": "Antonio Delgado",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "19",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY19_2021.pdf"
   },
   {
     "name": "Anthony Gonzalez",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH16_2021.pdf"
   },
   {
     "name": "Madeleine Dean",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA04_2021.pdf"
   },
   {
     "name": "Chrissy Houlahan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA06_2021.pdf"
   },
   {
     "name": "Daniel Meuser",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA09_2021.pdf"
   },
   {
     "name": "John Joyce",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA13_2021.pdf"
   },
   {
     "name": "Guy Reschenthaler",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA14_2021.pdf"
   },
   {
     "name": "William R. Timmons IV",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC04_2021.pdf"
   },
   {
     "name": "Dusty Johnson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SD",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/SD00_2021.pdf"
   },
   {
     "name": "Tim Burchett",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN02_2021.pdf"
   },
   {
     "name": "John Rose",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN06_2021.pdf"
   },
   {
     "name": "Mark E. Green",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN07_2021.pdf"
   },
   {
     "name": "Dan Crenshaw",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX02_2021.pdf"
   },
   {
     "name": "Van Taylor",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX03_2021.pdf"
   },
   {
     "name": "Lance Gooden",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX05_2021.pdf"
   },
   {
     "name": "Lizzie Fletcher",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX07_2021.pdf"
   },
   {
     "name": "Veronica Escobar",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX16_2021.pdf"
   },
   {
     "name": "Chip Roy",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "21",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX21_2021.pdf"
   },
   {
     "name": "Sylvia R. Garcia",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "29",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX29_2021.pdf"
   },
   {
     "name": "Colin Z. Allred",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "TX",
     "district": "32",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX32_2021.pdf"
   },
   {
     "name": "Elaine G. Luria",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA02_2021.pdf"
   },
   {
     "name": "Ben Cline",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "VA",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA06_2021.pdf"
   },
   {
     "name": "Abigail Davis Spanberger",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA07_2021.pdf"
   },
   {
     "name": "Jennifer Wexton",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA10_2021.pdf"
   },
   {
     "name": "Kim Schrier",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA08_2021.pdf"
   },
   {
     "name": "Bryan Steil",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WI",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI01_2021.pdf"
   },
   {
     "name": "Carol D. Miller",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WV",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/WV03_2021.pdf"
   },
   {
     "name": "Jared F. Golden",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "ME",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/ME02_2021.pdf"
   },
   {
     "name": "Fred Keller",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "12",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA12_2021.pdf"
   },
   {
     "name": "Dan Bishop",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC09_2021.pdf"
   },
   {
     "name": "Gregory F. Murphy",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC03_2021.pdf"
   },
   {
     "name": "Kweisi Mfume",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD07_2021.pdf"
   },
   {
     "name": "Thomas P. Tiffany",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WI",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI07_2021.pdf"
   },
   {
     "name": "Mike Garcia",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "25",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA25_2021.pdf"
   },
   {
     "name": "Chris Jacobs",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "27",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY27_2021.pdf"
   },
   {
     "name": "Darrell Issa",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "50",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA50_2021.pdf"
   },
   {
     "name": "Pete Sessions",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "17",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX17_2021.pdf"
   },
   {
     "name": "David G. Valadao",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "21",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA21_2021.pdf"
   },
   {
     "name": "Jerry L. Carl",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL01_2021.pdf"
   },
   {
     "name": "Barry Moore",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL02_2021.pdf"
   },
   {
     "name": "Jay Obernolte",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "08",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA08_2021.pdf"
   },
   {
     "name": "Young Kim",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "39",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA39_2021.pdf"
   },
   {
     "name": "Michelle Steel",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CA",
     "district": "48",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA48_2021.pdf"
   },
   {
     "name": "Sara Jacobs",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "53",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA53_2021.pdf"
   },
   {
     "name": "Lauren Boebert",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "CO",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO03_2021.pdf"
   },
   {
     "name": "Kat Cammack",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL03_2021.pdf"
   },
   {
     "name": "C. Scott Franklin",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "15",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL15_2021.pdf"
   },
   {
     "name": "Byron Donalds",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "19",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL19_2021.pdf"
   },
   {
     "name": "Carlos A. Gimenez",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "26",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL26_2021.pdf"
   },
   {
     "name": "Maria Elvira Salazar",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "27",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL27_2021.pdf"
   },
   {
     "name": "Nikema Williams",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA05_2021.pdf"
   },
   {
     "name": "Carolyn Bourdeaux",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA07_2021.pdf"
   },
   {
     "name": "Andrew S. Clyde",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "09",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA09_2021.pdf"
   },
   {
     "name": "Marjorie Taylor Greene",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "GA",
     "district": "14",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA14_2021.pdf"
   },
   {
     "name": "Kaiali’i Kahele",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "HI",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/HI02_2021.pdf"
   },
   {
     "name": "Ashley Hinson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IA",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/IA01_2021.pdf"
   },
   {
     "name": "Mariannette Miller-Meeks",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/IA02_2021.pdf"
   },
   {
     "name": "Randy Feenstra",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/IA04_2021.pdf"
   },
   {
     "name": "Marie Newman",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL03_2021.pdf"
   },
   {
     "name": "Mary E. Miller",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IL",
     "district": "15",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL15_2021.pdf"
   },
   {
     "name": "Frank J. Mrvan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IN",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN01_2021.pdf"
   },
   {
     "name": "Victoria Spartz",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN05_2021.pdf"
   },
   {
     "name": "Tracey Mann",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KS",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/KS01_2021.pdf"
   },
   {
     "name": "Jake LaTurner",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KS",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/KS02_2021.pdf"
   },
   {
     "name": "Jake Auchincloss",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA04_2021.pdf"
   },
   {
     "name": "Peter Meijer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI03_2021.pdf"
   },
   {
     "name": "Lisa C. McClain",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MI",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI10_2021.pdf"
   },
   {
     "name": "Michelle Fischbach",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MN",
     "district": "07",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN07_2021.pdf"
   },
   {
     "name": "Cori Bush",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MO",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO01_2021.pdf"
   },
   {
     "name": "Matthew M. Rosendale",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MT",
     "district": "00",
     "url": "https://environmentalenforcementwatch.org/report_cards/MT00_2021.pdf"
   },
   {
     "name": "Deborah K. Ross",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NC",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC02_2021.pdf"
   },
   {
     "name": "Kathy E. Manning",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NC",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC06_2021.pdf"
   },
   {
     "name": "Madison Cawthorn",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC11_2021.pdf"
   },
   {
     "name": "Yvette Herrell",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NM",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NM02_2021.pdf"
   },
   {
     "name": "Teresa Leger Fernandez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NM",
     "district": "03",
     "url": "https://environmentalenforcementwatch.org/report_cards/NM03_2021.pdf"
   },
   {
     "name": "Andrew R. Garbarino",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY02_2021.pdf"
   },
   {
     "name": "Nicole Malliotakis",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY11_2021.pdf"
   },
   {
     "name": "Ritchie Torres",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "15",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY15_2021.pdf"
   },
   {
     "name": "Jamaal Bowman",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "16",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY16_2021.pdf"
   },
   {
     "name": "Mondaire Jones",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "17",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY17_2021.pdf"
   },
   {
     "name": "Stephanie I. Bice",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK05_2021.pdf"
   },
   {
     "name": "Cliff Bentz",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OR",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR02_2021.pdf"
   },
   {
     "name": "Nancy Mace",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC01_2021.pdf"
   },
   {
     "name": "Diana Harshbarger",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN01_2021.pdf"
   },
   {
     "name": "Pat Fallon",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX04_2021.pdf"
   },
   {
     "name": "August Pfluger",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "11",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX11_2021.pdf"
   },
   {
     "name": "Ronny Jackson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "13",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX13_2021.pdf"
   },
   {
     "name": "Troy E. Nehls",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "22",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX22_2021.pdf"
   },
   {
     "name": "Tony Gonzales",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "23",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX23_2021.pdf"
   },
   {
     "name": "Beth Van Duyne",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "24",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX24_2021.pdf"
   },
   {
     "name": "Blake D. Moore",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "UT",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/UT01_2021.pdf"
   },
   {
     "name": "Burgess Owens",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "UT",
     "district": "04",
     "url": "https://environmentalenforcementwatch.org/report_cards/UT04_2021.pdf"
   },
   {
     "name": "Bob Good",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "VA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA05_2021.pdf"
   },
   {
     "name": "Marilyn Strickland",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "10",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA10_2021.pdf"
   },
   {
     "name": "Scott Fitzgerald",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WI",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI05_2021.pdf"
   },
   {
     "name": "Claudia Tenney",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NY",
     "district": "22",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY22_2021.pdf"
   },
   {
     "name": "Julia Letlow",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "05",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA05_2021.pdf"
   },
   {
     "name": "Troy A. Carter",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "LA",
     "district": "02",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA02_2021.pdf"
   },
   {
     "name": "Melanie A. Stansbury",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NM",
     "district": "01",
     "url": "https://environmentalenforcementwatch.org/report_cards/NM01_2021.pdf"
   },
   {
     "name": "Jake Ellzey",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "06",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX06_2021.pdf"
@@ -3070,700 +3071,700 @@
 [
   {
     "name": "Sherrod Brown",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OH",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH_2021.pdf"
   },
   {
     "name": "Maria Cantwell",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA_2021.pdf"
   },
   {
     "name": "Benjamin L. Cardin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD_2021.pdf"
   },
   {
     "name": "Thomas R. Carper",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "DE",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/DE_2021.pdf"
   },
   {
     "name": "Robert P. Casey, Jr.",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "PA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA_2021.pdf"
   },
   {
     "name": "Dianne Feinstein",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA_2021.pdf"
   },
   {
     "name": "Amy Klobuchar",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MN",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN_2021.pdf"
   },
   {
     "name": "Robert Menendez",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ_2021.pdf"
   },
   {
     "name": "Bernard Sanders",
-    "affiliation": "Independent",
+    "affil": "Independent",
     "state": "VT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/VT_2021.pdf"
   },
   {
     "name": "Debbie Stabenow",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI_2021.pdf"
   },
   {
     "name": "Jon Tester",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MT_2021.pdf"
   },
   {
     "name": "Sheldon Whitehouse",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "RI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/RI_2021.pdf"
   },
   {
     "name": "John Barrasso",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WY",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WY_2021.pdf"
   },
   {
     "name": "Roger F. Wicker",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MS",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MS_2021.pdf"
   },
   {
     "name": "Susan M. Collins",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ME",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/ME_2021.pdf"
   },
   {
     "name": "John Cornyn",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX_2021.pdf"
   },
   {
     "name": "Richard J. Durbin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL_2021.pdf"
   },
   {
     "name": "Lindsey Graham",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC_2021.pdf"
   },
   {
     "name": "James M. Inhofe",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK_2021.pdf"
   },
   {
     "name": "Mitch McConnell",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY_2021.pdf"
   },
   {
     "name": "Jeff Merkley",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OR",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR_2021.pdf"
   },
   {
     "name": "Jack Reed",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "RI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/RI_2021.pdf"
   },
   {
     "name": "James E. Risch",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ID",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/ID_2021.pdf"
   },
   {
     "name": "Jeanne Shaheen",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NH",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NH_2021.pdf"
   },
   {
     "name": "Mark R. Warner",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA_2021.pdf"
   },
   {
     "name": "Kirsten E. Gillibrand",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY_2021.pdf"
   },
   {
     "name": "Christopher A. Coons",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "DE",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/DE_2021.pdf"
   },
   {
     "name": "Joe Manchin, III",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WV",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WV_2021.pdf"
   },
   {
     "name": "Tammy Baldwin",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI_2021.pdf"
   },
   {
     "name": "Michael F. Bennet",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CO",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO_2021.pdf"
   },
   {
     "name": "Marsha Blackburn",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN_2021.pdf"
   },
   {
     "name": "Richard Blumenthal",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT_2021.pdf"
   },
   {
     "name": "Roy Blunt",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO_2021.pdf"
   },
   {
     "name": "John Boozman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AR",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AR_2021.pdf"
   },
   {
     "name": "Richard Burr",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC_2021.pdf"
   },
   {
     "name": "Shelley Moore Capito",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WV",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WV_2021.pdf"
   },
   {
     "name": "Bill Cassidy",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA_2021.pdf"
   },
   {
     "name": "Mike Crapo",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ID",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/ID_2021.pdf"
   },
   {
     "name": "Chuck Grassley",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/IA_2021.pdf"
   },
   {
     "name": "Martin Heinrich",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NM",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NM_2021.pdf"
   },
   {
     "name": "Mazie K. Hirono",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "HI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/HI_2021.pdf"
   },
   {
     "name": "John Hoeven",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ND",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/ND_2021.pdf"
   },
   {
     "name": "Ron Johnson",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WI_2021.pdf"
   },
   {
     "name": "James Lankford",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OK",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/OK_2021.pdf"
   },
   {
     "name": "Patrick J. Leahy",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/VT_2021.pdf"
   },
   {
     "name": "Mike Lee",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "UT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/UT_2021.pdf"
   },
   {
     "name": "Ben Ray Luján",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NM",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NM_2021.pdf"
   },
   {
     "name": "Edward J. Markey",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA_2021.pdf"
   },
   {
     "name": "Jerry Moran",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KS",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/KS_2021.pdf"
   },
   {
     "name": "Lisa Murkowski",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AK",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AK_2021.pdf"
   },
   {
     "name": "Christopher Murphy",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/CT_2021.pdf"
   },
   {
     "name": "Patty Murray",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "WA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WA_2021.pdf"
   },
   {
     "name": "Rand Paul",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KY",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/KY_2021.pdf"
   },
   {
     "name": "Gary C. Peters",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MI_2021.pdf"
   },
   {
     "name": "Rob Portman",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "OH",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/OH_2021.pdf"
   },
   {
     "name": "Marco Rubio",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL_2021.pdf"
   },
   {
     "name": "Charles E. Schumer",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NY",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NY_2021.pdf"
   },
   {
     "name": "Tim Scott",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SC",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/SC_2021.pdf"
   },
   {
     "name": "Richard C. Shelby",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL_2021.pdf"
   },
   {
     "name": "John Thune",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SD",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/SD_2021.pdf"
   },
   {
     "name": "Patrick J. Toomey",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "PA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/PA_2021.pdf"
   },
   {
     "name": "Chris Van Hollen",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MD",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MD_2021.pdf"
   },
   {
     "name": "Ron Wyden",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "OR",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/OR_2021.pdf"
   },
   {
     "name": "Todd Young",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN_2021.pdf"
   },
   {
     "name": "Brian Schatz",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "HI",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/HI_2021.pdf"
   },
   {
     "name": "Tom Cotton",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AR",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AR_2021.pdf"
   },
   {
     "name": "Kyrsten Sinema",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ_2021.pdf"
   },
   {
     "name": "Tammy Duckworth",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "IL",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/IL_2021.pdf"
   },
   {
     "name": "Elizabeth Warren",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MA_2021.pdf"
   },
   {
     "name": "Angus S. King, Jr.",
-    "affiliation": "Independent",
+    "affil": "Independent",
     "state": "ME",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/ME_2021.pdf"
   },
   {
     "name": "Steve Daines",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MT_2021.pdf"
   },
   {
     "name": "Kevin Cramer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "ND",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/ND_2021.pdf"
   },
   {
     "name": "Deb Fischer",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NE",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NE_2021.pdf"
   },
   {
     "name": "Ted Cruz",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TX",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/TX_2021.pdf"
   },
   {
     "name": "Tim Kaine",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "VA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/VA_2021.pdf"
   },
   {
     "name": "Cory A. Booker",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NJ",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NJ_2021.pdf"
   },
   {
     "name": "Dan Sullivan",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AK",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AK_2021.pdf"
   },
   {
     "name": "Joni Ernst",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/IA_2021.pdf"
   },
   {
     "name": "Thom Tillis",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NC",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NC_2021.pdf"
   },
   {
     "name": "Mike Rounds",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "SD",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/SD_2021.pdf"
   },
   {
     "name": "Ben Sasse",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "NE",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NE_2021.pdf"
   },
   {
     "name": "John Kennedy",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "LA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/LA_2021.pdf"
   },
   {
     "name": "Margaret Wood Hassan",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NH",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NH_2021.pdf"
   },
   {
     "name": "Catherine Cortez Masto",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NV",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NV_2021.pdf"
   },
   {
     "name": "Roger Marshall",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "KS",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/KS_2021.pdf"
   },
   {
     "name": "Jacky Rosen",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "NV",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/NV_2021.pdf"
   },
   {
     "name": "Tina Smith",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "MN",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MN_2021.pdf"
   },
   {
     "name": "Cindy Hyde-Smith",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MS",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MS_2021.pdf"
   },
   {
     "name": "Rick Scott",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "FL",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/FL_2021.pdf"
   },
   {
     "name": "Mike Braun",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "IN",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/IN_2021.pdf"
   },
   {
     "name": "Josh Hawley",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "MO",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/MO_2021.pdf"
   },
   {
     "name": "Mitt Romney",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "UT",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/UT_2021.pdf"
   },
   {
     "name": "Mark Kelly",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "AZ",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AZ_2021.pdf"
   },
   {
     "name": "Cynthia M. Lummis",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "WY",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/WY_2021.pdf"
   },
   {
     "name": "Tommy Tuberville",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "AL",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/AL_2021.pdf"
   },
   {
     "name": "John W. Hickenlooper",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CO",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/CO_2021.pdf"
   },
   {
     "name": "Bill Hagerty",
-    "affiliation": "Republican",
+    "affil": "Republican",
     "state": "TN",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/TN_2021.pdf"
   },
   {
     "name": "Alex Padilla",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "CA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/CA_2021.pdf"
   },
   {
     "name": "Jon Ossoff",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA_2021.pdf"
   },
   {
     "name": "Raphael G. Warnock",
-    "affiliation": "Democrat",
+    "affil": "Democrat",
     "state": "GA",
     "district": "",
     "url": "https://environmentalenforcementwatch.org/report_cards/GA_2021.pdf"
