@@ -33,10 +33,6 @@ export const HeaderLinks = [
         text: "External Resources",
         url: "/data/resources",
       },
-      {
-        text: "2020 Congressional Committee Report Cards",
-        url: "/data/reports",
-      },
     ],
   },
   {
