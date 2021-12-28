@@ -14,7 +14,7 @@ export const HeaderLinks = [
     url: "/data/reports",
     sublinks: [
       {
-        text: "Congressional Report Cards",
+        text: "Congressional Reports",
         url: "/data/congress",
       },
       {
@@ -28,6 +28,10 @@ export const HeaderLinks = [
       {
         text: "External Resources",
         url: "/data/resources",
+      },
+      {
+        text: "2020 EPA Oversight Reports",
+        url: "/data/reports",
       },
     ],
   },
@@ -121,12 +125,8 @@ export const LearnPageSidebarLinks = [
 
 export const DataPageSidebarLinks = [
   {
-    text: "2020 Congressional Committee Report Cards",
-    url: "/data/reports",
-  },
-  {
-    text: "Congressional Report Cards",
-    url: "/data/reports",
+    text: "Congressional Reports",
+    url: "/data/congress",
   },
   {
     text: "Notebooks",
@@ -140,7 +140,10 @@ export const DataPageSidebarLinks = [
     text: "External Resources",
     url: "/data/resources",
   },
-  
+  {
+    text: "2020 EPA Oversight Reports",
+    url: "/data/reports",
+  },
 ];
 
 export const TabGallery = {
