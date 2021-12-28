@@ -206,7 +206,7 @@ form {
     }
     display: flex;
     flex-direction: column;
-    gap: 15px;  
+    gap: 15px;
     div {
       display: flex;
       flex-direction: column;
@@ -227,7 +227,9 @@ form {
   justify-content: center;
   border-radius: 10px;
   max-width: 200px;
-  
+  p {
+    overflow-wrap: anywhere; 
+  }
   margin: 10px;
   padding: 12px;
   color: rgb(88, 87, 87);
