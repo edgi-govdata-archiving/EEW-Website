@@ -18,11 +18,11 @@ export const HeaderLinks = [
         url: "/data/reports",
       },
       {
-        text: "Notebooks",
+        text: "Research Notebooks",
         url: "/data/notebooks",
       },
       {
-        text: "Research",
+        text: "Research Reports",
         url: "/data/research",
       },
       {
@@ -125,11 +125,11 @@ export const DataPageSidebarLinks = [
     url: "/data/reports",
   },
   {
-    text: "Notebooks",
+    text: "Research Notebooks",
     url: "/data/notebooks",
   },
   {
-    text: "Research",
+    text: "Research Reports",
     url: "/data/research",
   },
   {
