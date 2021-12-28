@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from 'gatsby'
-import { CongressReportCardData } from '../helpers/congress'
+import { CongressReportCardData } from '../helpers/congress2'
 import ReactTooltip from 'react-tooltip';
 
 let spanishStrings = {
