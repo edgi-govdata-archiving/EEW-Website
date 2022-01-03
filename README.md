@@ -51,13 +51,13 @@ Upon a tagged release (through the “Releases” section of the repo), producti
 1. Create a local clone of this repo ([Video demo](https://www.loom.com/share/cfbd2d4bbc394d30995510f474ee121b))
 1. In a local clone of this repo, run `npm install` to install dependencies ([Video demo](https://www.loom.com/share/7a2fd8adeb59429392b5d989ebf8f91a))
 1. You will need the Gatsby CLI tool: `npm install -g gatsby-cli`
-1. Run locally with `gatsby develop` (defaults to [http://localhost:8000/](http://localhost:8000/)) ([Video demo](https://www.loom.com/share/54a372833f134220b852ca34e84e5d58))
+1. Run locally with `npm run start` (defaults to [http://localhost:8000/](http://localhost:8000/)) ([Video demo](https://www.loom.com/share/54a372833f134220b852ca34e84e5d58))
 
 [Gatsby quickstart docs](https://www.gatsbyjs.org/docs/quick-start/)
 
 ## License & Copyright
 
-Copyright (C) 2020 Environmental Data and Governance Initiative (EDGI)
+Copyright (C) 2022 Environmental Data and Governance Initiative (EDGI)
 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="pa2" alt="Creative Commons Licence" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />EEW website is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
