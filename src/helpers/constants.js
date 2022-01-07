@@ -14,12 +14,12 @@ export const HeaderLinks = [
     url: "/data/reports",
     sublinks: [
       {
-        text: "Congressional Reports",
-        url: "/data/congress",
-      },
-      {
         text: "Research Notebooks",
         url: "/data/notebooks",
+      },
+      {
+        text: "Congressional Reports",
+        url: "/data/congress",
       },
       {
         text: "Research Reports",
