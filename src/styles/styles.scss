@@ -60,7 +60,7 @@ a:hover {
   display: flex;
   justify-content: center;
   .container {
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
   }
 }
@@ -142,7 +142,6 @@ footer {
 }
 
 .notification {
-
   display: flex;
   justify-content: center;
 }
@@ -155,7 +154,8 @@ footer {
 
 .ReportCardExplorer {
   outline: rgb(222, 250, 246) solid medium;
-  padding: 55px;
+  padding: 0 25px 25px 25px;
+  margin-bottom: 25px;
 }
 
 .ReportCard {
