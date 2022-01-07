@@ -20,16 +20,18 @@ let translatedString = (string, language) => language === 'spanish' ? spanishStr
 let translatedURL = (url, language) => language === 'spanish' ? url + '_es' : url;
 let tooltipText = (congressMember, language) => `<strong>${congressMember.name}</strong> ${congressMember.rank ? `<br /> <strong>${translatedString(congressMember.rank, language)}</strong>` : ''} <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}${congressMember.district ? `-${congressMember.district}` : ''}`;
 let sortByStateName = (reportData) => reportData.sort((a, b) => a.state.localeCompare(b.state));
+let sortByDistrictNumber = (reportData) => reportData.sort((a, b) => a.district ? a.district.localeCompare(b.district) : a);
 
 const ReportCardExplorer = ({language, reportData, reportTitle}) =>
   <div className='ReportCardExplorer'>
     <h2>{translatedString(reportTitle, language)}</h2>
     {
-      sortByStateName(reportData).map(congressMember =>
+      sortByStateName(sortByDistrictNumber(reportData)).map(congressMember =>
         <Link to={translatedURL(congressMember.url, language)} target='_blank'>
           <div data-tip={tooltipText(congressMember, language)}
                className={`ReportCard ${congressMember.affil} tooltip`}>
-            {congressMember.state}
+            <span>{congressMember.state}</span>
+            <span>{congressMember.district}</span>
           </div>
         </Link>
       )
