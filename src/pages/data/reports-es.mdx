@@ -4,6 +4,8 @@ import CycleDiagramSpanish from "../../images/report-card-tracker-es.png"
 import ReportCardExplorer from '../../components/ReportCardExplorer';
 import { Link } from 'gatsby'
 import EEWAuthorshipImage from "../../images/EEW-Authorship.png"
+import {HouseEnergyAndCommerceCommittee} from '../../helpers/2019-house-energy-and-commerce-committee'
+import {SenateEnvironmentAndPublicWorksCommitteeData} from '../../helpers/2019-senate-environmental-and-public-works-committee'
 
 <Layout pageTitle="2020 Congressional Committee Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
@@ -22,7 +24,8 @@ Para ver nuestro informe resumido de todos los distritos y estados analizados, c
 
 A continuación, ** coloque el cursor ** para ver el nombre y rango de un representante; ** haga clic ** para abrir un informe completo sobre la aplicación de la EPA en el distrito o estado del representante en español:
 
-<ReportCardExplorer language='spanish'/>
+<ReportCardExplorer language='spanish' reportData={SenateEnvironmentAndPublicWorksCommitteeData} reportTitle='Senate Environment and Public Works Committee' />
+<ReportCardExplorer language='spanish' reportData={HouseEnergyAndCommerceCommittee} reportTitle='House Energy and Commerce Committee' />
 
 ### ¿Le preocupan estos datos?
 

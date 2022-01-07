@@ -2,10 +2,12 @@ import Layout from '../../components/Layout'
 import { DataPageSidebarLinks } from '../../helpers/constants'
 import CycleDiagram from "../../images/report-card-tracker.png"
 import { Link } from 'gatsby'
-import ReportCardExplorer from '../../components/ReportCardExplorer';
+import ReportCardExplorer from '../../components/ReportCardExplorer'
 import EEWAuthorshipImage from "../../images/EEW-Authorship.png"
+import {HouseEnergyAndCommerceCommittee} from '../../helpers/2019-house-energy-and-commerce-committee'
+import {SenateEnvironmentAndPublicWorksCommitteeData} from '../../helpers/2019-senate-environmental-and-public-works-committee'
 
-<Layout pageTitle="2020 Congressional Committee Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
+<Layout pageTitle="2020 EPA Oversight Reports" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
 # 2020 Congressional Committee Report Cards
 
@@ -23,7 +25,8 @@ Summary Report – <a href="https://envirodatagov.org/wp-content/uploads/2020/10
 
 Below, **hover** to see the name and rank of a representative; **click** to open a full report on EPA enforcement in the representative's district or state:
 
-<ReportCardExplorer />
+<ReportCardExplorer reportData={SenateEnvironmentAndPublicWorksCommitteeData} reportTitle='Senate Environment and Public Works Committee' />
+<ReportCardExplorer reportData={HouseEnergyAndCommerceCommittee} reportTitle='House Energy and Commerce Committee' />
 
 ### Concerned about this data?
 
