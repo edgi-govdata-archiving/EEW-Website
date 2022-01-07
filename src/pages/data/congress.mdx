@@ -1,0 +1,49 @@
+import Layout from '../../components/Layout'
+import { DataPageSidebarLinks } from '../../helpers/constants'
+import { Link } from 'gatsby'
+import ReportCardExplorer from '../../components/ReportCardExplorer'
+import { Senate } from '../../helpers/senate'
+import { House } from '../../helpers/house'
+
+<Layout pageTitle="Congressional Reports" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
+
+# Congressional Report Cards
+
+The Congressional Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA under the:
+
+* Clean Water Act
+* Clean Air Act
+* Resource Conservation and Recovery Act
+
+<p><strong>Every state and every legislative district in the United States has a report below.</strong></p>
+
+Below, <strong>hover</strong> to see the name of a representative; <strong>click</strong> to open a full report on EPA enforcement in the representative's district or state:
+
+<ReportCardExplorer reportData={Senate} reportTitle="Senate"/>
+<ReportCardExplorer reportData={House} reportTitle="House"/>
+
+### Concerned about this data?
+
+<a className='button' href="https://democracy.io" target='_blank' rel='noopener' >Write to your representatives</a>
+
+## Data and Methods
+
+Data for these reports are from the EPA's <a href="https://democracy.io" target='_blank' rel='noopener' >Enforcement and Compliance History Online (ECHO)</a>.
+
+### About our mirroring process
+
+EEW partners with Stony Brook University to establish and maintain a database of many of EPA’s ECHO files of permits, emissions, violations, inspections and enforcement actions. This database allows us to select and cross-reference records from diverse data sets. We download new data weekly from the ECHO files and update the Stony Brook University database, <a href="https://github.com/edgi-govdata-archiving/ECHOEPA-to-SQL" target='_blank' rel='noopener' >stitching these files together</a> into a SQL database which allows query over more datasets than are available through EPA’s ECHO API (application programming interface).
+
+The ECHO files downloaded and stored in PostgreSQL database tables are <a href="hhttps://github.com/edgi-govdata-archiving/ECHOEPA-to-SQL/blob/main/files.csv" target='_blank' rel='noopener' >listed in this document</a>. The database tables retain the ECHO names of the datasets, and the column names are identical. 
+
+### Creating the reports
+
+EEW uses the Stony Brook database to collect and synthesize information for its reports. We also use information on legislators and congress in the reports from govtrack.us, theunitedstates.io, and wikipedia.org.
+
+The code that gathers the data, synthesizes it and produces the report cards is in <a href="https://github.com/edgi-govdata-archiving/EEW-ReportCard-Data" target='_blank' rel='noopener' >this Github repository</a>. The process is explained in the README on the front page of that repository.
+
+### Updating the reports
+
+The report cards are set up to be updated monthly. As they are produced they are automatically uploaded to the EEW website. Of course, when congressional districts change we will need to make some adjustments that are not yet automated.
+
+</Layout>

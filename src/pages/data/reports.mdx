@@ -2,39 +2,37 @@ import Layout from '../../components/Layout'
 import { DataPageSidebarLinks } from '../../helpers/constants'
 import CycleDiagram from "../../images/report-card-tracker.png"
 import { Link } from 'gatsby'
-import ReportCardExplorer from '../../components/ReportCardExplorer';
+import ReportCardExplorer from '../../components/ReportCardExplorer'
+import EEWAuthorshipImage from "../../images/EEW-Authorship.png"
+import {HouseEnergyAndCommerceCommittee} from '../../helpers/2019-house-energy-and-commerce-committee'
+import {SenateEnvironmentAndPublicWorksCommitteeData} from '../../helpers/2019-senate-environmental-and-public-works-committee'
 
+<Layout pageTitle="2020 EPA Oversight Reports" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
-
-<Layout pageTitle="Congressional Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
-
-# Congressional Report Cards
+# 2020 Congressional Committee Report Cards
 
 <Link to='../reports-es' className='button'>Ver esta página en español</Link>
 
 Two key congressional committees oversee the EPA to ensure it meets its mandate: the <a href="https://energycommerce.house.gov/" target='_blank' rel='noopener' >House Energy and Commerce Committee</a> and the <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener' >Senate Environment and Public Works Committee</a>.
 
-EEW Congressional Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA, to give the members of these Congressional committees–and their constituents–the chance to evaluate whether the EPA is fulfilling its mandate in their state/district.
+EEW's 2020 Committee Congressional Report Cards analyze and present data on violations of environmental laws, inspections of polluting facilities, and enforcement actions by the EPA, to give the members of these Congressional committees–and their constituents–the chance to evaluate whether the EPA is fulfilling its mandate in their state/district.
 
 To view our summary report of all districts and states analyzed, see:
 
-Summary Report – <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank'>Democratizing Data: Environmental Enforcement Watch's Report Cards for Congressional Oversight of the EPA</a>
+<strong>Summary Report:</strong> <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank'>Democratizing Data: Environmental Enforcement Watch's Report Cards for Congressional Oversight of the EPA</a>
 
 ## Individual report cards
 
 Below, **hover** to see the name and rank of a representative; **click** to open a full report on EPA enforcement in the representative's district or state:
 
-<ReportCardExplorer />
+<ReportCardExplorer reportData={SenateEnvironmentAndPublicWorksCommitteeData} reportTitle='Senate Environment and Public Works Committee' />
+<ReportCardExplorer reportData={HouseEnergyAndCommerceCommittee} reportTitle='House Energy and Commerce Committee' />
 
 ### Concerned about this data?
 
 <a className='button' href="https://democracy.io" target='_blank' rel='noopener' >Write to your representatives</a>
 
 <a className='button' href="https://docs.google.com/document/d/112O6ZQ66Bd-DFsrsOQT-43Fg8SqRAfbrLzhzG0yR4xY/edit#" target='_blank' rel='noopener' >Social Media Kit</a>
-
-<!--Content for the top of the page (above the data visualization) is in reports-top.md in this folder-->
-
-<!--The call-to-action text between the data visualization and the EEW icon is in reports-cta.md-->
 
 ## About EEW Report Cards
 The <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener' >Senate Environment and Public Works Committee</a> and the <a href="https://energycommerce.house.gov/" target='_blank' rel='noopener' >House Energy and Commerce Committee</a> have jurisdiction over the EPA. The EPA is mandated to enforce environmental laws such as the:
@@ -50,8 +48,11 @@ So far, we’ve generated reports for the congressional districts of each Repres
 ## Why Enforcement Matters
 The EPA is mandated by Congress to enforce environmental laws. With the [EEW workshops](/events), we aim to draw attention to the large gaps in effective enforcement of environmental laws. By mobilizing community expertise, public engagement and education, compelling material evidence, and an ethic of care, we can pressure our elected officials and local industries to put health and justice before power and profit.
 
-According to Cynthia Giles, former Assistant Administrator of EPA’s Office of Enforcement and Compliance Assurance, over 25% of all registered facilities are regularly in significant violation of their environmental permits across all programs with available compliance data. And, for programs with the most significant health impacts, “significant violation rates of 50-70% are not unusual” (<a href="http://eelp.law.harvard.edu/wp-content/uploads/Cynthia-Giles-Part-2-FINAL.pdf" target='_blank' rel='noopener' >Harvard Law School</a>). Significant non-compliance happens when industries emit hazardous pollutants or fail to report emissions over their permit limits for 6+ months consecutively. Non-compliance has always been an issue and has ramped up even further due to the erosion of EPA funding and enforcement under the Trump Administration (<a href="https://envirodatagov.org/publication/a-sheep-in-the-closet-the-erosion-of-enforcement-at-the-epa/" target='_blank' rel='noopener' >EDGI</a>). Between 2006 and 2018, enforcement funding and staff dropped by 18% and 21% respectively (<a href="https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf" target='_blank' rel='noopener' >EPA</a>). Between 2007 and 2018, both initiated and concluded enforcement actions dropped by more than 50% (<a href="https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf" target='_blank' rel='noopener' >EPA</a>). Now more than ever, local regulators and affected communities are unable to hold polluters accountable to longstanding laws. 
+According to Cynthia Giles, former Assistant Administrator of EPA’s Office of Enforcement and Compliance Assurance, over 25% of all registered facilities are regularly in significant violation of their environmental permits across all programs with available compliance data. And, for programs with the most significant health impacts, “significant violation rates of 50-70% are not unusual” (<a href="http://eelp.law.harvard.edu/wp-content/uploads/Cynthia-Giles-Part-2-FINAL.pdf" target='_blank' rel='noopener' >Harvard Law School</a>). Significant non-compliance happens when industries emit hazardous pollutants or fail to report emissions over their permit limits for 6+ months consecutively. Non-compliance has always been an issue and has ramped up even further due to the erosion of EPA funding and enforcement under the Trump Administration (<a href="https://envirodatagov.org/publication/a-sheep-in-the-closet-the-erosion-of-enforcement-at-the-epa/" target='_blank' rel='noopener' >EDGI</a>). Between 2006 and 2018, enforcement funding and staff dropped by 18% and 21% respectively (<a href="https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf" target='_blank' rel='noopener' >EPA</a>). Between 2007 and 2018, both initiated and concluded enforcement actions dropped by more than 50% (<a href="https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf" target='_blank' rel='noopener' >EPA</a>). Now more than ever, local regulators and affected communities are unable to hold polluters accountable to longstanding laws.
 
 Black, Latinx, Indigenous, and low-income communities—among other historically marginalized groups—face disproportionate exposure to hazardous waste sites and polluting industries (<a href="https://www.indiebound.org/book/9780896084469" target='_blank' rel='noopener' >Bullard & Wright</a>). These industries have undue influence in the writing and development of regulations, leading to emissions standards that are not health-protective (<a href="https://theintercept.com/2019/06/18/pfoa-pfas-teflon-epa-limit/" target='_blank' rel='noopener' >The Intercept</a>). Even still, many industrial facilities fail to comply with these insufficient regulations. The financial penalties for doing so represent just a small fraction of their profits in the unlikely case that these penalties are enforced at all. This crisis of non-compliance, coupled with already-inadequate regulations, represents a systematic and deliberate choice to ignore environmental and human health. We aim for EEW workshops to call attention to these systematic gaps in enforcement using available public data from the ECHO website.
+
+## Contributors
+<img src={EEWAuthorshipImage} className='full-width-image' alt="Diagram listing the names of core contributors on the EEW project, arranged by fields of care (data care, external care, event care, internal care, and research care"/>
 
 </Layout>

@@ -3,25 +3,29 @@ import { DataPageSidebarLinks } from '../../helpers/constants'
 import CycleDiagramSpanish from "../../images/report-card-tracker-es.png"
 import ReportCardExplorer from '../../components/ReportCardExplorer';
 import { Link } from 'gatsby'
+import EEWAuthorshipImage from "../../images/EEW-Authorship.png"
+import {HouseEnergyAndCommerceCommittee} from '../../helpers/2019-house-energy-and-commerce-committee'
+import {SenateEnvironmentAndPublicWorksCommitteeData} from '../../helpers/2019-senate-environmental-and-public-works-committee'
 
-<Layout pageTitle="Congressional Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
+<Layout pageTitle="2020 Congressional Committee Report Cards" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
-# Boleta de calificaciones a nivel Congresual
+# Boleta de calificaciones de comité a nivel Congresual 2020
 <Link to='../reports' className='button'>See this page in English</Link>
 
 Hay dos comités del Congreso que supervisan la EPA para garantizar que cumpla con su mandato: el <a href="https://energycommerce.house.gov/" target='_blank' rel='noopener' >Comité de Energía y Comercio de la Cámara de Representantes</a> y el <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener' >Comité de Obras Públicas y Medio Ambiente del Senado</a>.
 
-Las Boletas de Calificaciones del Congreso de EEW analizan y presentan datos sobre las violaciones de las leyes ambientales, las inspecciones de instalaciones contaminantes y las acciones de cumplimiento por parte de la EPA, para darles a los miembros de estos comités del Congreso, y a sus constituyentes, la oportunidad de evaluar si la EPA está cumpliendo con su mandato en su estado / distrito.
+Las Boletas de Calificaciones del Congreso 2020 de EEW analizan y presentan datos sobre las violaciones de las leyes ambientales, las inspecciones de instalaciones contaminantes y las acciones de cumplimiento por parte de la EPA, para darles a los miembros de estos comités del Congreso, y a sus constituyentes, la oportunidad de evaluar si la EPA está cumpliendo con su mandato en su estado / distrito.
 
 Para ver nuestro informe resumido de todos los distritos y estados analizados, consulte:
 
-<big> Resumen del Informe (en ingles): <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank'> Democratizing Data: Environmental Enforcement Watch's Report Cards for Congressional Oversight of the EPA </a> </big>
+<strong>Resumen del Informe (en ingles):</strong> <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank'> Democratizing Data: Environmental Enforcement Watch's Report Cards for Congressional Oversight of the EPA </a>
 
 ## Boletas de calificaciones individuales
 
 A continuación, ** coloque el cursor ** para ver el nombre y rango de un representante; ** haga clic ** para abrir un informe completo sobre la aplicación de la EPA en el distrito o estado del representante en español:
 
-<ReportCardExplorer language='spanish'/>
+<ReportCardExplorer language='spanish' reportData={SenateEnvironmentAndPublicWorksCommitteeData} reportTitle='Senate Environment and Public Works Committee' />
+<ReportCardExplorer language='spanish' reportData={HouseEnergyAndCommerceCommittee} reportTitle='House Energy and Commerce Committee' />
 
 ### ¿Le preocupan estos datos?
 
@@ -38,7 +42,7 @@ El <a href="https://www.epw.senate.gov/public/" target='_blank' rel='noopener'>C
 
 <img src={CycleDiagramSpanish} alt='Un diagrama de un ciclo que demuestra cómo el Congreso da mandatos a la EPA, la EPA da permisos para contaminar y también hace cumplir estos permisos para las instalaciones que contaminan, la base de datos de ECHO almacena datos de cumplimiento de leyes ambientales sobre estas instalaciones, EEW hace que los datos de ECHO sean más fáciles de entender y EEW trabaja con las comunidades para crear boletas de calificaciones de cumplimiento ambiental, lo que presiona al Congreso para que haga cumplir la aplicación ambiental a través de la EPA' />
 
-Hasta ahora, hemos generado informes para los distritos del Congreso de cada Representante en el Comité de Energía y Comercio de la Cámara de Representantes, y para el estado de cada Senador del Comité de Medio Ambiente y Obras Públicas. Estos dos comités son responsables por la supervisión de la EPA, una agencia bajo el Congreso, que esta a cargo de aplicar las leyes ambientales. El 22 de octubre de 2020, organizamos un seminario web en el que se describían los hallazgos de nuestras Boletas de calificaciones del Congreso y el <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank' rel='noopener'>resumen del informe</a>, con un invaluable contexto normativo y político proporcionado por nuestros increíbles panelistas. **Haga clic <a href="https://youtu.be/9Ot7uFA4ucQ" target='_blank' rel='noopener'>aquí</a> para ver la grabación.** Nuestro objetivo es traer atención a las violaciones crónicas y rutinarias de leyes ambientales y la insuficiencia de la EPA al aplicar estas leyes.  
+Hasta ahora, hemos generado informes para los distritos del Congreso de cada Representante en el Comité de Energía y Comercio de la Cámara de Representantes, y para el estado de cada Senador del Comité de Medio Ambiente y Obras Públicas. Estos dos comités son responsables por la supervisión de la EPA, una agencia bajo el Congreso, que esta a cargo de aplicar las leyes ambientales. El 22 de octubre de 2020, organizamos un seminario web en el que se describían los hallazgos de nuestras Boletas de calificaciones del Congreso y el <a href="https://envirodatagov.org/wp-content/uploads/2020/10/Democratizing-Data-Summary-Report.pdf" target='_blank' rel='noopener'>resumen del informe</a>, con un invaluable contexto normativo y político proporcionado por nuestros increíbles panelistas. **Haga clic <a href="https://youtu.be/9Ot7uFA4ucQ" target='_blank' rel='noopener'>aquí</a> para ver la grabación.** Nuestro objetivo es traer atención a las violaciones crónicas y rutinarias de leyes ambientales y la insuficiencia de la EPA al aplicar estas leyes.
 
 ## Por qué es importante el cumplimiento
 La EPA tiene el mandato del Congreso para hacer cumplir las leyes ambientales. Con los [talleres EEW](/events), nuestro objetivo es traer atención a las grandes brechas en la aplicación efectiva de las leyes ambientales. Al movilizar la experiencia de la comunidad, la participación pública y la educación, la evidencia material convincente y una ética de cuidado, podemos presionar a nuestros representantes y a las industrias locales para que den prioridad a la salud y a la justicia antes que al poder y las ganancias.
@@ -46,5 +50,8 @@ La EPA tiene el mandato del Congreso para hacer cumplir las leyes ambientales. C
 Según Cynthia Giles, la ex administradora adjunta de la Oficina de Control de Cumplimiento y Aplicación de la EPA, más del 25% de todas las instalaciones registradas infringen regularmente sus permisos ambientales en todos los programas con datos de cumplimiento disponibles. Y, para los programas con los impactos en la salud más significativos, “no son inusuales las tasas de infracción significativas del 50-70%” (<a href="http://eelp.law.harvard.edu/wp-content/uploads/Cynthia- Giles-Part-2-FINAL.pdf " target='_blank' rel='noopener'>Harvard Law School</a>). El incumplimiento significativo ocurre cuando las industrias emiten contaminantes peligrosos o no reportan emisiones por encima de los límites de su permiso durante más de 6 meses consecutivos. El incumplimiento siempre ha sido un problema y ha aumentado aún más debido a la erosión de la financiación y la aplicación de la EPA bajo la Administración Trump (<a href="https://envirodatagov.org/publication/a-sheep-in-the-closet-the-erosion-of-forcement-at-the-epa/" target='_blank' rel='noopener'>EDGI</a>). Entre 2006 y 2018, la financiación de la aplicación de estas leyes y el personal se redujeron en un 18% y un 21% respectivamente (<a href="https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf" target='_blank' rel='noopener'>EPA</a>). Entre 2007 y 2018, las acciones de aplicación iniciadas y concluidas se redujeron en más del 50% (<a href="https://www.epa.gov/sites/production/files/2020-04/documents/_epaoig_20200331_20-p-0131_0.pdf" target='_blank' rel='noopener'>EPA</a>). Ahora más que nunca, los reguladores locales y las comunidades afectadas no pueden responsabilizar a los contaminadores por las leyes de larga data.
 
 Las comunidades negras, latinx, indígenas y de bajos ingresos, entre otros grupos históricamente marginados, están expuestos de manera desproporcionada a sitios de desechos peligrosos e industrias contaminantes (<a href="https://www.indiebound.org/book/9780896084469" target='_blank' rel='noopener' >Bullard & Wright</a>). Estas industrias tienen una influencia indebida en la escritura y el desarrollo de regulaciones, lo que causa que los estándares de emisiones no protejan la salud (<a href="https://theintercept.com/2019/06/18/pfoa-pfas-teflon-epa-limit/" target='_blank' rel='noopener'>The Intercept</a>). Aún así, muchas instalaciones industriales no cumplen con estas regulaciones insuficientes. Las sanciones financieras solo representan una fracción pequeña de sus ganancias en el caso improbable de que estas sanciones se apliquen. Esta crisis de incumplimiento, junto con las regulaciones inadecuadas, representa una elección sistemática y deliberada de ignorar la salud ambiental y humana. Nuestro objetivo es que los talleres de EEW traigan atención a estas brechas sistemáticas en la aplicación de leyes ambientales,  utilizando datos públicos disponibles de ECHO.
+
+## Contribuyentes
+<img src={EEWAuthorshipImage} className='full-width-image' alt="Diagram listing the names of core contributors on the EEW project, arranged by fields of care (data care, external care, event care, internal care, and research care"/>
 
 </Layout>
