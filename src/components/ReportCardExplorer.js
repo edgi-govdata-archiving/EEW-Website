@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from 'gatsby'
-import { CongressReportCardData } from '../helpers/congress'
 import ReactTooltip from 'react-tooltip';
 
 let spanishStrings = {
@@ -19,28 +18,18 @@ let spanishStrings = {
 
 let translatedString = (string, language) => language === 'spanish' ? spanishStrings[string] : string;
 let translatedURL = (url, language) => language === 'spanish' ? url + '_es' : url;
+let tooltipText = (congressMember, language) => `<strong>${congressMember.name}</strong> ${congressMember.rank ? `<br /> <strong>${translatedString(congressMember.rank, language)}</strong>` : ''} <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}${congressMember.district ? `-${congressMember.district}` : ''}`;
+let sortByStateName = (reportData) => reportData.sort((a, b) => a.state.localeCompare(b.state));
 
-const ReportCardExplorer = ({language}) =>
+const ReportCardExplorer = ({language, reportData, reportTitle}) =>
   <div className='ReportCardExplorer'>
-    <h3>{translatedString('Senate Environment and Public Works Committee', language)}</h3>
+    <h2>{translatedString(reportTitle, language)}</h2>
     {
-      CongressReportCardData.senateData.map(congressMember => 
+      sortByStateName(reportData).map(congressMember =>
         <Link to={translatedURL(congressMember.url, language)} target='_blank'>
-          <div data-tip={`${congressMember.name} <br /> <strong>${translatedString(congressMember.rank, language)}</strong> <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}-${congressMember.district}`} 
+          <div data-tip={tooltipText(congressMember, language)}
                className={`ReportCard ${congressMember.affil} tooltip`}>
             {congressMember.state}
-          </div>
-        </Link>
-      )
-    }
-    <h3>{translatedString('House Energy and Commerce Committee', language)}</h3>
-    {
-      CongressReportCardData.houseData.map(congressMember => 
-        <Link to={translatedURL(congressMember.url, language)} target='_blank'>
-          <div data-tip={`${congressMember.name} <br /> <strong>${translatedString(congressMember.rank, language)}</strong> <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}-${congressMember.district}`} 
-               className={`ReportCard ${congressMember.affil} tooltip`}>
-            <div>{congressMember.state}</div>
-            <div>{congressMember.district}</div>
           </div>
         </Link>
       )
