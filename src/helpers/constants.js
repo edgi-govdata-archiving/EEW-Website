@@ -11,7 +11,7 @@ export const HeaderLinks = [
   },
   {
     text: "Data",
-    url: "/data/reports",
+    url: "/data/notebooks",
     sublinks: [
       {
         text: "Research Notebooks",
@@ -125,12 +125,12 @@ export const LearnPageSidebarLinks = [
 
 export const DataPageSidebarLinks = [
   {
-    text: "Congressional Reports",
-    url: "/data/congress",
-  },
-  {
     text: "Research Notebooks",
     url: "/data/notebooks",
+  },
+  {
+    text: "Congressional Reports",
+    url: "/data/congress",
   },
   {
     text: "Research Reports",
