@@ -20,7 +20,7 @@ let translatedString = (string, language) => language === 'spanish' ? spanishStr
 let translatedURL = (url, language) => language === 'spanish' ? url + '_es' : url;
 let tooltipText = (congressMember, language) => `<strong>${congressMember.name}</strong> ${congressMember.rank ? `<br /> <strong>${translatedString(congressMember.rank, language)}</strong>` : ''} <br /> ${translatedString(congressMember.affil, language)} <br /> ${translatedString('Representing', language)} ${congressMember.state}${congressMember.district ? `-${congressMember.district}` : ''}`;
 let sortByStateName = (reportData) => reportData.sort((a, b) => a.state.localeCompare(b.state));
-let sortByDistrictNumber = (reportData) => reportData.sort((a, b) => a.district.localeCompare(b.district));
+let sortByDistrictNumber = (reportData) => reportData.sort((a, b) => a.district ? a.district.localeCompare(b.district) : a);
 
 const ReportCardExplorer = ({language, reportData, reportTitle}) =>
   <div className='ReportCardExplorer'>
