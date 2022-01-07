@@ -4,6 +4,7 @@ import InfoCard from '../../components/InfoCard'
 import { DataPageSidebarLinks } from '../../helpers/constants'
 import watershed from "../../images/notebooks-watershed.png"
 import crossprog from "../../images/notebooks-cross-program.png"
+import ghg from "../../images/notebooks-ghg.png"
 
 <Layout pageTitle="Research Notebooks" sidebarLinks={DataPageSidebarLinks} activeHeaderLink="Data">
 
@@ -22,9 +23,15 @@ The Notebooks are designed to be accessible to people with **no coding experienc
   />
   <InfoCard
     title="Watershed Notebook"
-    description='Discover the shape of watersheds in an area and explore the behaviors of regulated facilities by watershed.'
+    description='Discover the watersheds of places that matter most to you and explore the behaviors of regulated facilities in these watersheds.'
     link='https://colab.research.google.com/github/edgi-govdata-archiving/ECHO-Watershed/blob/main/ECHO_Watershed.ipynb'
     image={watershed}
+  />
+  <InfoCard
+    title="GHG Notebook"
+    description='Analyze the greenhouse gas emissions (GHGs) driving climate change, summarizing them in terms of the corporations and other entities that own power plants, oil refineries, and more.'
+    link='https://colab.research.google.com/github/edgi-govdata-archiving/ECHO-GHG/blob/main/ECHO_GHG.ipynb'
+    image={ghg}
   />
 </div>
 </Layout>
