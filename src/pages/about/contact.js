@@ -26,7 +26,7 @@ const ContactPage = () =>
             required="">
           </textarea>
           <button className='button' type="submit">Send</button>
-          <HCaptcha sitekey="10556620-2ec1-454e-b351-23a806325156" />
+          <HCaptcha sitekey="9196487d-7b49-4ede-9365-7b4c34acc98a" />
           </div>
         </fieldset>
       </form>
