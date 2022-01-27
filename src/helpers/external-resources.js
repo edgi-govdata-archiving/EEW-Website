@@ -239,5 +239,11 @@ export const ExternalResourcesData = {
     "Nickname": "Worldview",
     "Link": "https://worldview.earthdata.nasa.gov/",
     "Description": "The NASA Worldview app provides a satellite's perspective of the planet as it looks today and as it has in the past through daily satellite images."
+  },
+  {
+    "Name": "U.S. Energy Mapping System",
+    "Nickname": "EIAMaps",
+    "Link": "https://www.eia.gov/state/maps.php",
+    "Description": "The U.S. Energy Mapping System is an interactive, comprehensive visual reference for energy infrastructure in the United States that shows the locations of energy infrastructure."
   }
 ]}
