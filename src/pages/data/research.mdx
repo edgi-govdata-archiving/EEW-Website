@@ -1,6 +1,7 @@
 import Layout from '../../components/Layout'
 import InfoCard from '../../components/InfoCard'
 import { DataPageSidebarLinks } from '../../helpers/constants'
+import datagaps from "../../images/research-datagaps.png"
 import democratizing from "../../images/research-democratizing.png"
 import covid from "../../images/research-covid.jpg"
 import { Link } from 'gatsby'
@@ -12,6 +13,12 @@ import { Link } from 'gatsby'
 Reports by members of the Environmental Enforcement Watch (EEW), using the <Link to='/data/notebooks' rel='noreferrer noopener'>Notebooks</Link> and <Link to='/learn/events' rel='noreferrer noopener'>participatory knowledge-making</Link> that are core to EEW's process.
 
 <div className='row'>
+  <InfoCard
+      title="Data Gaps Report"
+      description='How Gaps and Disparities in EPA Data Undermine Climate and Environmental Justice Screening Tools'
+      link='https://envirodatagov.org/publication/how-gaps-and-disparities-in-epa-data-undermine-climate-and-environmental-justice-screening-tools/'
+      image={datagaps}
+  />
   <InfoCard
       title="Democratizing Data Report"
       description='Democratizing Data: Environmental Enforcement Watch’s Report Cards for Congressional Oversight of the EPA'
