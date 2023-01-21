@@ -57,7 +57,7 @@ Upon a tagged release (through the “Releases” section of the repo), producti
 
 ## License & Copyright
 
-Copyright (C) 2022 Environmental Data and Governance Initiative (EDGI)
+Copyright (C) 2023 Environmental Data and Governance Initiative (EDGI)
 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="pa2" alt="Creative Commons Licence" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><br />EEW website is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
