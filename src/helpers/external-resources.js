@@ -73,12 +73,6 @@ export const ExternalResourcesData = {
     "Description": "The Watershed Assessment, Tracking & Environmental Results System (WATERS) unites water quality information previously available only from several independent and unconnected databases."
   },
   {
-    "Name": "Storage and Retrieval Data Warehouse",
-    "Nickname": "STORET",
-    "Link": "https://www.epa.gov/waterdata/storage-and-retrieval-dashboard",
-    "Description": "The STORET (short for STOrage and RETrieval) Data Warehouse is a repository for water quality, biological, and physical data."
-  },
-  {
     "Name": "Safe Drinking Water Information System",
     "Nickname": "SDWIS",
     "Link": "https://www.epa.gov/ace/safe-drinking-water-information-system-federal-version-sdwisfed",
@@ -227,5 +221,29 @@ export const ExternalResourcesData = {
     "Nickname": "GHGRP",
     "Link": "https://www.epa.gov/ghgreporting/ghgrp-reported-data",
     "Description": "Data from the EPA's Greenhouse Gas Reporting Program"
+  },
+  {
+    "Name": "Data Pathfinders",
+    "Nickname": "Pathfinders",
+    "Link": "https://earthdata.nasa.gov/learn/pathfinders",
+    "Description": "Data pathfinders provide direct links to commonly-used datasets across NASA's Earth science data collections."
+  },
+  {
+    "Name": "How's My Waterway",
+    "Nickname": "MyWaterway",
+    "Link": "https://mywaterway.epa.gov/",
+    "Description": "How's My Waterway was designed to provide the general public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA."
+  },
+  {
+    "Name": "NASA Worldview",
+    "Nickname": "Worldview",
+    "Link": "https://worldview.earthdata.nasa.gov/",
+    "Description": "The NASA Worldview app provides a satellite's perspective of the planet as it looks today and as it has in the past through daily satellite images."
+  },
+  {
+    "Name": "U.S. Energy Mapping System",
+    "Nickname": "EIAMaps",
+    "Link": "https://www.eia.gov/state/maps.php",
+    "Description": "The U.S. Energy Mapping System is an interactive, comprehensive visual reference for energy infrastructure in the United States that shows the locations of energy infrastructure."
   }
 ]}
