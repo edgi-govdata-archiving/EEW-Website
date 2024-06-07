@@ -4,7 +4,7 @@
     "affil": "Republican",
     "state": "AL",
     "district": "04",
-    "url": "https://environmentalenforcementwatch.org/report_cards/AL04_2021.pdf"
+    "url": "https://www.example.com"
   },
   {
     "name": "Karen Bass",
