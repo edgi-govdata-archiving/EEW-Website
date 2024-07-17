@@ -1,4 +1,4 @@
-[
+export const Senate = [
     {
         "name":"Sherrod Brown",
         "affil":"Democrat",
