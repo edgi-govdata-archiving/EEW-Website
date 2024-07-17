@@ -1,4 +1,4 @@
-[
+export const House = [
     {
         "name":"Robert B. Aderholt",
         "affil":"Republican",
